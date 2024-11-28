@@ -814,6 +814,38 @@ Os: linux
 Arch: amd64
 Dependencies: 0.622459331201855
 
+Package: classInt
+Version: 0.4-10
+Depends: R (>= 2.2), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-05 16:36:40 UTC; unix
+Filesize: 502359
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: classInt_0.4-10_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: spData (>= 0.2.6.2), units, knitr, rmarkdown, tinytest
+Imports: grDevices, stats, graphics, e1071, class, KernSmooth
+Arch: amd64
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/classInt/releases/download/0.4-10/classInt_0.4-10_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        1cf902a13e2c1b0a810f2f6a2889dabe165deaf6f1fdd2894a5211f421b74909
+GraphicsAPIVersion: 16
+has_news: 1
+news_current: 0
+has_vignettes: 1
+has_website: 1
+has_maintainer: 1
+has_source_control: 1
+has_bug_reports_url: 1
+downloads_1yr: 0.944402478611634
+reverse_dependencies: 0.89305527457936
+dependencies: 0.268941421369995
+OS: linux
+remote_checks: 0.923076923076923
+bugs_status: 1
+
 Package: clipr
 Version: 0.8.0
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -2181,6 +2213,41 @@ Arch: amd64
 Dependencies: 0.731058578630005
 LinkingTo: Rcpp
 
+Package: lubridate
+Version: 1.9.3
+Depends: methods, R (>= 3.2), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-09-27 16:36:57 UTC; unix
+Filesize: 1011854
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: lubridate_1.9.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
+Imports: generics, timechange (>= 0.1.1)
+Arch: amd64
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/lubridate/releases/download/1.9.3/lubridate_1.9.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        fba85a4dead21bcd5a7fe73ed645927b4ef10d018d508bf72b1f9064b2e87761
+GraphicsAPIVersion: 16
+has_news: 1
+news_current: 1
+has_vignettes: 1
+has_website: 1
+has_maintainer: 1
+has_source_control: 1
+has_bug_reports_url: 1
+downloads_1yr: 0.982714929196317
+reverse_dependencies: 0.999999040588827
+OS: linux
+Enhances: chron, data.table, timeDate, tis, zoo
+SystemRequirements: C++11, A system with zoneinfo data (e.g.
+        /usr/share/zoneinfo). On Windows the zoneinfo included with R
+        is used.
+remote_checks: 0.769230769230769
+bugs_status: 0.2
+
 Package: magrittr
 Version: 2.0.3
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
@@ -2644,6 +2711,40 @@ HasSourceControl: 1
 Suggests: Rcpp
 Dependencies: 0.880797077977882
 
+Package: plyr
+Version: 1.8.9
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-02 16:36:22 UTC; unix
+Filesize: 1154351
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: plyr_1.8.9_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: abind, covr, doParallel, foreach, iterators, itertools,
+        tcltk, testthat
+Imports: Rcpp (>= 0.11.0)
+Arch: amd64
+LinkingTo: Rcpp
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/plyr/releases/download/1.8.9/plyr_1.8.9_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        a070bd7f92d8002f9eae7a55f5d06e65464739ca4aa7f3f8ba40c673ad45171c
+GraphicsAPIVersion: 16
+has_news: 1
+news_current: 1
+has_vignettes: 0
+has_website: 1
+has_maintainer: 1
+has_source_control: 1
+has_bug_reports_url: 1
+downloads_1yr: 0.97039646241673
+reverse_dependencies: 0.999999187354412
+dependencies: 0.731058578630005
+OS: linux
+remote_checks: 0.980769230769231
+bugs_status: 0.533333333333333
+
 Package: png
 Version: 0.1-8
 Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
@@ -2703,6 +2804,38 @@ HasNews: 1
 HasSourceControl: 1
 Suggests: testthat
 Dependencies: 0.880797077977882
+
+Package: prettyunits
+Version: 1.2.0
+Depends: R(>= 2.10), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-09-25 16:37:13 UTC; unix
+Filesize: 156786
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: prettyunits_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: codetools, covr, testthat
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/prettyunits/releases/download/1.2.0/prettyunits_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        9a172a9f3be04848ca9e3143db3f0b4aae4239d9a930845072eae1941f9f0fc4
+GraphicsAPIVersion: 16
+has_news: 1
+news_current: 1
+has_vignettes: 0
+has_website: 1
+has_maintainer: 1
+has_source_control: 1
+has_bug_reports_url: 1
+downloads_1yr: 0.982162187810043
+reverse_dependencies: 0.753623859477356
+exported_namespace: 0.578004170633666
+export_help: 1
+has_examples: 0.916666666666667
+dependencies: 0.817574476193644
+size_codebase: 0.350467289719626
+bugs_status: 0.8
 
 Package: profvis
 Version: 0.3.8
@@ -3574,6 +3707,41 @@ HasSourceControl: 1
 Suggests: covr
 Imports: cli, curl, tools, xml2
 Dependencies: 0.5
+
+Package: utf8
+Version: 1.2.4
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-10-23 16:36:30 UTC; unix
+Filesize: 235359
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: utf8_1.2.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),
+        withr
+Arch: amd64
+License: Apache License (== 2.0) | file LICENSE
+DownloadURL:
+        https://github.com/cran/utf8/releases/download/1.2.4/utf8_1.2.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        4c27dd1ff979c7608ae26137c00e34de9f2f317cc1ea412517fdc19bce459771
+GraphicsAPIVersion: 16
+has_news: 0
+news_current: 0
+has_vignettes: 1
+has_website: 1
+has_maintainer: 1
+has_source_control: 1
+has_bug_reports_url: 1
+downloads_1yr: 0.987764541821653
+reverse_dependencies: 0.852487714556052
+exported_namespace: 0.622459331201855
+export_help: 1
+has_examples: 1
+dependencies: 0.880797077977882
+OS: linux
+size_codebase: 0.423728813559322
+bugs_status: 0.766666666666667
 
 Package: viridisLite
 Version: 0.4.2
