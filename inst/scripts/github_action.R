@@ -80,7 +80,7 @@ add_new_packages <- function(
 }
 
 #' @export
-run_github_action <- function(limit = NULL) {
+main <- function(limit = NULL) {
   rhub_packages <- load_rhub_packages()
   pharma_packages <- load_pharma_packages()
   new_rhub_packages <- get_new_packages(rhub_packages, pharma_packages)
@@ -99,3 +99,5 @@ run_github_action <- function(limit = NULL) {
     file = file.path(PHARMA_BASE_URL, platform, r_version, PACKAGES_FILE)
   )
 }
+
+main(20)
