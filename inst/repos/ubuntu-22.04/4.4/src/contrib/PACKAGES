@@ -76,6 +76,27 @@ downloads_1yr: 0.815471599233838
 reverse_dependencies: 0.99421651207678
 OS: linux
 
+Package: MatrixModels
+Version: 0.5-3
+Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-06 16:38:34 UTC; unix
+Filesize: 427201
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File:
+        MatrixModels_0.5-3_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Imports: stats, methods, Matrix (>= 1.6-0)
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/MatrixModels/releases/download/0.5-3/MatrixModels_0.5-3_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        72d86ccb68ed7b232cb919fe7d2e2eddb4143d130614c57b356d0c146ab5a69f
+GraphicsAPIVersion: 16
+downloads_1yr: 0.970841604598162
+reverse_dependencies: 0.693908851262436
+dependencies: 0.622459331201855
+
 Package: ModelMetrics
 Version: 1.2.2.2
 Depends: R (>= 3.2.2), R (>= 4.4), R (< 4.4.99)
@@ -105,8 +126,8 @@ HasNews: 1
 HasSourceControl: 0
 Suggests: testthat
 Imports: Rcpp, data.table
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.622459331201855
 LinkingTo: Rcpp
 
@@ -169,6 +190,27 @@ HasSourceControl: 1
 Suggests: codetools
 Imports: utils
 Dependencies: 0.817574476193644
+
+Package: R.utils
+Version: 2.12.3
+Depends: R (>= 2.14.0), R.oo, R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-18 16:34:14 UTC; unix
+Filesize: 1456209
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: R.utils_2.12.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: datasets, digest (>= 0.6.10)
+Imports: methods, utils, tools, R.methodsS3
+License: LGPL (>= 2.1)
+DownloadURL:
+        https://github.com/cran/R.utils/releases/download/2.12.3/R.utils_2.12.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        9430145f6c347d64a75973ef190337798c56ea45384f6a47ddbde10f78dc5fc3
+GraphicsAPIVersion: 16
+downloads_1yr: 0.935246189669954
+reverse_dependencies: 0.999387077651422
+dependencies: 0.377540668798145
 
 Package: R6
 Version: 2.5.1
@@ -256,9 +298,30 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Suggests: Rcpp, RUnit, knitr, rmarkdown
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
+
+Package: Rdpack
+Version: 2.6
+Depends: R (>= 2.15.0), methods, R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-08 16:37:12 UTC; unix
+Filesize: 760915
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: Rdpack_2.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
+Imports: tools, utils, rbibutils (>= 1.3)
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/Rdpack/releases/download/2.6/Rdpack_2.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        e38b00151db4ebffa6d722f921874be91cdb4525ca211e56ae1fc65e1221e24f
+GraphicsAPIVersion: 16
+downloads_1yr: 0.857768135510935
+reverse_dependencies: 0.999935726291688
+dependencies: 0.5
 
 Package: SQUAREM
 Version: 2021.1
@@ -316,8 +379,8 @@ HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
 Imports: graphics, stats, utils
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.5
 
 Package: abind
@@ -378,8 +441,8 @@ HasSourceControl: 1
 Suggests: gee, expm, igraph, phangorn
 Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp
         (>= 0.12.0), digest
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.0474258731775666
 LinkingTo: Rcpp
 
@@ -401,6 +464,9 @@ DownloadURL:
 SHA256:
         863c8be4f04fc09a6ed0228f07fe782a226c99c5ddf27df7cfb390ee4bfb9ed0
 GraphicsAPIVersion: 16
+downloads_1yr: 0.981624715688413
+reverse_dependencies: 0.807131153382682
+OS: linux
 has_news: 0
 news_current: 0
 has_vignettes: 0
@@ -408,13 +474,10 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.981624715688413
-reverse_dependencies: 0.807131153382682
 exported_namespace: 0.710218732760062
 export_help: 1
 has_examples: 1
 dependencies: 0.817574476193644
-OS: linux
 
 Package: assertthat
 Version: 0.2.1
@@ -472,8 +535,8 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 
 Package: base64enc
@@ -502,8 +565,8 @@ RemoteChecks: 0.961538461538462
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 Enhances: png
 
@@ -535,8 +598,8 @@ HasNews: 1
 HasSourceControl: 1
 Suggests: testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
         microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 
 Package: bit64
@@ -566,8 +629,8 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Os: linux
 Arch: amd64
+Os: linux
 
 Package: blob
 Version: 1.2.4
@@ -669,8 +732,8 @@ HasNews: 1
 HasSourceControl: 1
 Suggests: testthat
 Imports: rlang, fastmap (>= 1.1.1)
-Os: linux
 Arch: amd64
+Os: linux
 
 Package: car
 Version: 3.1-2
@@ -771,8 +834,8 @@ Suggests: BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3),
 Imports: e1071, foreach, grDevices, methods, ModelMetrics (>= 1.2.2.2),
         nlme, plyr, pROC, recipes (>= 0.1.10), reshape2, stats, stats4,
         utils, withr (>= 2.0.0)
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.00247262315663466
 
 Package: cellranger
@@ -832,8 +895,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
 Imports: MASS
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.622459331201855
 
 Package: classInt
@@ -854,6 +917,9 @@ DownloadURL:
 SHA256:
         1cf902a13e2c1b0a810f2f6a2889dabe165deaf6f1fdd2894a5211f421b74909
 GraphicsAPIVersion: 16
+downloads_1yr: 0.944402478611634
+reverse_dependencies: 0.89305527457936
+OS: linux
 has_news: 1
 news_current: 0
 has_vignettes: 1
@@ -861,10 +927,7 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.944402478611634
-reverse_dependencies: 0.89305527457936
 dependencies: 0.268941421369995
-OS: linux
 remote_checks: 0.923076923076923
 bugs_status: 1
 
@@ -934,8 +997,8 @@ Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0),
         testthat (>= 3.0.0), withr
 Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tzdb
         (>= 0.4.0), vctrs (>= 0.6.1)
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.182425523806356
 LinkingTo: cpp11 (>= 0.4.3), tzdb (>= 0.4.0)
 
@@ -970,8 +1033,8 @@ Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
         knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
         wesanderson
 Imports: graphics, grDevices, stats
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.5
 
 Package: colourpicker
@@ -994,6 +1057,8 @@ DownloadURL:
 SHA256:
         14c413483bbb21fbc5e7730c5f257dd54decec5aa13b5ba15cd4e5c0753eaaa6
 GraphicsAPIVersion: 16
+downloads_1yr: 0.697075567528924
+reverse_dependencies: 0.956687722842465
 has_news: 1
 news_current: 1
 has_vignettes: 0
@@ -1001,8 +1066,6 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.697075567528924
-reverse_dependencies: 0.956687722842465
 remote_checks: 1
 
 Package: conflicted
@@ -1035,6 +1098,54 @@ Suggests: callr, covr, dplyr, Matrix, methods, pkgload, testthat (>=
         3.0.0), withr
 Imports: cli (>= 3.4.0), memoise, rlang (>= 1.0.0)
 Dependencies: 0.622459331201855
+
+Package: covr
+Version: 3.6.4
+Depends: R (>= 3.1.0), methods, R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-09 16:36:43 UTC; unix
+Filesize: 335009
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: covr_3.6.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: R6, curl, knitr, rmarkdown, htmltools, DT (>= 0.2), testthat,
+        rlang, rstudioapi (>= 0.2), xml2 (>= 1.0.0), parallel, memoise,
+        mockery, covr
+Imports: digest, stats, utils, jsonlite, rex, httr, crayon, withr (>=
+        1.0.2), yaml
+Arch: amd64
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/covr/releases/download/3.6.4/covr_3.6.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        7e77116f27b3febb27a2eb15934fd0de48b5058f3048d43fac889e925ed6980f
+GraphicsAPIVersion: 16
+downloads_1yr: 0.916949959582314
+reverse_dependencies: 0.999999999915781
+OS: linux
+dependencies: 0.0474258731775666
+
+Package: cpp11
+Version: 0.4.7
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-12-02 16:34:08 UTC; unix
+Filesize: 281890
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: cpp11_0.4.7_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+        knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
+        testthat (>= 3.2.0), tibble, utils, vctrs, withr
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/cpp11/releases/download/0.4.7/cpp11_0.4.7_b5_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        4dae640df3d6cbb9edec9af7235cce75a44d2d84d2f825edb65e40d9d00074f5
+GraphicsAPIVersion: 16
+downloads_1yr: 0.986414863443566
+reverse_dependencies: 0.974052312053428
+dependencies: 0.880797077977882
 
 Package: crayon
 Version: 1.5.2
@@ -1082,6 +1193,8 @@ DownloadURL:
 SHA256:
         aa71f43e6435313e574a92446681852bbc1020bedda6d4c0dca53b7bd37efe14
 GraphicsAPIVersion: 16
+downloads_1yr: 0.925105301945465
+reverse_dependencies: 0.43732917979627
 has_news: 0
 news_current: 0
 has_vignettes: 1
@@ -1089,14 +1202,32 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 0
 has_bug_reports_url: 1
-downloads_1yr: 0.925105301945465
-reverse_dependencies: 0.43732917979627
 exported_namespace: 0.554587455172015
 export_help: 1
 has_examples: 1
 dependencies: 0.377540668798145
 SystemRequirements: git (optional)
 size_codebase: 0.404312668463612
+
+Package: crosstalk
+Version: 1.2.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-23 16:37:48 UTC; unix
+Filesize: 411334
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: crosstalk_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: shiny, ggplot2, testthat (>= 2.1.0), sass, bslib
+Imports: htmltools (>= 0.3.6), jsonlite, lazyeval, R6
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/crosstalk/releases/download/1.2.1/crosstalk_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        e45a57fac5162afdca1530fe9c0b8eede85da7d9ba83ca3c734a0f25547dc3df
+GraphicsAPIVersion: 16
+downloads_1yr: 0.965912298251937
+reverse_dependencies: 0.814578958097085
 
 Package: devtools
 Version: 2.4.5
@@ -1195,8 +1326,8 @@ HasNews: 1
 HasSourceControl: 1
 Suggests: knitr, rmarkdown
 Imports: crayon (>= 1.3.2), tools, methods, utils, stats
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.377540668798145
 
 Package: doParallel
@@ -1251,6 +1382,35 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.919864089495785
 reverse_dependencies: 0.613750471854878
 dependencies: 0.0474258731775666
+
+Package: dplyr
+Version: 1.1.4
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-18 16:34:17 UTC; unix
+Filesize: 1622190
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: dplyr_1.1.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,
+        knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
+        rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6),
+        testthat (>= 3.1.5), tidyr (>= 1.3.0), withr
+Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
+        1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,
+        rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),
+        utils, vctrs (>= 0.6.4)
+Arch: amd64
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/dplyr/releases/download/1.1.4/dplyr_1.1.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        ed1bd4635e5fd425938f6d75a77b3431dcc357f687084630f816096119101f2e
+GraphicsAPIVersion: 16
+downloads_1yr: 0.99175745645217
+reverse_dependencies: 1
+OS: linux
+dependencies: 0.0109869426305932
 
 Package: dtplyr
 Version: 1.3.1
@@ -1345,8 +1505,8 @@ HasNews: 1
 HasSourceControl: 1
 Suggests: covr, testthat
 Imports: rlang (>= 0.3.0)
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.817574476193644
 
 Package: evaluate
@@ -1397,8 +1557,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Suggests: covr, testthat (>= 3.0.0)
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 SystemRequirements: C++11
 
@@ -1429,8 +1589,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Suggests: testthat (>= 2.1.1)
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 
 Package: fontawesome
@@ -1451,6 +1611,8 @@ DownloadURL:
 SHA256:
         24448c54e711e5e402f723b9f68a9a76154ff60f4c6119891fcb7e490252a0e4
 GraphicsAPIVersion: 16
+downloads_1yr: 0.983469112532694
+reverse_dependencies: 0.852487714556052
 has_news: 1
 news_current: 1
 has_vignettes: 0
@@ -1458,8 +1620,6 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.983469112532694
-reverse_dependencies: 0.852487714556052
 exported_namespace: 0.666185565559974
 export_help: 1
 has_examples: 1
@@ -1550,8 +1710,8 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.985627899810748
 reverse_dependencies: 0.999485108641386
-dependencies: 0.817574476193644
 OS: linux
+dependencies: 0.817574476193644
 SystemRequirements: GNU make
 
 Package: furrr
@@ -1606,6 +1766,8 @@ DownloadURL:
 SHA256:
         57f979dc80b58d140e1eecce109af9cb6d76068e831d278b7652e5495c2ef619
 GraphicsAPIVersion: 16
+downloads_1yr: 0.976037167312012
+reverse_dependencies: 0.707229461206214
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -1613,8 +1775,6 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.976037167312012
-reverse_dependencies: 0.707229461206214
 exported_namespace: 0.33124435160488
 export_help: 1
 has_examples: 0.88235294117647
@@ -1727,13 +1887,16 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, lars, testthat, xfun, rmarkdown
 Imports: methods, utils, foreach, shape, survival, Rcpp
 Arch: amd64
-LinkingTo: RcppEigen, Rcpp
 License: GPL-2
 DownloadURL:
         https://github.com/cran/glmnet/releases/download/4.1-8/glmnet_4.1-8_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 SHA256:
         a418859a9e897007f58983d3b429af802c464a6295a75009776d44c163fbde40
 GraphicsAPIVersion: 16
+downloads_1yr: 0.89983827219684
+reverse_dependencies: 0.999982881824292
+OS: linux
+LinkingTo: RcppEigen, Rcpp
 has_news: 1
 news_current: 0
 has_vignettes: 1
@@ -1741,9 +1904,6 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 0
 has_bug_reports_url: 0
-downloads_1yr: 0.89983827219684
-reverse_dependencies: 0.999982881824292
-OS: linux
 remote_checks: 0.826923076923077
 SystemRequirements: C++17
 
@@ -1842,8 +2002,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Suggests: tinytest (>= 0.9.3),
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 
 Package: gridExtra
@@ -1895,6 +2055,27 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.985663141360566
 reverse_dependencies: 0.986788346013393
 dependencies: 0.268941421369995
+
+Package: gtools
+Version: 3.9.5
+Depends: methods, stats, utils, R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-20 16:35:27 UTC; unix
+Filesize: 368196
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: gtools_3.9.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: car, gplots, knitr, rstudioapi, SGP, taxize
+Arch: amd64
+License: GPL-2
+DownloadURL:
+        https://github.com/cran/gtools/releases/download/3.9.5/gtools_3.9.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        1e57592c5fe14e1520c343f54c790f896c35df17481bf24f4263e75902ebdaec
+GraphicsAPIVersion: 16
+downloads_1yr: 0.932434441138236
+reverse_dependencies: 0.999638011720985
+OS: linux
 
 Package: highr
 Version: 0.10
@@ -1998,6 +2179,8 @@ DownloadURL:
 SHA256:
         19cf4b8783de516d8862203cd5cc4ca91bc3d4bf0dc45a7913e2dcd270300914
 GraphicsAPIVersion: 16
+downloads_1yr: 0.983884885655743
+reverse_dependencies: 0.999999924820072
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -2005,14 +2188,36 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.983884885655743
-reverse_dependencies: 0.999999924820072
 exported_namespace: 0.243267529078825
 export_help: 1
 has_examples: 0.96969696969697
 dependencies: 0.377540668798145
 bugs_status: 0.9
 size_codebase: 0.129757785467128
+
+Package: httr2
+Version: 1.0.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-16 16:39:34 UTC; unix
+Filesize: 552774
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: httr2_1.0.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite,
+        knitr, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
+Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr,
+        openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3),
+        withr
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/httr2/releases/download/1.0.0/httr2_1.0.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        2f53865876d0df1b4507e078f1f541ec0e754f7f36f145b380cca991f18dd9ca
+GraphicsAPIVersion: 16
+downloads_1yr: 0.957071215133599
+reverse_dependencies: 0.996209690505109
+dependencies: 0.0293122307513564
 
 Package: hunspell
 Version: 3.0.3
@@ -2027,7 +2232,6 @@ Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
         stopwords, rmarkdown
 Imports: Rcpp, digest
 Arch: amd64
-LinkingTo: Rcpp (>= 0.12.12)
 License: GPL-2 | LGPL-2.1 | MPL-1.1
 DownloadURL:
         https://github.com/cran/hunspell/releases/download/3.0.3/hunspell_3.0.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2036,8 +2240,9 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.873848234379888
 reverse_dependencies: 0.664796161341598
-dependencies: 0.622459331201855
 OS: linux
+LinkingTo: Rcpp (>= 0.12.12)
+dependencies: 0.622459331201855
 
 Package: ids
 Version: 1.0.1
@@ -2155,8 +2360,8 @@ HasNews: 1
 HasSourceControl: 0
 Suggests: mvtnorm, mlbench, TH.data, randomForest, party
 Imports: rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.268941421369995
 
 Package: isoband
@@ -2188,8 +2393,8 @@ HasSourceControl: 0
 Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
         testthat, xml2
 Imports: grid, utils
-Os: linux
 Arch: amd64
+Os: linux
 SystemRequirements: C++11
 
 Package: iterators
@@ -2327,6 +2532,8 @@ DownloadURL:
 SHA256:
         a2e49770294cf627cbbbba555cd14637a2b6450056df21588d3f965803b5826c
 GraphicsAPIVersion: 16
+downloads_1yr: 0.98464941882188
+reverse_dependencies: 0.773323556388944
 has_news: 0
 news_current: 0
 has_vignettes: 0
@@ -2334,8 +2541,6 @@ has_website: 0
 has_maintainer: 1
 has_source_control: 0
 has_bug_reports_url: 0
-downloads_1yr: 0.98464941882188
-reverse_dependencies: 0.773323556388944
 exported_namespace: 0.612879086374252
 export_help: 1
 has_examples: 0.909090909090909
@@ -2369,8 +2574,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
 Suggests: knitr, rmarkdown (>= 0.2.65), testthat, covr
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 
 Package: lhs
@@ -2401,10 +2606,61 @@ HasNews: 1
 HasSourceControl: 1
 Suggests: testthat, assertthat, DoE.base, knitr, rmarkdown
 Imports: Rcpp
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.731058578630005
 LinkingTo: Rcpp
+
+Package: lifecycle
+Version: 1.0.4
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-07 16:37:41 UTC; unix
+Filesize: 125544
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: lifecycle_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
+        tibble, tidyverse, tools, vctrs, withr
+Imports: cli (>= 3.4.0), glue, rlang (>= 1.1.0)
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/lifecycle/releases/download/1.0.4/lifecycle_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        3e0254c31fd320f1ef00d086b7a08a86ae4fd8f60c8fa2e72e3d3a2a32c2def4
+GraphicsAPIVersion: 16
+downloads_1yr: 0.991870129767363
+reverse_dependencies: 0.999975545224903
+dependencies: 0.622459331201855
+
+Package: lme4
+Version: 1.1-35.1
+Depends: R (>= 3.5.0), Matrix (>= 1.2-1), methods, stats, R (>= 4.4), R
+        (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-05 16:35:32 UTC; unix
+Filesize: 8690158
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: lme4_1.1-35.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2,
+        mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
+        numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble,
+        merDeriv
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+        nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
+Arch: amd64
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/lme4/releases/download/1.1-35.1/lme4_1.1-35.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        535c4823f12335d26cc658ae4e2a5f333fefec8de3e103fd9ec2d5062a6c688f
+GraphicsAPIVersion: 16
+downloads_1yr: 0.973068378847474
+reverse_dependencies: 0.999954885590317
+OS: linux
+LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
+dependencies: 0.00150118225673701
 
 Package: lubridate
 Version: 1.9.3
@@ -2424,6 +2680,9 @@ DownloadURL:
 SHA256:
         fba85a4dead21bcd5a7fe73ed645927b4ef10d018d508bf72b1f9064b2e87761
 GraphicsAPIVersion: 16
+downloads_1yr: 0.982714929196317
+reverse_dependencies: 0.999999040588827
+OS: linux
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -2431,9 +2690,6 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.982714929196317
-reverse_dependencies: 0.999999040588827
-OS: linux
 Enhances: chron, data.table, timeDate, tis, zoo
 remote_checks: 0.769230769230769
 bugs_status: 0.2
@@ -2468,8 +2724,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Suggests: covr, knitr, rlang, rmarkdown, testthat
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 
 Package: memoise
@@ -2529,8 +2785,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Imports: tools
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.817574476193644
 
 Package: miniUI
@@ -2572,7 +2828,6 @@ File: minqa_1.2.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: Rcpp (>= 0.9.10)
 Arch: amd64
-LinkingTo: Rcpp
 License: GPL-2
 DownloadURL:
         https://github.com/cran/minqa/releases/download/1.2.6/minqa_1.2.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2581,8 +2836,9 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.96561298747029
 reverse_dependencies: 0.900122893005357
-dependencies: 0.731058578630005
 OS: linux
+LinkingTo: Rcpp
+dependencies: 0.731058578630005
 SystemRequirements: GNU make
 
 Package: modelenv
@@ -2674,6 +2930,29 @@ HasSourceControl: 1
 Suggests: ggplot2, testthat
 Imports: colorspace, methods
 
+Package: mvtnorm
+Version: 1.2-4
+Depends: R(>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-27 16:38:55 UTC; unix
+Filesize: 809212
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: mvtnorm_1.2-4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: qrng, numDeriv
+Imports: stats
+Arch: amd64
+License: GPL-2
+DownloadURL:
+        https://github.com/cran/mvtnorm/releases/download/1.2-4/mvtnorm_1.2-4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        ae10f55eed365a3f27ae6d1854f19156b8d92c0f32281f325f627eadf64b1073
+GraphicsAPIVersion: 16
+downloads_1yr: 0.960890558485432
+reverse_dependencies: 0.9999997677758
+OS: linux
+dependencies: 0.731058578630005
+
 Package: nloptr
 Version: 2.0.3
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -2701,8 +2980,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Suggests: knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.817574476193644
 LinkingTo: testthat
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or
@@ -2736,8 +3015,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
 Suggests: MASS
-Os: linux
 Arch: amd64
+Os: linux
 
 Package: numDeriv
 Version: 2016.8-1.1
@@ -2789,9 +3068,34 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.983676910783544
 reverse_dependencies: 0.981674846664329
-dependencies: 0.817574476193644
 OS: linux
+dependencies: 0.817574476193644
 SystemRequirements: OpenSSL >= 1.0.2
+
+Package: pROC
+Version: 1.18.5
+Depends: R (>= 2.14), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-02 16:37:59 UTC; unix
+Filesize: 1480718
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: pROC_1.18.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel,
+        testthat, vdiffr, ggplot2, rlang
+Imports: methods, plyr, Rcpp (>= 0.11.1)
+Arch: amd64
+License: GPL (>= 3)
+DownloadURL:
+        https://github.com/cran/pROC/releases/download/1.18.5/pROC_1.18.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        2e7d7691212345228f934c73e19378e919734dc1bc0252b80e6e5d787809a9e5
+GraphicsAPIVersion: 16
+downloads_1yr: 0.921700579885505
+reverse_dependencies: 0.994958965861303
+OS: linux
+LinkingTo: Rcpp
+dependencies: 0.5
 
 Package: pbkrtest
 Version: 0.5.2
@@ -2966,13 +3270,16 @@ Suggests: abind, covr, doParallel, foreach, iterators, itertools,
         tcltk, testthat
 Imports: Rcpp (>= 0.11.0)
 Arch: amd64
-LinkingTo: Rcpp
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/plyr/releases/download/1.8.9/plyr_1.8.9_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 SHA256:
         a070bd7f92d8002f9eae7a55f5d06e65464739ca4aa7f3f8ba40c673ad45171c
 GraphicsAPIVersion: 16
+downloads_1yr: 0.97039646241673
+reverse_dependencies: 0.999999187354412
+OS: linux
+LinkingTo: Rcpp
 has_news: 1
 news_current: 1
 has_vignettes: 0
@@ -2980,10 +3287,7 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.97039646241673
-reverse_dependencies: 0.999999187354412
 dependencies: 0.731058578630005
-OS: linux
 remote_checks: 0.980769230769231
 bugs_status: 0.533333333333333
 
@@ -3013,8 +3317,8 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 SystemRequirements: libpng
 
@@ -3042,6 +3346,27 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.77972824339148
 reverse_dependencies: 0.923262089125122
 dependencies: 0.0179862099620915
+
+Package: pracma
+Version: 2.4.4
+Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-10 16:36:54 UTC; unix
+Filesize: 1772181
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: pracma_2.4.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: NlcOptim, quadprog
+Imports: graphics, grDevices, stats, utils
+License: GPL (>= 3)
+DownloadURL:
+        https://github.com/cran/pracma/releases/download/2.4.4/pracma_2.4.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        2cf1e920cbfcf2006fe56bab27245d2c984e4c695aaeec4155dc47deb2ab4951
+GraphicsAPIVersion: 16
+downloads_1yr: 0.873799942621041
+reverse_dependencies: 0.999890196764899
+dependencies: 0.5
 
 Package: praise
 Version: 1.0.0
@@ -3088,6 +3413,8 @@ DownloadURL:
 SHA256:
         9a172a9f3be04848ca9e3143db3f0b4aae4239d9a930845072eae1941f9f0fc4
 GraphicsAPIVersion: 16
+downloads_1yr: 0.982162187810043
+reverse_dependencies: 0.753623859477356
 has_news: 1
 news_current: 1
 has_vignettes: 0
@@ -3095,8 +3422,6 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.982162187810043
-reverse_dependencies: 0.753623859477356
 exported_namespace: 0.578004170633666
 export_help: 1
 has_examples: 0.916666666666667
@@ -3117,7 +3442,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Imports: Rcpp (>= 0.11.5), stats, data.table, grDevices, graphics,
         diagram, survival, KernSmooth, lava
 Arch: amd64
-LinkingTo: Rcpp
 License: GPL (>= 2)
 DownloadURL:
         https://github.com/cran/prodlim/releases/download/2023.08.28/prodlim_2023.08.28_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3126,8 +3450,9 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.916808185187198
 reverse_dependencies: 0.876983858970433
-dependencies: 0.0474258731775666
 OS: linux
+LinkingTo: Rcpp
+dependencies: 0.0474258731775666
 
 Package: profvis
 Version: 0.3.8
@@ -3159,8 +3484,8 @@ Suggests: knitr, ggplot2, rmarkdown, testthat (>= 3.0.0), devtools,
         shiny, htmltools
 Imports: htmlwidgets (>= 0.3.2), purrr, rlang (>= 0.4.9), stringr,
         vctrs
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.377540668798145
 
 Package: progressr
@@ -3182,6 +3507,8 @@ DownloadURL:
 SHA256:
         fcc9ffe4527cf00f874b8377ae59970e1803193d692a51faaae0172d78febb05
 GraphicsAPIVersion: 16
+downloads_1yr: 0.928648148800005
+reverse_dependencies: 0.984109414415179
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -3189,8 +3516,6 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.928648148800005
-reverse_dependencies: 0.984109414415179
 exported_namespace: 0.481789145013842
 export_help: 1
 has_examples: 0.966666666666667
@@ -3212,7 +3537,6 @@ Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling,
 Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang,
         stats
 Arch: amd64
-LinkingTo: later, Rcpp
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/promises/releases/download/1.2.1/promises_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3221,8 +3545,9 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.975403340128024
 reverse_dependencies: 0.828431054367907
-dependencies: 0.0758581800212434
 OS: linux
+LinkingTo: later, Rcpp
+dependencies: 0.0758581800212434
 
 Package: proxy
 Version: 0.4-27
@@ -3252,8 +3577,8 @@ HasNews: 1
 HasSourceControl: 0
 Suggests: cba
 Imports: stats, utils
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.731058578630005
 
 Package: purrr
@@ -3270,13 +3595,16 @@ Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,
 Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
         rlang (>= 1.1.1), vctrs (>= 0.6.3)
 Arch: amd64
-LinkingTo: cli
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/purrr/releases/download/1.0.2/purrr_1.0.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 SHA256:
         be3a6b709b77699d8f173b0f19a64f621610f68ad94fd5e64fb85b75e7e0d802
 GraphicsAPIVersion: 16
+downloads_1yr: 0.986971466034047
+reverse_dependencies: 0.999999999591937
+OS: linux
+LinkingTo: cli
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -3284,13 +3612,10 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.986971466034047
-reverse_dependencies: 0.999999999591937
 exported_namespace: 0.100930173978894
 export_help: 1
 has_examples: 0.9375
 dependencies: 0.268941421369995
-OS: linux
 bugs_status: 0.733333333333333
 size_codebase: 0.0936914428482199
 
@@ -3314,8 +3639,8 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.972222391974271
 reverse_dependencies: 0.996480254506102
-dependencies: 0.119202922022118
 OS: linux
+dependencies: 0.119202922022118
 
 Package: randomForest
 Version: 4.7-1.1
@@ -3345,8 +3670,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
 Suggests: RColorBrewer, MASS
-Os: linux
 Arch: amd64
+Os: linux
 
 Package: rappdirs
 Version: 0.3.3
@@ -3375,8 +3700,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 
 Package: raster
@@ -3392,7 +3717,6 @@ Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf,
         tinytest, gstat, fields, exactextractr
 Imports: Rcpp, methods, terra (>= 1.7-29)
 Arch: amd64
-LinkingTo: Rcpp
 License: GPL (>= 3)
 DownloadURL:
         https://github.com/cran/raster/releases/download/3.6-26/raster_3.6-26_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3401,8 +3725,9 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.901775891874902
 reverse_dependencies: 0.999692873089054
-dependencies: 0.377540668798145
 OS: linux
+LinkingTo: Rcpp
+dependencies: 0.377540668798145
 
 Package: rbibutils
 Version: 2.2.16
@@ -3424,8 +3749,8 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.854416564677382
 reverse_dependencies: 0.5
-dependencies: 0.731058578630005
 OS: linux
+dependencies: 0.731058578630005
 
 Package: rcmdcheck
 Version: 1.4.0
@@ -3471,13 +3796,16 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
 Imports: cellranger, tibble (>= 2.0.1), utils
 Arch: amd64
-LinkingTo: cpp11 (>= 0.4.0), progress
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/readxl/releases/download/1.4.3/readxl_1.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 SHA256:
         a6e0f43d93a729c65aa5ff0c11edb3c290e06e50d8bf8c5eeb65de71589a4c1a
 GraphicsAPIVersion: 16
+downloads_1yr: 0.985373947216721
+reverse_dependencies: 0.999888846821418
+OS: linux
+LinkingTo: cpp11 (>= 0.4.0), progress
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -3485,13 +3813,10 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.985373947216721
-reverse_dependencies: 0.999888846821418
 exported_namespace: 0.586280996051124
 export_help: 1
 has_examples: 1
 dependencies: 0.377540668798145
-OS: linux
 size_codebase: 0.477707006369427
 
 Package: rematch
@@ -3510,6 +3835,8 @@ DownloadURL:
 SHA256:
         b7c6896683e525310698bd6026690f830cb159c90c8a75cf593eda61223a22f9
 GraphicsAPIVersion: 16
+downloads_1yr: 0.9776258623552
+reverse_dependencies: 0.470525714569983
 has_news: 1
 news_current: 1
 has_vignettes: 0
@@ -3517,8 +3844,6 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.9776258623552
-reverse_dependencies: 0.470525714569983
 exported_namespace: 0.710218732760062
 export_help: 1
 has_examples: 1
@@ -3582,8 +3907,8 @@ HasNews: 1
 HasSourceControl: 1
 Suggests: covr, lattice, testthat (>= 0.8.0)
 Imports: plyr (>= 1.8.1), Rcpp, stringr
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.5
 LinkingTo: Rcpp
 
@@ -3618,6 +3943,27 @@ Suggests: covr, dplyr, ggplot2, Hmisc, knitr, magrittr, rmarkdown,
 Imports: lazyeval
 Dependencies: 0.817574476193644
 
+Package: rprojroot
+Version: 2.0.4
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-05 16:35:12 UTC; unix
+Filesize: 107670
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rprojroot_2.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, lifecycle, mockr, rlang, rmarkdown, testthat (>=
+        3.0.0), withr
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/rprojroot/releases/download/2.0.4/rprojroot_2.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        495de01b70a97cde72928a891102901f32260c2f6a635d405e98501b471e2391
+GraphicsAPIVersion: 16
+downloads_1yr: 0.976973232764695
+reverse_dependencies: 0.9554370525737
+dependencies: 0.880797077977882
+
 Package: rversions
 Version: 2.1.2
 Depends: R (>= 4.4), R (< 4.4.99)
@@ -3646,6 +3992,29 @@ HasNews: 1
 HasSourceControl: 1
 Suggests: covr, mockery, testthat
 Imports: curl, utils, xml2 (>= 1.0.0)
+
+Package: scales
+Version: 1.3.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-29 16:38:58 UTC; unix
+Filesize: 717260
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: scales_1.3.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
+        testthat (>= 3.0.0)
+Imports: cli, farver (>= 2.0.3), glue, labeling, lifecycle, munsell (>=
+        0.5), R6, RColorBrewer, rlang (>= 1.0.0), viridisLite
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/scales/releases/download/1.3.0/scales_1.3.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        3948b8e5d24bade19341ed5baf79aaf587de4f6458a288202fa0c4562ea0cb04
+GraphicsAPIVersion: 16
+downloads_1yr: 0.988040006656135
+reverse_dependencies: 0.999999937044398
+dependencies: 0.0474258731775666
 
 Package: selectr
 Version: 0.4-2
@@ -3816,7 +4185,6 @@ Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat
         (>= 3.0.0)
 Imports: cli (>= 3.6.1), rlang (>= 1.1.1), vctrs (>= 0.6.3), warp
 Arch: amd64
-LinkingTo: vctrs (>= 0.6.3)
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/slider/releases/download/0.3.1/slider_0.3.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3825,8 +4193,9 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.859090627272164
 reverse_dependencies: 0.731704224356449
-dependencies: 0.377540668798145
 OS: linux
+LinkingTo: vctrs (>= 0.6.3)
+dependencies: 0.377540668798145
 
 Package: sourcetools
 Version: 0.1.7-1
@@ -3856,9 +4225,32 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
 Suggests: testthat
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
+
+Package: stringr
+Version: 1.5.1
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-11-16 16:39:32 UTC; unix
+Filesize: 313007
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: stringr_1.5.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown,
+        testthat (>= 3.0.0), tibble
+Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang
+        (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/stringr/releases/download/1.5.1/stringr_1.5.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        af8b4d578dfa5bb327d3ee73c44768f9fb00d7c46f14c1c6632365745ee484ef
+GraphicsAPIVersion: 16
+downloads_1yr: 0.988248302095101
+reverse_dependencies: 0.999999999952806
+dependencies: 0.182425523806356
 
 Package: sys
 Version: 3.4.2
@@ -3887,8 +4279,8 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
 Suggests: unix (>= 1.4), spelling, testthat
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 
 Package: textshaping
@@ -3903,7 +4295,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown
 Imports: systemfonts (>= 1.0.0)
 Arch: amd64
-LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/textshaping/releases/download/0.3.7/textshaping_0.3.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3912,8 +4303,9 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.992450980821415
 reverse_dependencies: 0.470525714569983
-dependencies: 0.5
 OS: linux
+LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
+dependencies: 0.5
 SystemRequirements: freetype2, harfbuzz, fribidi
 
 Package: threejs
@@ -3981,8 +4373,8 @@ Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>=
 Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
         pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs
         (>= 0.4.2)
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.0758581800212434
 
 Package: tidyverse
@@ -4081,8 +4473,8 @@ RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.880797077977882
 
 Package: tzdb
@@ -4112,10 +4504,37 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Suggests: covr, testthat (>= 3.0.0)
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.817574476193644
 LinkingTo: cpp11 (>= 0.4.2)
+
+Package: units
+Version: 0.8-5
+Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-29 16:39:10 UTC; unix
+Filesize: 812013
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: units_0.8-5_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0),
+        dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat
+        (>= 3.0.0), vdiffr, knitr, rmarkdown
+Imports: Rcpp
+Arch: amd64
+License: GPL-2
+DownloadURL:
+        https://github.com/cran/units/releases/download/0.8-5/units_0.8-5_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        6b8f544956a6624362f63c493d56012bef130da710fe71e735efa1a308ca272d
+GraphicsAPIVersion: 16
+downloads_1yr: 0.950839835857489
+reverse_dependencies: 0.988193569570161
+OS: linux
+LinkingTo: Rcpp (>= 0.12.10)
+dependencies: 0.731058578630005
+SystemRequirements: udunits-2
 
 Package: urlchecker
 Version: 1.0.1
@@ -4165,6 +4584,9 @@ DownloadURL:
 SHA256:
         4c27dd1ff979c7608ae26137c00e34de9f2f317cc1ea412517fdc19bce459771
 GraphicsAPIVersion: 16
+downloads_1yr: 0.987764541821653
+reverse_dependencies: 0.852487714556052
+OS: linux
 has_news: 0
 news_current: 0
 has_vignettes: 1
@@ -4172,13 +4594,10 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.987764541821653
-reverse_dependencies: 0.852487714556052
 exported_namespace: 0.622459331201855
 export_help: 1
 has_examples: 1
 dependencies: 0.880797077977882
-OS: linux
 bugs_status: 0.766666666666667
 size_codebase: 0.423728813559322
 
@@ -4195,7 +4614,6 @@ Suggests: covr, ggplot2 (>= 3.2.0), roxygen2, withr
 Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang,
         testthat (>= 3.0.3), xml2 (>= 1.0.0)
 Arch: amd64
-LinkingTo: cpp11
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/vdiffr/releases/download/1.0.7/vdiffr_1.0.7_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -4204,8 +4622,9 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.701132707040317
 reverse_dependencies: 0.999705102275079
-dependencies: 0.0758581800212434
 OS: linux
+LinkingTo: cpp11
+dependencies: 0.0758581800212434
 SystemRequirements: C++11, libpng
 
 Package: viridisLite
@@ -4259,6 +4678,28 @@ downloads_1yr: 0.970744916344113
 reverse_dependencies: 0.857837261043041
 dependencies: 0.377540668798145
 
+Package: warp
+Version: 0.2.1
+Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-03 16:36:29 UTC; unix
+Filesize: 124640
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: warp_0.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown, testthat (>= 3.0.0)
+Arch: amd64
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/warp/releases/download/0.2.1/warp_0.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        0607504d481498c4dbab1acaea15825548c847f3388638b0d68841c1a3bcc629
+GraphicsAPIVersion: 16
+downloads_1yr: 0.853494736554235
+reverse_dependencies: 0.350228721939924
+OS: linux
+dependencies: 0.880797077977882
+
 Package: webshot
 Version: 0.5.5
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
@@ -4276,6 +4717,8 @@ DownloadURL:
 SHA256:
         19316dfff0d4b250925bb62c4be9f794882a8c1b91def449e7fd144e76d28585
 GraphicsAPIVersion: 16
+downloads_1yr: 0.753650084580138
+reverse_dependencies: 0.940192263104589
 has_news: 1
 news_current: 1
 has_vignettes: 0
@@ -4283,8 +4726,6 @@ has_website: 1
 has_maintainer: 1
 has_source_control: 1
 has_bug_reports_url: 1
-downloads_1yr: 0.753650084580138
-reverse_dependencies: 0.940192263104589
 exported_namespace: 0.63248519712831
 export_help: 1
 has_examples: 0.857142857142857
@@ -4321,6 +4762,28 @@ HasNews: 1
 HasSourceControl: 1
 Suggests: markdown
 Dependencies: 0.880797077977882
+
+Package: wk
+Version: 0.9.1
+Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-11-29 16:38:56 UTC; unix
+Filesize: 2170237
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: wk_0.9.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr
+Arch: amd64
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/wk/releases/download/0.9.1/wk_0.9.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        9aa11dad98d6136df611a2a2802eeb13f3562d7f44f0becc28d9241f75df4079
+GraphicsAPIVersion: 16
+downloads_1yr: 0.941618544129959
+reverse_dependencies: 0.742960953010137
+OS: linux
+dependencies: 0.880797077977882
 
 Package: xopen
 Version: 1.0.0
@@ -4411,6 +4874,6 @@ HasSourceControl: 0
 Suggests: AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
         stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts
 Imports: utils, graphics, grDevices, lattice (>= 0.20-27)
-Os: linux
 Arch: amd64
+Os: linux
 Dependencies: 0.377540668798145
