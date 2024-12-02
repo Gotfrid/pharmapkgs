@@ -54,7 +54,16 @@ get_package_scores <- function(packages, limit) {
     total = limit,
     type = "tasks"
   )
-  riskmetric::pkg_ref(packages) |>
+
+  # NOTE: there is a bug in riskmetric::pkg_ref
+  # it doesn't respect repos argument when x is a vector
+  purrr::map(packages, function(pkg) {
+    riskmetric::pkg_ref(
+      x = pkg,
+      source = "pkg_cran_remote",
+      repos = file.path(RHUB_BASE_URL, platform, r_version)
+    )
+  }) |>
     purrr::map_dfr(function(ref) {
       cli::cli_progress_update(1, status = ref$name, id = progress_bar_id)
       suppressMessages(riskmetric::pkg_assess(ref)) |>
