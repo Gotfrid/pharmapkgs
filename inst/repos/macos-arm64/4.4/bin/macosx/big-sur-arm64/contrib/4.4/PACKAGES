@@ -28,7 +28,6 @@ HasSourceControl: 0
 Package: GPfit
 Version: 1.0-8
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testthat
 File: GPfit_1.0-8_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/GPfit/releases/download/1.0-8/GPfit_1.0-8_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -52,12 +51,12 @@ RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: testthat
 Imports: lhs (>= 0.5), lattice (>= 0.18-8)
 
 Package: ModelMetrics
 Version: 1.2.2.2
 Depends: R (>= 3.2.2), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat
 File: ModelMetrics_1.2.2.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/ModelMetrics/releases/download/1.2.2.2/ModelMetrics_1.2.2.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -76,13 +75,14 @@ NewsCurrent: 0
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.613750471854878
-Dependencies: 0.622459331201855
 HasWebsite: 0
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: testthat
 Imports: Rcpp, data.table
+Dependencies: 0.622459331201855
 Os: darwin
 Arch: arm64
 LinkingTo: Rcpp
@@ -108,7 +108,6 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.753623859477356
-Dependencies: 0.377540668798145
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
@@ -116,11 +115,11 @@ HasNews: 1
 HasSourceControl: 1
 Imports: utils, R.methodsS3 (>= 1.8.1), R.oo (>= 1.24.0), R.utils (>=
         2.10.1), digest (>= 0.6.13)
+Dependencies: 0.377540668798145
 
 Package: R.methodsS3
 Version: 1.8.2
 Depends: R (>= 2.13.0), R (>= 4.4), R (< 4.4.99)
-Suggests: codetools
 File: R.methodsS3_1.8.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/R.methodsS3/releases/download/1.8.2/R.methodsS3_1.8.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -139,18 +138,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.828431054367907
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: codetools
 Imports: utils
+Dependencies: 0.817574476193644
 
 Package: R6
 Version: 2.5.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat, pryr
 File: R6_2.5.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/R6/releases/download/2.5.1/R6_2.5.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -169,12 +168,13 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.999965816054255
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: testthat, pryr
+Dependencies: 0.880797077977882
 
 Package: RColorBrewer
 Version: 1.1-3
@@ -197,17 +197,16 @@ NewsCurrent: 0
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.999999048561728
-Dependencies: 0.880797077977882
 HasWebsite: 0
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
+Dependencies: 0.880797077977882
 
 Package: RcppParallel
 Version: 5.1.7
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-Suggests: Rcpp, RUnit, knitr, rmarkdown
 File: RcppParallel_5.1.7_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/RcppParallel/releases/download/5.1.7/RcppParallel_5.1.7_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -226,12 +225,13 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.997267495468916
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and
@@ -240,7 +240,6 @@ SystemRequirements: GNU make, Intel TBB, Windows: cmd.exe and
 Package: SQUAREM
 Version: 2021.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Suggests: setRNG
 File: SQUAREM_2021.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/SQUAREM/releases/download/2021.1/SQUAREM_2021.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -259,12 +258,13 @@ NewsCurrent: 0
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.648856547342769
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: setRNG
+Dependencies: 0.880797077977882
 
 Package: SparseM
 Version: 1.81
@@ -287,13 +287,13 @@ NewsCurrent: 0
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.918152062486545
-Dependencies: 0.5
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
 Imports: graphics, stats, utils
+Dependencies: 0.5
 Os: darwin
 Arch: arm64
 
@@ -318,18 +318,17 @@ NewsCurrent: 0
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.999256668246828
-Dependencies: 0.731058578630005
 HasWebsite: 0
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
 Imports: methods, utils
+Dependencies: 0.731058578630005
 
 Package: ape
 Version: 5.7-1
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-Suggests: gee, expm, igraph, phangorn
 File: ape_5.7-1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/ape/releases/download/5.7-1/ape_5.7-1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -348,14 +347,15 @@ NewsCurrent: 0
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.999821145731527
-Dependencies: 0.0474258731775666
 HasWebsite: 1
 RemoteChecks: 0.942307692307692
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: gee, expm, igraph, phangorn
 Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp
         (>= 0.12.0), digest
+Dependencies: 0.0474258731775666
 Os: darwin
 Arch: arm64
 LinkingTo: Rcpp
@@ -363,7 +363,6 @@ LinkingTo: Rcpp
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testthat, covr
 File: assertthat_0.2.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/assertthat/releases/download/0.2.1/assertthat_0.2.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -382,13 +381,14 @@ NewsCurrent: 0
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.999764982062644
-Dependencies: 0.817574476193644
 HasWebsite: 0
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
+Suggests: testthat, covr
 Imports: tools
+Dependencies: 0.817574476193644
 
 Package: backports
 Version: 1.4.1
@@ -411,12 +411,12 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.906627178397495
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
@@ -441,12 +441,12 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.989655217766781
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 0.961538461538462
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 Enhances: png
@@ -454,8 +454,6 @@ Enhances: png
 Package: bit
 Version: 4.0.5
 Depends: R (>= 2.9.2), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
-        microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
 File: bit_4.0.5_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/bit/releases/download/4.0.5/bit_4.0.5_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -474,12 +472,14 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.664796161341598
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
+        microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
@@ -516,7 +516,6 @@ Arch: arm64
 Package: blob
 Version: 1.2.4
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, crayon, pillar (>= 1.2.1), testthat
 File: blob_1.2.4_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/blob/releases/download/1.2.4/blob_1.2.4_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -540,23 +539,12 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, crayon, pillar (>= 1.2.1), testthat
 Imports: methods, rlang, vctrs (>= 0.2.1)
 
 Package: broom
 Version: 1.0.5
 Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>=
-        1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc,
-        e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
-        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm,
-        Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman,
-        lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
-        lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx,
-        mgcv, mlogit, modeldata, modeltests, muhaz, multcomp, network,
-        nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
-        rmarkdown, robust, robustbase, rsample, sandwich, sp, spdep (>=
-        1.1), spatialreg, speedglm, spelling, survey, survival,
-        systemfit, testthat (>= 2.1.0), tseries, vars, zoo
 File: broom_1.0.5_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/broom/releases/download/1.0.5/broom_1.0.5_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -575,20 +563,31 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.998678852662035
-Dependencies: 0.0293122307513564
 HasWebsite: 1
 RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>=
+        1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc,
+        e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
+        (>= 1.15), gee, geepack, ggplot2, glmnet, glmnetUtils, gmm,
+        Hmisc, irlba, interp, joineRML, Kendall, knitr, ks, Lahman,
+        lavaan, leaps, lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38),
+        lsmeans, maps, margins, MASS, mclust, mediation, metafor, mfx,
+        mgcv, mlogit, modeldata, modeltests, muhaz, multcomp, network,
+        nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych, quantreg,
+        rmarkdown, robust, robustbase, rsample, sandwich, sp, spdep (>=
+        1.1), spatialreg, speedglm, spelling, survey, survival,
+        systemfit, testthat (>= 2.1.0), tseries, vars, zoo
 Imports: backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2),
         glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0),
         tidyr (>= 1.0.0)
+Dependencies: 0.0293122307513564
 
 Package: cachem
 Version: 1.0.8
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testthat
 File: cachem_1.0.8_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/cachem/releases/download/1.0.8/cachem_1.0.8_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -612,6 +611,7 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: testthat
 Imports: rlang, fastmap (>= 1.1.1)
 Os: darwin
 Arch: arm64
@@ -619,9 +619,6 @@ Arch: arm64
 Package: car
 Version: 3.1-2
 Depends: R (>= 3.5.0), carData (>= 3.0-0), R (>= 4.4), R (< 4.4.99)
-Suggests: alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix,
-        MatrixModels, mvtnorm, rgl (>= 0.111.3), rio, sandwich,
-        SparseM, survival, survey
 File: car_3.1-2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/car/releases/download/3.1-2/car_3.1-2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -640,20 +637,22 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.999601035040533
-Dependencies: 0.00669285092428473
 HasWebsite: 1
 RemoteChecks: 0.961538461538462
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix,
+        MatrixModels, mvtnorm, rgl (>= 0.111.3), rio, sandwich,
+        SparseM, survival, survey
 Imports: abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg,
         grDevices, utils, stats, graphics, lme4 (>= 1.1-27.1), nlme,
         scales
+Dependencies: 0.00669285092428473
 
 Package: carData
 Version: 3.0-5
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Suggests: car (>= 3.0-0)
 File: carData_3.0-5_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/carData/releases/download/3.0-5/carData_3.0-5_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -672,23 +671,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.799306564674227
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: car (>= 3.0-0)
+Dependencies: 0.880797077977882
 
 Package: caret
 Version: 6.0-94
 Depends: ggplot2, lattice (>= 0.20), R (>= 3.2.0), R (>= 4.4), R (<
         4.4.99)
-Suggests: BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3),
-        ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr,
-        MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party
-        (>= 0.9-99992), pls, proxy, randomForest, RANN, rmarkdown,
-        rpart, spls, subselect, superpc, testthat (>= 0.9.1), themis
-        (>= 0.1.3)
 File: caret_6.0-94_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/caret/releases/download/6.0-94/caret_6.0-94_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -707,22 +701,27 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.99942189692875
-Dependencies: 0.00247262315663466
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3),
+        ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr,
+        MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party
+        (>= 0.9-99992), pls, proxy, randomForest, RANN, rmarkdown,
+        rpart, spls, subselect, superpc, testthat (>= 0.9.1), themis
+        (>= 0.1.3)
 Imports: e1071, foreach, grDevices, methods, ModelMetrics (>= 1.2.2.2),
         nlme, plyr, pROC, recipes (>= 0.1.10), reshape2, stats, stats4,
         utils, withr (>= 2.0.0)
+Dependencies: 0.00247262315663466
 Os: darwin
 Arch: arm64
 
 Package: cellranger
 Version: 1.1.0
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, testthat (>= 1.0.0), knitr, rmarkdown
 File: cellranger_1.1.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/cellranger/releases/download/1.1.0/cellranger_1.1.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -741,19 +740,18 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.59434719329332
-Dependencies: 0.731058578630005
 HasWebsite: 1
 RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, testthat (>= 1.0.0), knitr, rmarkdown
 Imports: rematch, tibble
+Dependencies: 0.731058578630005
 
 Package: clipr
 Version: 0.8.0
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
-        2.0.0)
 File: clipr_0.8.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/clipr/releases/download/0.8.0/clipr_0.8.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -772,13 +770,15 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.936425204927176
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+        2.0.0)
 Imports: utils
+Dependencies: 0.817574476193644
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel
         (http://www.vergenet.net/~conrad/software/xsel/) for accessing
         the X11 clipboard, or wl-clipboard
@@ -788,8 +788,6 @@ SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel
 Package: clock
 Version: 0.7.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0),
-        testthat (>= 3.0.0), withr
 File: clock_0.7.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/clock/releases/download/0.7.0/clock_0.7.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -808,14 +806,16 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.5
-Dependencies: 0.182425523806356
 HasWebsite: 1
 RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0),
+        testthat (>= 3.0.0), withr
 Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tzdb
         (>= 0.4.0), vctrs (>= 0.6.1)
+Dependencies: 0.182425523806356
 Os: darwin
 Arch: arm64
 LinkingTo: cpp11 (>= 0.4.3), tzdb (>= 0.4.0)
@@ -823,10 +823,6 @@ LinkingTo: cpp11 (>= 0.4.3), tzdb (>= 0.4.0)
 Package: colorspace
 Version: 2.1-0
 Depends: R (>= 3.0.0), methods, R (>= 4.4), R (< 4.4.99)
-Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
-        tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
-        knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
-        wesanderson
 File: colorspace_2.1-0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/colorspace/releases/download/2.1-0/colorspace_2.1-0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -845,21 +841,23 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.997967259182271
-Dependencies: 0.5
 HasWebsite: 1
 RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+        tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+        knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+        wesanderson
 Imports: graphics, grDevices, stats
+Dependencies: 0.5
 Os: darwin
 Arch: arm64
 
 Package: conflicted
 Version: 1.2.0
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-Suggests: callr, covr, dplyr, Matrix, methods, pkgload, testthat (>=
-        3.0.0), withr
 File: conflicted_1.2.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/conflicted/releases/download/1.2.0/conflicted_1.2.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -878,18 +876,19 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.731704224356449
-Dependencies: 0.622459331201855
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: callr, covr, dplyr, Matrix, methods, pkgload, testthat (>=
+        3.0.0), withr
 Imports: cli (>= 3.4.0), memoise, rlang (>= 1.0.0)
+Dependencies: 0.622459331201855
 
 Package: crayon
 Version: 1.5.2
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: mockery, rstudioapi, testthat, withr
 File: crayon_1.5.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/crayon/releases/download/1.5.2/crayon_1.5.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -913,17 +912,12 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: mockery, rstudioapi, testthat, withr
 Imports: grDevices, methods, utils
 
 Package: devtools
 Version: 2.4.5
 Depends: R (>= 3.0.2), usethis (>= 2.1.6), R (>= 4.4), R (< 4.4.99)
-Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1),
-        curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>=
-        1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3),
-        knitr (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3),
-        pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14),
-        rstudioapi (>= 0.13), spelling (>= 2.2)
 File: devtools_2.4.5_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/devtools/releases/download/2.4.5/devtools_2.4.5_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -942,12 +936,17 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.999960103732608
-Dependencies: 4.53978687023904e-05
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1),
+        curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>=
+        1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3),
+        knitr (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3),
+        pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14),
+        rstudioapi (>= 0.13), spelling (>= 2.2)
 Imports: cli (>= 3.3.0), desc (>= 1.4.1), ellipsis (>= 0.3.2), fs (>=
         1.5.2), lifecycle (>= 1.0.1), memoise (>= 2.0.1), miniUI (>=
         0.1.1.1), pkgbuild (>= 1.3.1), pkgdown (>= 2.0.6), pkgload (>=
@@ -955,6 +954,7 @@ Imports: cli (>= 3.3.0), desc (>= 1.4.1), ellipsis (>= 0.3.2), fs (>=
         2.4.2), rlang (>= 1.0.4), roxygen2 (>= 7.2.1), rversions (>=
         2.1.1), sessioninfo (>= 1.2.2), stats, testthat (>= 3.1.5),
         tools, urlchecker (>= 1.0.1), utils, withr (>= 2.5.0)
+Dependencies: 4.53978687023904e-05
 
 Package: diagram
 Version: 1.6.5
@@ -987,7 +987,6 @@ Imports: stats, graphics
 Package: diffobj
 Version: 0.3.5
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Suggests: knitr, rmarkdown
 File: diffobj_0.3.5_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/diffobj/releases/download/0.3.5/diffobj_0.3.5_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1006,13 +1005,14 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.679787346147798
-Dependencies: 0.377540668798145
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: knitr, rmarkdown
 Imports: crayon (>= 1.3.2), tools, methods, utils, stats
+Dependencies: 0.377540668798145
 Os: darwin
 Arch: arm64
 
@@ -1020,7 +1020,6 @@ Package: doParallel
 Version: 1.0.17
 Depends: R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0),
         parallel, utils, R (>= 4.4), R (< 4.4.99)
-Suggests: caret, mlbench, rpart, RUnit
 File: doParallel_1.0.17_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/doParallel/releases/download/1.0.17/doParallel_1.0.17_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1044,13 +1043,12 @@ RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: caret, mlbench, rpart, RUnit
 Enhances: compiler
 
 Package: dtplyr
 Version: 1.3.1
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
-Suggests: bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>=
-        1.1.0), waldo (>= 0.3.1)
 File: dtplyr_1.3.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/dtplyr/releases/download/1.3.1/dtplyr_1.3.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1069,20 +1067,21 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.648856547342769
-Dependencies: 0.0758581800212434
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>=
+        1.1.0), waldo (>= 0.3.1)
 Imports: cli (>= 3.4.0), data.table (>= 1.13.0), dplyr (>= 1.1.0),
         glue, lifecycle, rlang (>= 1.0.4), tibble, tidyselect (>=
         1.2.0), vctrs (>= 0.4.1)
+Dependencies: 0.0758581800212434
 
 Package: dygraphs
 Version: 1.1.1.6
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat
 File: dygraphs_1.1.1.6_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/dygraphs/releases/download/1.1.1.6/dygraphs_1.1.1.6_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1101,20 +1100,20 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.867836783398338
-Dependencies: 0.377540668798145
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: testthat
 Imports: magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>=
         1.7-10), xts (>= 0.9-7)
+Dependencies: 0.377540668798145
 Enhances: rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)
 
 Package: ellipsis
 Version: 0.3.2
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, testthat
 File: ellipsis_0.3.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/ellipsis/releases/download/0.3.2/ellipsis_0.3.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1133,20 +1132,20 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.867836783398338
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, testthat
 Imports: rlang (>= 0.3.0)
+Dependencies: 0.817574476193644
 Os: darwin
 Arch: arm64
 
 Package: farver
 Version: 2.1.1
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, testthat (>= 3.0.0)
 File: farver_2.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/farver/releases/download/2.1.1/farver_2.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1165,12 +1164,13 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.707229461206214
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, testthat (>= 3.0.0)
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 SystemRequirements: C++11
@@ -1178,7 +1178,6 @@ SystemRequirements: C++11
 Package: fastmap
 Version: 1.1.1
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testthat (>= 2.1.1)
 File: fastmap_1.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/fastmap/releases/download/1.1.1/fastmap_1.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1197,20 +1196,19 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.731704224356449
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: testthat (>= 2.1.1)
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
 Package: forcats
 Version: 1.0.0
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>=
-        3.0.0), withr
 File: forcats_1.0.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/forcats/releases/download/1.0.0/forcats_1.0.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1229,19 +1227,20 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.999222336507212
-Dependencies: 0.268941421369995
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>=
+        3.0.0), withr
 Imports: cli (>= 3.4.0), glue, lifecycle, magrittr, rlang (>= 1.0.0),
         tibble
+Dependencies: 0.268941421369995
 
 Package: foreach
 Version: 1.5.2
 Depends: R (>= 2.5.0), R (>= 4.4), R (< 4.4.99)
-Suggests: randomForest, doMC, doParallel, testthat, knitr, rmarkdown
 File: foreach_1.5.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/foreach/releases/download/1.5.2/foreach_1.5.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1260,19 +1259,18 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.999999542825241
-Dependencies: 0.622459331201855
 HasWebsite: 1
 RemoteChecks: 0.942307692307692
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: randomForest, doMC, doParallel, testthat, knitr, rmarkdown
 Imports: codetools, utils, iterators
+Dependencies: 0.622459331201855
 
 Package: furrr
 Version: 0.3.1
 Depends: future (>= 1.25.0), R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Suggests: carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0),
-        magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr
 File: furrr_0.3.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/furrr/releases/download/0.3.1/furrr_0.3.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1291,19 +1289,20 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.977707178519915
-Dependencies: 0.268941421369995
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0),
+        magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr
 Imports: globals (>= 0.14.0), lifecycle (>= 1.0.1), purrr (>= 0.3.4),
         rlang (>= 1.0.2), vctrs (>= 0.4.1)
+Dependencies: 0.268941421369995
 
 Package: generics
 Version: 0.1.3
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, pkgload, testthat (>= 3.0.0), tibble, withr
 File: generics_0.1.3_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/generics/releases/download/0.1.3/generics_0.1.3_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1322,19 +1321,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.989192833863984
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, pkgload, testthat (>= 3.0.0), tibble, withr
 Imports: methods
+Dependencies: 0.817574476193644
 
 Package: gh
 Version: 1.4.0
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling,
-        testthat (>= 3.0.0), withr
 File: gh_1.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/gh/releases/download/1.4.0/gh_1.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1353,20 +1351,20 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.763732662304303
-Dependencies: 0.268941421369995
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling,
+        testthat (>= 3.0.0), withr
 Imports: cli (>= 3.0.1), gitcreds, httr2, ini, jsonlite, rlang (>=
         1.0.0)
+Dependencies: 0.268941421369995
 
 Package: gitcreds
 Version: 0.1.2
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-Suggests: codetools, covr, knitr, mockery, oskeyring, rmarkdown,
-        testthat (>= 3.0.0), withr
 File: gitcreds_0.1.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/gitcreds/releases/download/0.1.2/gitcreds_0.1.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1385,19 +1383,19 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.551032098662781
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: codetools, covr, knitr, mockery, oskeyring, rmarkdown,
+        testthat (>= 3.0.0), withr
+Dependencies: 0.880797077977882
 SystemRequirements: git
 
 Package: googledrive
 Version: 2.1.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-Suggests: curl, dplyr (>= 1.0.0), knitr, mockr, rmarkdown, spelling,
-        testthat (>= 3.1.3)
 File: googledrive_2.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/googledrive/releases/download/2.1.1/googledrive_2.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1416,21 +1414,22 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.7198098951719
-Dependencies: 0.00407013771589604
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: curl, dplyr (>= 1.0.0), knitr, mockr, rmarkdown, spelling,
+        testthat (>= 3.1.3)
 Imports: cli (>= 3.0.0), gargle (>= 1.5.0), glue (>= 1.4.2), httr,
         jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>=
         1.0.1), rlang (>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs
         (>= 0.3.0), withr
+Dependencies: 0.00407013771589604
 
 Package: googlesheets4
 Version: 1.1.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
 File: googlesheets4_1.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/googlesheets4/releases/download/1.1.1/googlesheets4_1.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1449,21 +1448,21 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.613750471854878
-Dependencies: 0.000911051194400603
 HasWebsite: 1
 RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
 Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.5.0), glue (>=
         1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr,
         methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
         utils, vctrs (>= 0.2.3), withr
+Dependencies: 0.000911051194400603
 
 Package: gower
 Version: 1.0.1
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: tinytest (>= 0.9.3),
 File: gower_1.0.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/gower/releases/download/1.0.1/gower_1.0.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1482,19 +1481,19 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.707229461206214
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: tinytest (>= 0.9.3),
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
 Package: gridExtra
 Version: 2.3
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: ggplot2, egg, lattice, knitr, testthat
 File: gridExtra_2.3_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/gridExtra/releases/download/2.3/gridExtra_2.3_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1518,12 +1517,12 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: ggplot2, egg, lattice, knitr, testthat
 Imports: gtable, grid, grDevices, graphics, utils
 
 Package: highr
 Version: 0.10
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-Suggests: knitr, markdown, testit
 File: highr_0.10_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/highr/releases/download/0.10/highr_0.10_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1542,18 +1541,18 @@ NewsCurrent: 0
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.613750471854878
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: knitr, markdown, testit
 Imports: xfun (>= 0.18)
+Dependencies: 0.817574476193644
 
 Package: hms
 Version: 1.1.3
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
 File: hms_1.1.3_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/hms/releases/download/1.1.3/hms_1.1.3_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1577,13 +1576,13 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
 Imports: lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>=
         0.3.8)
 
 Package: ids
 Version: 1.0.1
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: knitr, rcorpora, rmarkdown, testthat
 File: ids_1.0.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/ids/releases/download/1.0.1/ids_1.0.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1607,12 +1606,12 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: knitr, rcorpora, rmarkdown, testthat
 Imports: openssl, uuid
 
 Package: ini
 Version: 0.3.1
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testthat
 File: ini_0.3.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/ini/releases/download/0.3.1/ini_0.3.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1631,17 +1630,17 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.551032098662781
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: testthat
+Dependencies: 0.880797077977882
 
 Package: inline
 Version: 0.3.19
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: Rcpp (>= 0.11.0), tinytest
 File: inline_0.3.19_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/inline/releases/download/0.3.19/inline_0.3.19_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1660,18 +1659,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.814578958097085
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: Rcpp (>= 0.11.0), tinytest
 Imports: methods
+Dependencies: 0.817574476193644
 
 Package: ipred
 Version: 0.9-14
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-Suggests: mvtnorm, mlbench, TH.data, randomForest, party
 File: ipred_0.9-14_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/ipred/releases/download/0.9-14/ipred_0.9-14_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1690,21 +1689,20 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.782429650884127
-Dependencies: 0.268941421369995
 HasWebsite: 0
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: mvtnorm, mlbench, TH.data, randomForest, party
 Imports: rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim
+Dependencies: 0.268941421369995
 Os: darwin
 Arch: arm64
 
 Package: isoband
 Version: 0.2.7
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
-        testthat, xml2
 File: isoband_0.2.7_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/isoband/releases/download/0.2.7/isoband_0.2.7_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1728,6 +1726,8 @@ RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+        testthat, xml2
 Imports: grid, utils
 Os: darwin
 Arch: arm64
@@ -1736,7 +1736,6 @@ SystemRequirements: C++11
 Package: iterators
 Version: 1.0.14
 Depends: R (>= 2.5.0), utils, R (>= 4.4), R (< 4.4.99)
-Suggests: RUnit, foreach
 File: iterators_1.0.14_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/iterators/releases/download/1.0.14/iterators_1.0.14_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1760,11 +1759,11 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: RUnit, foreach
 
 Package: jquerylib
 Version: 0.1.4
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testthat
 File: jquerylib_0.1.4_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/jquerylib/releases/download/0.1.4/jquerylib_0.1.4_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1783,18 +1782,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.526652434048312
-Dependencies: 0.817574476193644
 HasWebsite: 0
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: testthat
 Imports: htmltools
+Dependencies: 0.817574476193644
 
 Package: lazyeval
 Version: 0.2.2
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Suggests: knitr, rmarkdown (>= 0.2.65), testthat, covr
 File: lazyeval_0.2.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/lazyeval/releases/download/0.2.2/lazyeval_0.2.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1813,19 +1812,19 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.971217287086383
-Dependencies: 0.880797077977882
 HasWebsite: 0
 RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: knitr, rmarkdown (>= 0.2.65), testthat, covr
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
 Package: lhs
 Version: 1.1.6
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat, assertthat, DoE.base, knitr, rmarkdown
 File: lhs_1.1.6_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/lhs/releases/download/1.1.6/lhs_1.1.6_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1844,13 +1843,14 @@ NewsCurrent: 0
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.945349326469709
-Dependencies: 0.731058578630005
 HasWebsite: 1
 RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: testthat, assertthat, DoE.base, knitr, rmarkdown
 Imports: Rcpp
+Dependencies: 0.731058578630005
 Os: darwin
 Arch: arm64
 LinkingTo: Rcpp
@@ -1858,7 +1858,6 @@ LinkingTo: Rcpp
 Package: magrittr
 Version: 2.0.3
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, knitr, rlang, rmarkdown, testthat
 File: magrittr_2.0.3_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/magrittr/releases/download/2.0.3/magrittr_2.0.3_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1877,20 +1876,19 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.999999999940177
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, knitr, rlang, rmarkdown, testthat
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
 Package: memoise
 Version: 2.0.1
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
-        testthat
 File: memoise_2.0.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/memoise/releases/download/2.0.1/memoise_2.0.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -1914,6 +1912,8 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
+        testthat
 Imports: rlang (>= 0.4.10), cachem
 
 Package: mime
@@ -1937,13 +1937,13 @@ NewsCurrent: 0
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.889291861570242
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Imports: tools
+Dependencies: 0.817574476193644
 Os: darwin
 Arch: arm64
 
@@ -1978,7 +1978,6 @@ Imports: shiny (>= 0.13), htmltools (>= 0.3), utils
 Package: modelenv
 Version: 0.1.1
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, testthat (>= 3.0.0)
 File: modelenv_0.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/modelenv/releases/download/0.1.1/modelenv_0.1.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2002,12 +2001,12 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, testthat (>= 3.0.0)
 Imports: glue, rlang, tibble, vctrs
 
 Package: modelr
 Version: 0.1.11
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-Suggests: compiler, covr, ggplot2, testthat (>= 3.0.0)
 File: modelr_0.1.11_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/modelr/releases/download/0.1.11/modelr_0.1.11_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2026,19 +2025,19 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.742960953010137
-Dependencies: 0.119202922022118
 HasWebsite: 1
 RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: compiler, covr, ggplot2, testthat (>= 3.0.0)
 Imports: broom, magrittr, purrr (>= 0.2.2), rlang (>= 1.0.6), tibble,
         tidyr (>= 0.8.0), tidyselect, vctrs
+Dependencies: 0.119202922022118
 
 Package: munsell
 Version: 0.5.0
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: ggplot2, testthat
 File: munsell_0.5.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/munsell/releases/download/0.5.0/munsell_0.5.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2062,12 +2061,12 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: ggplot2, testthat
 Imports: colorspace, methods
 
 Package: nloptr
 Version: 2.0.3
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr
 File: nloptr_2.0.3_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/nloptr/releases/download/2.0.3/nloptr_2.0.3_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2086,18 +2085,19 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.990909929975532
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 0.769230769230769
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr
+Dependencies: 0.817574476193644
 Os: darwin
 Arch: arm64
+LinkingTo: testthat
 SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or
         macOS systems when no system build of nlopt (>= 2.7.0) can be
         found.
-LinkingTo: testthat
 
 Package: numDeriv
 Version: 2016.8-1.1
@@ -2120,17 +2120,16 @@ NewsCurrent: 0
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.999804268301168
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Dependencies: 0.880797077977882
 
 Package: pbkrtest
 Version: 0.5.2
 Depends: R (>= 4.1.0), lme4 (>= 1.1.31), R (>= 4.4), R (< 4.4.99)
-Suggests: knitr
 File: pbkrtest_0.5.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/pbkrtest/releases/download/0.5.2/pbkrtest_0.5.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2149,22 +2148,19 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.821672085702747
-Dependencies: 0.119202922022118
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: knitr
 Imports: broom, dplyr, MASS, Matrix (>= 1.2.3), methods, numDeriv,
         parallel
+Dependencies: 0.119202922022118
 
 Package: pillar
 Version: 1.9.0
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2,
-        knitr, lubridate, nanotime, nycflights13, palmerpenguins,
-        rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
-        tibble, units (>= 0.7.2), vdiffr, withr
 File: pillar_1.9.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/pillar/releases/download/1.9.0/pillar_1.9.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2188,13 +2184,16 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+        knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+        rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+        tibble, units (>= 0.7.2), vdiffr, withr
 Imports: cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
         (>= 1.1.0), utils, vctrs (>= 0.5.0)
 
 Package: pkgconfig
 Version: 2.0.3
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, testthat, disposables (>= 1.0.3)
 File: pkgconfig_2.0.3_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/pkgconfig/releases/download/2.0.3/pkgconfig_2.0.3_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2213,20 +2212,18 @@ NewsCurrent: 0
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.59434719329332
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 1
+Suggests: covr, testthat, disposables (>= 1.0.3)
 Imports: utils
+Dependencies: 0.817574476193644
 
 Package: pkgdown
 Version: 2.0.7
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr,
-        lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect,
-        rstudioapi, rticles, sass, testthat (>= 3.1.3), tools
 File: pkgdown_2.0.7_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/pkgdown/releases/download/2.0.7/pkgdown_2.0.7_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2245,17 +2242,20 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.992778816217905
-Dependencies: 0.000335350130466372
 HasWebsite: 1
 RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr,
+        lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect,
+        rstudioapi, rticles, sass, testthat (>= 3.1.3), tools
 Imports: bslib (>= 0.3.1), callr (>= 3.7.3), cli, desc, digest, downlit
         (>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr,
         memoise, purrr, ragg, rlang (>= 1.0.0), rmarkdown (>=
         1.1.9007), tibble, whisker, withr (>= 2.4.3), xml2 (>= 1.3.1),
         yaml
+Dependencies: 0.000335350130466372
 SystemRequirements: pandoc
 
 Package: png
@@ -2279,12 +2279,12 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.999135101676474
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 SystemRequirements: libpng
@@ -2292,7 +2292,6 @@ SystemRequirements: libpng
 Package: praise
 Version: 1.0.0
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: testthat
 File: praise_1.0.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/praise/releases/download/1.0.0/praise_1.0.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2311,18 +2310,17 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.398689815024215
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: testthat
+Dependencies: 0.880797077977882
 
 Package: profvis
 Version: 0.3.8
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Suggests: knitr, ggplot2, rmarkdown, testthat (>= 3.0.0), devtools,
-        shiny, htmltools
 File: profvis_0.3.8_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/profvis/releases/download/0.3.8/profvis_0.3.8_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2341,21 +2339,22 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.631877179789804
-Dependencies: 0.377540668798145
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: knitr, ggplot2, rmarkdown, testthat (>= 3.0.0), devtools,
+        shiny, htmltools
 Imports: htmlwidgets (>= 0.3.2), purrr, rlang (>= 0.4.9), stringr,
         vctrs
+Dependencies: 0.377540668798145
 Os: darwin
 Arch: arm64
 
 Package: proxy
 Version: 0.4-27
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Suggests: cba
 File: proxy_0.4-27_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/proxy/releases/download/0.4-27/proxy_0.4-27_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2374,20 +2373,20 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.96128683177189
-Dependencies: 0.731058578630005
 HasWebsite: 0
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: cba
 Imports: stats, utils
+Dependencies: 0.731058578630005
 Os: darwin
 Arch: arm64
 
 Package: randomForest
 Version: 4.7-1.1
 Depends: R (>= 4.1.0), stats, R (>= 4.4), R (< 4.4.99)
-Suggests: RColorBrewer, MASS
 File: randomForest_4.7-1.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/randomForest/releases/download/4.7-1.1/randomForest_4.7-1.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2411,13 +2410,13 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: RColorBrewer, MASS
 Os: darwin
 Arch: arm64
 
 Package: rappdirs
 Version: 0.3.3
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
 File: rappdirs_0.3.3_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/rappdirs/releases/download/0.3.3/rappdirs_0.3.3_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2436,20 +2435,19 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.989655217766781
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
 Package: rcmdcheck
 Version: 1.4.0
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, knitr, mockery, processx, ps, rmarkdown, svglite,
-        testthat, webfakes
 File: rcmdcheck_1.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/rcmdcheck/releases/download/1.4.0/rcmdcheck_1.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2473,6 +2471,8 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, knitr, mockery, processx, ps, rmarkdown, svglite,
+        testthat, webfakes
 Imports: callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0),
         digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>=
         1.1.1), utils, withr, xopen
@@ -2480,7 +2480,6 @@ Imports: callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0),
 Package: rematch2
 Version: 2.1.2
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, testthat
 File: rematch2_2.1.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/rematch2/releases/download/2.1.2/rematch2_2.1.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2499,18 +2498,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.59434719329332
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, testthat
 Imports: tibble
+Dependencies: 0.817574476193644
 
 Package: reshape2
 Version: 1.4.4
 Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, lattice, testthat (>= 0.8.0)
 File: reshape2_1.4.4_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/reshape2/releases/download/1.4.4/reshape2_1.4.4_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2529,13 +2528,14 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.999999674062664
-Dependencies: 0.5
 HasWebsite: 1
 RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, lattice, testthat (>= 0.8.0)
 Imports: plyr (>= 1.8.1), Rcpp, stringr
+Dependencies: 0.5
 Os: darwin
 Arch: arm64
 LinkingTo: Rcpp
@@ -2543,7 +2543,6 @@ LinkingTo: Rcpp
 Package: rversions
 Version: 2.1.2
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: covr, mockery, testthat
 File: rversions_2.1.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/rversions/releases/download/2.1.2/rversions_2.1.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2567,12 +2566,12 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, mockery, testthat
 Imports: curl, utils, xml2 (>= 1.0.0)
 
 Package: selectr
 Version: 0.4-2
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat, XML, xml2
 File: selectr_0.4-2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/selectr/releases/download/0.4-2/selectr_0.4-2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2591,18 +2590,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.551032098662781
-Dependencies: 0.622459331201855
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: testthat, XML, xml2
 Imports: methods, stringr, R6
+Dependencies: 0.622459331201855
 
 Package: sessioninfo
 Version: 1.2.2
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-Suggests: callr, covr, mockery, reticulate, rmarkdown, testthat, withr
 File: sessioninfo_1.2.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/sessioninfo/releases/download/1.2.2/sessioninfo_1.2.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2621,19 +2620,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.945349326469709
-Dependencies: 0.622459331201855
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: callr, covr, mockery, reticulate, rmarkdown, testthat, withr
 Imports: cli (>= 3.1.0), tools, utils
+Dependencies: 0.622459331201855
 
 Package: shinyjs
 Version: 2.1.0
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-Suggests: htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce,
-        shinydisconnect, testthat (>= 0.9.1)
 File: shinyjs_2.1.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/shinyjs/releases/download/2.1.0/shinyjs_2.1.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2652,20 +2650,19 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.998837447330253
-Dependencies: 0.622459331201855
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce,
+        shinydisconnect, testthat (>= 0.9.1)
 Imports: digest (>= 0.6.8), jsonlite, shiny (>= 1.0.0)
+Dependencies: 0.622459331201855
 
 Package: shinystan
 Version: 2.6.0
 Depends: R (>= 3.1.0), shiny (>= 1.0.3), R (>= 4.4), R (< 4.4.99)
-Suggests: cmdstanr (>= 0.4.0), coda, knitr (>= 1.9), posterior (>=
-        1.0.0), rmarkdown (>= 0.8.1), rsconnect (>= 0.4.2), rstanarm
-        (>= 2.17.4), testthat
 File: shinystan_2.6.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/shinystan/releases/download/2.6.0/shinystan_2.6.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2684,17 +2681,20 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.59434719329332
-Dependencies: 0.000552778636923601
 HasWebsite: 1
 RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: cmdstanr (>= 0.4.0), coda, knitr (>= 1.9), posterior (>=
+        1.0.0), rmarkdown (>= 0.8.1), rsconnect (>= 0.4.2), rstanarm
+        (>= 2.17.4), testthat
 Imports: bayesplot (>= 1.5.0), colourpicker, DT (>= 0.2), dygraphs (>=
         1.1.1.2), ggplot2 (>= 2.1.1), gridExtra, gtools, markdown (>=
         0.7.4), methods, reshape2, rstan (>= 2.17.1), stats, shinyjs
         (>= 0.6.0), shinythemes (>= 1.0.1), threejs (>= 0.2.1), utils,
         xtable, xts (>= 0.9-7)
+Dependencies: 0.000552778636923601
 
 Package: shinythemes
 Version: 1.2.0
@@ -2717,18 +2717,17 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.976561227841798
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
 Imports: shiny (>= 0.11)
+Dependencies: 0.817574476193644
 
 Package: sourcetools
 Version: 0.1.7-1
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-Suggests: testthat
 File: sourcetools_0.1.7-1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/sourcetools/releases/download/0.1.7-1/sourcetools_0.1.7-1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2747,19 +2746,19 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.470525714569983
-Dependencies: 0.880797077977882
 HasWebsite: 0
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: testthat
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
 Package: sys
 Version: 3.4.2
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: unix (>= 1.4), spelling, testthat
 File: sys_3.4.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/sys/releases/download/3.4.2/sys_3.4.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2778,19 +2777,19 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.828431054367907
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 0.942307692307692
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: unix (>= 1.4), spelling, testthat
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
 Package: threejs
 Version: 0.3.3
 Depends: R (>= 3.0.0), igraph (>= 1.0.0), R (>= 4.4), R (< 4.4.99)
-Suggests: maps
 File: threejs_0.3.3_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/threejs/releases/download/0.3.3/threejs_0.3.3_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2809,23 +2808,19 @@ NewsCurrent: 0
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.551032098662781
-Dependencies: 0.268941421369995
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
+Suggests: maps
 Imports: htmlwidgets (>= 0.3.2), base64enc, crosstalk, methods, stats
+Dependencies: 0.268941421369995
 Enhances: knitr, shiny
 
 Package: tibble
 Version: 3.2.1
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>=
-        1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2,
-        here, hms, htmltools, knitr, lubridate, mockr, nycflights13,
-        pkgbuild, pkgload, purrr, rmarkdown, stringi, testthat (>=
-        3.0.2), tidyr, withr
 File: tibble_3.2.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/tibble/releases/download/3.2.1/tibble_3.2.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2844,24 +2839,26 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.999999999502199
-Dependencies: 0.0758581800212434
 HasWebsite: 1
 RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>=
+        1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2,
+        here, hms, htmltools, knitr, lubridate, mockr, nycflights13,
+        pkgbuild, pkgload, purrr, rmarkdown, stringi, testthat (>=
+        3.0.2), tidyr, withr
 Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
         pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs
         (>= 0.4.2)
+Dependencies: 0.0758581800212434
 Os: darwin
 Arch: arm64
 
 Package: tidyverse
 Version: 2.0.0
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
-Suggests: covr (>= 3.6.1), feather (>= 0.3.5), glue (>= 1.6.2), mockr
-        (>= 0.2.0), knitr (>= 1.41), rmarkdown (>= 2.20), testthat (>=
-        3.1.6)
 File: tidyverse_2.0.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/tidyverse/releases/download/2.0.0/tidyverse_2.0.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2880,12 +2877,14 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.997823057044393
-Dependencies: 2.26032429795353e-06
 HasWebsite: 1
 RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr (>= 3.6.1), feather (>= 0.3.5), glue (>= 1.6.2), mockr
+        (>= 0.2.0), knitr (>= 1.41), rmarkdown (>= 2.20), testthat (>=
+        3.1.6)
 Imports: broom (>= 1.0.3), conflicted (>= 1.2.0), cli (>= 3.6.0),
         dbplyr (>= 2.3.0), dplyr (>= 1.1.0), dtplyr (>= 1.2.2), forcats
         (>= 1.0.0), ggplot2 (>= 3.4.1), googledrive (>= 2.0.0),
@@ -2896,6 +2895,7 @@ Imports: broom (>= 1.0.3), conflicted (>= 1.2.0), cli (>= 3.6.0),
         1.4.2), reprex (>= 2.0.2), rlang (>= 1.0.6), rstudioapi (>=
         0.14), rvest (>= 1.0.3), stringr (>= 1.5.0), tibble (>= 3.1.8),
         tidyr (>= 1.3.0), xml2 (>= 1.3.3)
+Dependencies: 2.26032429795353e-06
 
 Package: tinytest
 Version: 1.4.1
@@ -2918,13 +2918,13 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 1
 ReverseDependencies: 0.999210500725553
-Dependencies: 0.731058578630005
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Imports: parallel, utils
+Dependencies: 0.731058578630005
 
 Package: tripack
 Version: 1.3-9.1
@@ -2947,19 +2947,18 @@ NewsCurrent: 0
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.398689815024215
-Dependencies: 0.880797077977882
 HasWebsite: 0
 RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
+Dependencies: 0.880797077977882
 Os: darwin
 Arch: arm64
 
 Package: tzdb
 Version: 0.4.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-Suggests: covr, testthat (>= 3.0.0)
 File: tzdb_0.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/tzdb/releases/download/0.4.0/tzdb_0.4.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -2978,12 +2977,13 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.5
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr, testthat (>= 3.0.0)
+Dependencies: 0.817574476193644
 Os: darwin
 Arch: arm64
 LinkingTo: cpp11 (>= 0.4.2)
@@ -2991,7 +2991,6 @@ LinkingTo: cpp11 (>= 0.4.2)
 Package: urlchecker
 Version: 1.0.1
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
-Suggests: covr
 File: urlchecker_1.0.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/urlchecker/releases/download/1.0.1/urlchecker_1.0.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -3010,18 +3009,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.350228721939924
-Dependencies: 0.5
 HasWebsite: 1
 RemoteChecks: 0.942307692307692
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: covr
 Imports: cli, curl, tools, xml2
+Dependencies: 0.5
 
 Package: viridisLite
 Version: 0.4.2
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-Suggests: hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr
 File: viridisLite_0.4.2_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/viridisLite/releases/download/0.4.2/viridisLite_0.4.2_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -3040,17 +3039,17 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.979805939631175
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr
+Dependencies: 0.880797077977882
 
 Package: whisker
 Version: 0.4.1
 Depends: R (>= 4.4), R (< 4.4.99)
-Suggests: markdown
 File: whisker_0.4.1_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/whisker/releases/download/0.4.1/whisker_0.4.1_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -3069,17 +3068,17 @@ NewsCurrent: 0
 HasVignettes: 0
 HasBugReportsUrl: 0
 ReverseDependencies: 0.930219453011028
-Dependencies: 0.880797077977882
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: markdown
+Dependencies: 0.880797077977882
 
 Package: xopen
 Version: 1.0.0
 Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
-Suggests: ps, testthat
 File: xopen_1.0.0_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/xopen/releases/download/1.0.0/xopen_1.0.0_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -3098,18 +3097,18 @@ NewsCurrent: 1
 HasVignettes: 0
 HasBugReportsUrl: 1
 ReverseDependencies: 0.350228721939924
-Dependencies: 0.817574476193644
 HasWebsite: 1
 RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
+Suggests: ps, testthat
 Imports: processx
+Dependencies: 0.817574476193644
 
 Package: xtable
 Version: 1.8-4
 Depends: R (>= 2.10.0), R (>= 4.4), R (< 4.4.99)
-Suggests: knitr, plm, zoo, survival
 File: xtable_1.8-4_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/xtable/releases/download/1.8-4/xtable_1.8-4_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -3128,19 +3127,18 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.999256668246828
-Dependencies: 0.731058578630005
 HasWebsite: 1
 RemoteChecks: 0.884615384615385
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: knitr, plm, zoo, survival
 Imports: stats, utils
+Dependencies: 0.731058578630005
 
 Package: zoo
 Version: 1.8-12
 Depends: R (>= 3.1.0), stats, R (>= 4.4), R (< 4.4.99)
-Suggests: AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
-        stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts
 File: zoo_1.8-12_b1_R4.4_aarch64-apple-darwin20.tgz
 DownloadUrl:
         https://github.com/cran/zoo/releases/download/1.8-12/zoo_1.8-12_b1_R4.4_aarch64-apple-darwin20.tgz
@@ -3159,12 +3157,14 @@ NewsCurrent: 1
 HasVignettes: 1
 HasBugReportsUrl: 0
 ReverseDependencies: 0.99996054444529
-Dependencies: 0.377540668798145
 HasWebsite: 1
 RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
+Suggests: AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
+        stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts
 Imports: utils, graphics, grDevices, lattice (>= 0.20-27)
+Dependencies: 0.377540668798145
 Os: darwin
 Arch: arm64
