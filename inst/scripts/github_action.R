@@ -66,9 +66,13 @@ get_package_scores <- function(packages, limit) {
   }) |>
     purrr::map_dfr(function(ref) {
       cli::cli_progress_update(1, status = ref$name, id = progress_bar_id)
-      suppressMessages(riskmetric::pkg_assess(ref)) |>
-        riskmetric::pkg_score() |>
-        tibble::as_tibble() |>
+      score <- suppressMessages(riskmetric::pkg_assess(ref)) |>
+        riskmetric::pkg_score()
+      saveRDS(
+        score,
+        file.path("inst", "scores", paste0(ref$name, "_", ref$version, ".rds"))
+      )
+      tibble::as_tibble(score) |>
         dplyr::mutate(Package = ref$name, Version = ref$version) |>
         dplyr::mutate(dplyr::across(dplyr::everything(), as.character))
     })
@@ -109,4 +113,4 @@ main <- function(limit = NULL) {
   )
 }
 
-main(20)
+main(2)
