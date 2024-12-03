@@ -1,3 +1,22 @@
+Package: BH
+Version: 1.84.0-0
+Depends: R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2024-01-10 16:37:46 UTC; unix
+Filesize: 13028890
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: BH_1.84.0-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+License: BSL-1.0
+DownloadURL:
+        https://github.com/cran/BH/releases/download/1.84.0-0/BH_1.84.0-0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        56e409294889e0db7fdff7d1448336a94302fe849cafcc8d4300912f3a3c79a4
+GraphicsAPIVersion: 16
+downloads_1yr: 0.95067407169425
+reverse_dependencies: 0.99981411750487
+dependencies: 0.880797077977882
+
 Package: DiceDesign
 Version: 1.10
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
@@ -23,17 +42,17 @@ dependencies: 0.880797077977882
 Package: Formula
 Version: 1.2-5
 Depends: R (>= 2.0.0), stats, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/Formula/releases/download/1.2-5/Formula_1.2-5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:52:38 UTC; unix
 Filesize: 158805
-Sha256:
-        73946b60a73572424e742031630ce5de5a031c30871300f57a37df46b8e582a3
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: Formula_1.2-5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/Formula/releases/download/1.2-5/Formula_1.2-5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        73946b60a73572424e742031630ce5de5a031c30871300f57a37df46b8e582a3
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.45489651138322
@@ -50,17 +69,18 @@ HasSourceControl: 0
 Package: GPfit
 Version: 1.0-8
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/GPfit/releases/download/1.0-8/GPfit_1.0-8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:47:23 UTC; unix
 Filesize: 75217
-Sha256:
-        74ad8089b7e2ed5074418a6aadc6c9a3d5bfbe3e96c7b734c37a352a212e7228
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: GPfit_1.0-8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat
+DownloadUrl:
+        https://github.com/cran/GPfit/releases/download/1.0-8/GPfit_1.0-8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        74ad8089b7e2ed5074418a6aadc6c9a3d5bfbe3e96c7b734c37a352a212e7228
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.597902097902098
@@ -73,7 +93,6 @@ RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: testthat
 Imports: lhs (>= 0.5), lattice (>= 0.18-8)
 
 Package: KernSmooth
@@ -98,6 +117,54 @@ downloads_1yr: 0.815471599233838
 reverse_dependencies: 0.99421651207678
 OS: linux
 
+Package: MASS
+Version: 7.3-60.2
+Depends: R (>= 4.4.0), grDevices, graphics, stats, utils, R (>= 4.4), R
+        (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 09:35:18 UTC; unix
+Filesize: 1164446
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: MASS_7.3-60.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: lattice, nlme, nnet, survival
+Arch: amd64
+License: GPL-2 | GPL-3
+DownloadURL:
+        https://github.com/cran/MASS/releases/download/7.3-60.2/MASS_7.3-60.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        efcbd060f07b9a1df0eba5ec133062655b462e4d05dd7dab064c8f76f45d47e2
+GraphicsAPIVersion: 16
+downloads_1yr: 0.946870344513938
+reverse_dependencies: 0.999999999990521
+OS: linux
+dependencies: 0.377540668798145
+Imports: methods
+
+Package: Matrix
+Version: 1.6-5
+Depends: R (>= 3.5.0), methods, R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-12 16:37:33 UTC; unix
+Filesize: 6087870
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: Matrix_1.6-5_b8_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: MASS, datasets, sfsmisc, tools
+Arch: amd64
+License: GPL (>= 2) | file LICENCE
+DownloadURL:
+        https://github.com/cran/Matrix/releases/download/1.6-5/Matrix_1.6-5_b8_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        b9e0ae598d2f950b3fe9b7400c7da6b5351b90113206cb9bb0fa3a6e42ca2e20
+GraphicsAPIVersion: 16
+downloads_1yr: 0.933392362501854
+reverse_dependencies: 0.999999998952082
+OS: linux
+dependencies: 0.182425523806356
+Imports: grDevices, graphics, grid, lattice, stats, utils
+Enhances: SparseM, graph
+
 Package: MatrixModels
 Version: 0.5-3
 Depends: R (>= 3.6.0), R (>= 4.4), R (< 4.4.99)
@@ -108,7 +175,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File:
         MatrixModels_0.5-3_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: stats, methods, Matrix (>= 1.6-0)
 License: GPL (>= 2)
 DownloadURL:
         https://github.com/cran/MatrixModels/releases/download/0.5-3/MatrixModels_0.5-3_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -118,22 +184,25 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.970841604598162
 reverse_dependencies: 0.693908851262436
 dependencies: 0.622459331201855
+Imports: stats, methods, Matrix (>= 1.6-0)
 
 Package: ModelMetrics
 Version: 1.2.2.2
 Depends: R (>= 3.2.2), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/ModelMetrics/releases/download/1.2.2.2/ModelMetrics_1.2.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:45:46 UTC; unix
 Filesize: 1090639
-Sha256:
-        453876817a165c7385fd87be04d63625290b42ba4f4f4f6a03b6625f6982b5c9
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File:
         ModelMetrics_1.2.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/ModelMetrics/releases/download/1.2.2.2/ModelMetrics_1.2.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        453876817a165c7385fd87be04d63625290b42ba4f4f4f6a03b6625f6982b5c9
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.614890017903933
@@ -146,9 +215,7 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: testthat
 Imports: Rcpp, data.table
-Arch: amd64
 Os: linux
 Dependencies: 0.622459331201855
 LinkingTo: Rcpp
@@ -156,17 +223,17 @@ LinkingTo: Rcpp
 Package: R.cache
 Version: 0.16.0
 Depends: R (>= 2.14.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/R.cache/releases/download/0.16.0/R.cache_0.16.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 16:48:29 UTC; unix
 Filesize: 109794
-Sha256:
-        6c156493d38355ab786869232b4e0dfc121bb947366c95f3258f70a16314fd6b
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: R.cache_0.16.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/R.cache/releases/download/0.16.0/R.cache_0.16.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        6c156493d38355ab786869232b4e0dfc121bb947366c95f3258f70a16314fd6b
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.260803224702227
@@ -186,17 +253,18 @@ Dependencies: 0.377540668798145
 Package: R.methodsS3
 Version: 1.8.2
 Depends: R (>= 2.13.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/R.methodsS3/releases/download/1.8.2/R.methodsS3_1.8.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 16:40:12 UTC; unix
 Filesize: 81611
-Sha256:
-        c8ca4178192bb746ac79a90ac95ab61a990f567d8ea7607f162f3200cad02b04
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: R.methodsS3_1.8.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: codetools
+DownloadUrl:
+        https://github.com/cran/R.methodsS3/releases/download/1.8.2/R.methodsS3_1.8.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        c8ca4178192bb746ac79a90ac95ab61a990f567d8ea7607f162f3200cad02b04
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.213999497221677
@@ -209,7 +277,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: codetools
 Imports: utils
 Dependencies: 0.817574476193644
 
@@ -223,7 +290,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: R.utils_2.12.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: datasets, digest (>= 0.6.10)
-Imports: methods, utils, tools, R.methodsS3
 License: LGPL (>= 2.1)
 DownloadURL:
         https://github.com/cran/R.utils/releases/download/2.12.3/R.utils_2.12.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -233,21 +299,23 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.935246189669954
 reverse_dependencies: 0.999387077651422
 dependencies: 0.377540668798145
+Imports: methods, utils, tools, R.methodsS3
 
 Package: R6
 Version: 2.5.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/R6/releases/download/2.5.1/R6_2.5.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-19 13:20:20 UTC; unix
 Filesize: 82804
-Sha256:
-        8a2316d7dd4ff917e07511d6cdff5b99d34d78755cd1d3c83ca39f8b20a74f0f
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: R6_2.5.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat, pryr
+DownloadUrl:
+        https://github.com/cran/R6/releases/download/2.5.1/R6_2.5.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        8a2316d7dd4ff917e07511d6cdff5b99d34d78755cd1d3c83ca39f8b20a74f0f
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.192657918724351
@@ -260,24 +328,23 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: testthat, pryr
 Dependencies: 0.880797077977882
 
 Package: RColorBrewer
 Version: 1.1-3
 Depends: R (>= 2.0.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/RColorBrewer/releases/download/1.1-3/RColorBrewer_1.1-3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-20 13:55:52 UTC; unix
 Filesize: 53589
-Sha256:
-        b0083696a48078c37e7eb05182c823901bd12f84f2c5dedcf51b1acd4274d510
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File:
         RColorBrewer_1.1-3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/RColorBrewer/releases/download/1.1-3/RColorBrewer_1.1-3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        b0083696a48078c37e7eb05182c823901bd12f84f2c5dedcf51b1acd4274d510
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.647200352132763
@@ -292,21 +359,45 @@ HasNews: 0
 HasSourceControl: 0
 Dependencies: 0.880797077977882
 
+Package: Rcpp
+Version: 1.0.12
+Depends: R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-09 16:38:37 UTC; unix
+Filesize: 3734940
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: Rcpp_1.0.12_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+Arch: amd64
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/Rcpp/releases/download/1.0.12/Rcpp_1.0.12_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        5cfe7062c3f6ac59654053fec586fb6df4e09cfa60e29c94825a05d2e8bece98
+GraphicsAPIVersion: 16
+downloads_1yr: 0.990191469704294
+reverse_dependencies: 0.999999999998783
+OS: linux
+Imports: methods, utils
+
 Package: RcppParallel
 Version: 5.1.7
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/RcppParallel/releases/download/5.1.7/RcppParallel_5.1.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-23 20:38:33 UTC; unix
 Filesize: 1881459
-Sha256:
-        63a49b0eab807c5e33958403cab02ac40eac67296fae129e4861b39ab35e2faa
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File:
         RcppParallel_5.1.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Rcpp, RUnit, knitr, rmarkdown
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/RcppParallel/releases/download/5.1.7/RcppParallel_5.1.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        63a49b0eab807c5e33958403cab02ac40eac67296fae129e4861b39ab35e2faa
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.215630493323018
@@ -319,8 +410,6 @@ RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: Rcpp, RUnit, knitr, rmarkdown
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 
@@ -334,7 +423,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: Rdpack_2.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: grDevices, testthat, rstudioapi, rprojroot, gbRd
-Imports: tools, utils, rbibutils (>= 1.3)
 License: GPL (>= 2)
 DownloadURL:
         https://github.com/cran/Rdpack/releases/download/2.6/Rdpack_2.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -344,21 +432,23 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.857768135510935
 reverse_dependencies: 0.999935726291688
 dependencies: 0.5
+Imports: tools, utils, rbibutils (>= 1.3)
 
 Package: SQUAREM
 Version: 2021.1
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/SQUAREM/releases/download/2021.1/SQUAREM_2021.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:45:10 UTC; unix
 Filesize: 177815
-Sha256:
-        8fd3bf97a480971ba0795d4a90dcb4829c9c5143d85858706422832f7a24a94e
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: SQUAREM_2021.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: setRNG
+DownloadUrl:
+        https://github.com/cran/SQUAREM/releases/download/2021.1/SQUAREM_2021.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        8fd3bf97a480971ba0795d4a90dcb4829c9c5143d85858706422832f7a24a94e
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.40639512497085
@@ -371,23 +461,23 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: setRNG
 Dependencies: 0.880797077977882
 
 Package: SparseM
 Version: 1.81
 Depends: R (>= 2.15), methods, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/SparseM/releases/download/1.81/SparseM_1.81_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:39:37 UTC; unix
 Filesize: 1115187
-Sha256:
-        cf8950fa065b139fc19007df986f13d39da5421f5e80cd0a105f68772c8c7a7d
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: SparseM_1.81_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/SparseM/releases/download/1.81/SparseM_1.81_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        cf8950fa065b139fc19007df986f13d39da5421f5e80cd0a105f68772c8c7a7d
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.507440721592132
@@ -401,24 +491,23 @@ HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
 Imports: graphics, stats, utils
-Arch: amd64
 Os: linux
 Dependencies: 0.5
 
 Package: abind
 Version: 1.4-5
 Depends: R (>= 1.5.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/abind/releases/download/1.4-5/abind_1.4-5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 16:39:14 UTC; unix
 Filesize: 61929
-Sha256:
-        69e6a3ce83b8d8c4256d46efcd47d8c32acb5f229d5976ff012278bc5a6b1839
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: abind_1.4-5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/abind/releases/download/1.4-5/abind_1.4-5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        69e6a3ce83b8d8c4256d46efcd47d8c32acb5f229d5976ff012278bc5a6b1839
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.660880432102106
@@ -437,17 +526,19 @@ Dependencies: 0.731058578630005
 Package: ape
 Version: 5.7-1
 Depends: R (>= 3.2.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/ape/releases/download/5.7-1/ape_5.7-1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:40:41 UTC; unix
 Filesize: 3818491
-Sha256:
-        30fa788a5275bfe3fa7f15c61ed5a6239dec5ddef584ebb439efcf314249000e
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: ape_5.7-1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: gee, expm, igraph, phangorn
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/ape/releases/download/5.7-1/ape_5.7-1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        30fa788a5275bfe3fa7f15c61ed5a6239dec5ddef584ebb439efcf314249000e
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.273676844434838
@@ -460,10 +551,8 @@ RemoteChecks: 0.942307692307692
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: gee, expm, igraph, phangorn
 Imports: nlme, lattice, graphics, methods, stats, utils, parallel, Rcpp
         (>= 0.12.0), digest
-Arch: amd64
 Os: linux
 Dependencies: 0.0474258731775666
 LinkingTo: Rcpp
@@ -478,7 +567,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: askpass_1.2.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
-Imports: sys (>= 2.1)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -490,6 +578,7 @@ downloads_1yr: 0.981624715688413
 reverse_dependencies: 0.807131153382682
 OS: linux
 dependencies: 0.817574476193644
+Imports: sys (>= 2.1)
 has_news: 0
 news_current: 0
 has_vignettes: 0
@@ -504,17 +593,18 @@ has_examples: 1
 Package: assertthat
 Version: 0.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/assertthat/releases/download/0.2.1/assertthat_0.2.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 16:39:16 UTC; unix
 Filesize: 53870
-Sha256:
-        79b1df372e5ab13d17eba0d609c2f238b83b0fde322046b888959373281eee7f
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: assertthat_0.2.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat, covr
+DownloadUrl:
+        https://github.com/cran/assertthat/releases/download/0.2.1/assertthat_0.2.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        79b1df372e5ab13d17eba0d609c2f238b83b0fde322046b888959373281eee7f
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.652969140158519
@@ -527,24 +617,24 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
-Suggests: testthat, covr
 Imports: tools
 Dependencies: 0.817574476193644
 
 Package: backports
 Version: 1.4.1
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/backports/releases/download/1.4.1/backports_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:36:55 UTC; unix
 Filesize: 99963
-Sha256:
-        d5289b4a048d2a54cbad690c5bfb924d81fdcdc2023901962e5b51f3d40c6179
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: backports_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/backports/releases/download/1.4.1/backports_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        d5289b4a048d2a54cbad690c5bfb924d81fdcdc2023901962e5b51f3d40c6179
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.20114324942042
@@ -557,24 +647,24 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 
 Package: base64enc
 Version: 0.1-3
 Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/base64enc/releases/download/0.1-3/base64enc_0.1-3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:20:20 UTC; unix
 Filesize: 36822
-Sha256:
-        2bfd5994c75033408ad7b3ac387ca61438c930f3846582cbbd2f755f336d74f5
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: base64enc_0.1-3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/base64enc/releases/download/0.1-3/base64enc_0.1-3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        2bfd5994c75033408ad7b3ac387ca61438c930f3846582cbbd2f755f336d74f5
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.37890993115608
@@ -587,7 +677,6 @@ RemoteChecks: 0.961538461538462
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 Enhances: png
@@ -595,17 +684,20 @@ Enhances: png
 Package: bit
 Version: 4.0.5
 Depends: R (>= 2.9.2), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/bit/releases/download/4.0.5/bit_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:36:55 UTC; unix
 Filesize: 1251263
-Sha256:
-        7924f29622e46b2bcce1bb2af61ba3f39f1fb54a933014f8984622e97f0fa6b0
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: bit_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
+        microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/bit/releases/download/4.0.5/bit_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        7924f29622e46b2bcce1bb2af61ba3f39f1fb54a933014f8984622e97f0fa6b0
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.223127887334593
@@ -618,9 +710,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
-        microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 
@@ -628,17 +717,18 @@ Package: bit64
 Version: 4.0.5
 Depends: R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats, R (>=
         4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/bit64/releases/download/4.0.5/bit64_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:38:06 UTC; unix
 Filesize: 578074
-Sha256:
-        5d8ca681a0284c2429551e45dc6a0b1e88c494551e02ce4cfe6f4508e3180ea4
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: bit64_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/bit64/releases/download/4.0.5/bit64_4.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        5d8ca681a0284c2429551e45dc6a0b1e88c494551e02ce4cfe6f4508e3180ea4
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.366185521569222
@@ -651,23 +741,23 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Arch: amd64
 Os: linux
 
 Package: blob
 Version: 1.2.4
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/blob/releases/download/1.2.4/blob_1.2.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:37:09 UTC; unix
 Filesize: 46539
-Sha256:
-        e6453acf42f95dcc378d117a9d03325e7dd75b469da118b80283cb628e72f761
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: blob_1.2.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, crayon, pillar (>= 1.2.1), testthat
+DownloadUrl:
+        https://github.com/cran/blob/releases/download/1.2.4/blob_1.2.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        e6453acf42f95dcc378d117a9d03325e7dd75b469da118b80283cb628e72f761
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.295125103683877
@@ -680,8 +770,27 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, crayon, pillar (>= 1.2.1), testthat
 Imports: methods, rlang, vctrs (>= 0.2.1)
+
+Package: brew
+Version: 1.0-10
+Depends: R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-12-16 16:34:22 UTC; unix
+Filesize: 77030
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: brew_1.0-10_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 3.0.0)
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/brew/releases/download/1.0-10/brew_1.0-10_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        4a53b6d5403f9eed9af8c715b42979af594febc5fbc4aa0ed1284d9d02d5c10e
+GraphicsAPIVersion: 16
+downloads_1yr: 0.926452778270817
+reverse_dependencies: 0.753623859477356
+dependencies: 0.880797077977882
 
 Package: brio
 Version: 1.1.4
@@ -708,29 +817,12 @@ dependencies: 0.880797077977882
 Package: broom
 Version: 1.0.5
 Depends: R (>= 3.5), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/broom/releases/download/1.0.5/broom_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:38:06 UTC; unix
 Filesize: 1856237
-Sha256:
-        4af1da00526292c565a913868b4c392e5e9a2d473d1f12067dcd1a76ad464c60
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: broom_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-RiskmetricRunDate: 2023-06-21
-RiskmetricVersion: 0.2.1
-PkgScore: 0.181021789619762
-NewsCurrent: 1
-HasVignettes: 1
-HasBugReportsUrl: 1
-ReverseDependencies: 0.998678852662035
-HasWebsite: 1
-RemoteChecks: 0.980769230769231
-HasMaintainer: 1
-HasNews: 1
-HasSourceControl: 1
 Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>=
         1.10.6), car, carData, caret, cluster, cmprsk, coda, covr, drc,
         e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0), gam
@@ -743,6 +835,23 @@ Suggests: AER, AUC, bbmle, betareg, biglm, binGroup, boot, btergm (>=
         rmarkdown, robust, robustbase, rsample, sandwich, sp, spdep (>=
         1.1), spatialreg, speedglm, spelling, survey, survival,
         systemfit, testthat (>= 2.1.0), tseries, vars, zoo
+DownloadUrl:
+        https://github.com/cran/broom/releases/download/1.0.5/broom_1.0.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        4af1da00526292c565a913868b4c392e5e9a2d473d1f12067dcd1a76ad464c60
+GraphicsApiVersion: 16
+RiskmetricRunDate: 2023-06-21
+RiskmetricVersion: 0.2.1
+PkgScore: 0.181021789619762
+NewsCurrent: 1
+HasVignettes: 1
+HasBugReportsUrl: 1
+ReverseDependencies: 0.998678852662035
+HasWebsite: 1
+RemoteChecks: 0.980769230769231
+HasMaintainer: 1
+HasNews: 1
+HasSourceControl: 1
 Imports: backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2),
         glue, lifecycle, purrr, rlang, stringr, tibble (>= 3.0.0),
         tidyr (>= 1.0.0)
@@ -751,17 +860,19 @@ Dependencies: 0.0293122307513564
 Package: cachem
 Version: 1.0.8
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/cachem/releases/download/1.0.8/cachem_1.0.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:25:41 UTC; unix
 Filesize: 69447
-Sha256:
-        834c5fc5e577423e47e381a40d4c8d4cbe209dc6a452e2858da7b93146f84980
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: cachem_1.0.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/cachem/releases/download/1.0.8/cachem_1.0.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        834c5fc5e577423e47e381a40d4c8d4cbe209dc6a452e2858da7b93146f84980
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.394109439878036
@@ -774,25 +885,26 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: testthat
 Imports: rlang, fastmap (>= 1.1.1)
-Arch: amd64
 Os: linux
 
 Package: car
 Version: 3.1-2
 Depends: R (>= 3.5.0), carData (>= 3.0-0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/car/releases/download/3.1-2/car_3.1-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 16:51:07 UTC; unix
 Filesize: 1710370
-Sha256:
-        ce5613a12f6b8b91a57164059f5451c0a5609cd2643df2c54228df5710200eee
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: car_3.1-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix,
+        MatrixModels, mvtnorm, rgl (>= 0.111.3), rio, sandwich,
+        SparseM, survival, survey
+DownloadUrl:
+        https://github.com/cran/car/releases/download/3.1-2/car_3.1-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        ce5613a12f6b8b91a57164059f5451c0a5609cd2643df2c54228df5710200eee
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.36656069568152
@@ -805,9 +917,6 @@ RemoteChecks: 0.961538461538462
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix,
-        MatrixModels, mvtnorm, rgl (>= 0.111.3), rio, sandwich,
-        SparseM, survival, survey
 Imports: abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg,
         grDevices, utils, stats, graphics, lme4 (>= 1.1-27.1), nlme,
         scales
@@ -816,17 +925,18 @@ Dependencies: 0.00669285092428473
 Package: carData
 Version: 3.0-5
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/carData/releases/download/3.0-5/carData_3.0-5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 16:39:28 UTC; unix
 Filesize: 1822231
-Sha256:
-        47d154748125d447a86e59b28929508aef00906c1dd3f7f7454005b81d0e2b06
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: carData_3.0-5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: car (>= 3.0-0)
+DownloadUrl:
+        https://github.com/cran/carData/releases/download/3.0-5/carData_3.0-5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        47d154748125d447a86e59b28929508aef00906c1dd3f7f7454005b81d0e2b06
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.410200368150508
@@ -839,24 +949,30 @@ RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: car (>= 3.0-0)
 Dependencies: 0.880797077977882
 
 Package: caret
 Version: 6.0-94
 Depends: ggplot2, lattice (>= 0.20), R (>= 3.2.0), R (>= 4.4), R (<
         4.4.99)
-DownloadUrl:
-        https://github.com/cran/caret/releases/download/6.0-94/caret_6.0-94_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:50:33 UTC; unix
 Filesize: 3592260
-Sha256:
-        261d4c3e5382340f2a2140bd20e5194b0850feaa896a8049f3065c05e44a0e30
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: caret_6.0-94_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3),
+        ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr,
+        MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party
+        (>= 0.9-99992), pls, proxy, randomForest, RANN, rmarkdown,
+        rpart, spls, subselect, superpc, testthat (>= 0.9.1), themis
+        (>= 0.1.3)
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/caret/releases/download/6.0-94/caret_6.0-94_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        261d4c3e5382340f2a2140bd20e5194b0850feaa896a8049f3065c05e44a0e30
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.18164595271951
@@ -869,33 +985,27 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: BradleyTerry2, covr, Cubist, dplyr, earth (>= 2.2-3),
-        ellipse, fastICA, gam (>= 1.15), ipred, kernlab, klaR, knitr,
-        MASS, Matrix, mda, mgcv, mlbench, MLmetrics, nnet, pamr, party
-        (>= 0.9-99992), pls, proxy, randomForest, RANN, rmarkdown,
-        rpart, spls, subselect, superpc, testthat (>= 0.9.1), themis
-        (>= 0.1.3)
 Imports: e1071, foreach, grDevices, methods, ModelMetrics (>= 1.2.2.2),
         nlme, plyr, pROC, recipes (>= 0.1.10), reshape2, stats, stats4,
         utils, withr (>= 2.0.0)
-Arch: amd64
 Os: linux
 Dependencies: 0.00247262315663466
 
 Package: cellranger
 Version: 1.1.0
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/cellranger/releases/download/1.1.0/cellranger_1.1.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:38:23 UTC; unix
 Filesize: 101424
-Sha256:
-        b1cc28a42fb76166cceb6eea71a292aa7f36edf27b83d8915a5da8976753c59e
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: cellranger_1.1.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 1.0.0), knitr, rmarkdown
+DownloadUrl:
+        https://github.com/cran/cellranger/releases/download/1.1.0/cellranger_1.1.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        b1cc28a42fb76166cceb6eea71a292aa7f36edf27b83d8915a5da8976753c59e
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.174963111643334
@@ -908,7 +1018,6 @@ RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, testthat (>= 1.0.0), knitr, rmarkdown
 Imports: rematch, tibble
 Dependencies: 0.731058578630005
 
@@ -924,7 +1033,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
         knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
         3.0.4), tinytest (>= 1.1.0), tibble
-Imports: backports (>= 1.1.0), utils
 Arch: amd64
 License: BSD_3_clause + file LICENSE
 DownloadURL:
@@ -936,21 +1044,23 @@ downloads_1yr: 0.954587756738117
 reverse_dependencies: 0.999941401713502
 OS: linux
 dependencies: 0.731058578630005
+Imports: backports (>= 1.1.0), utils
 
 Package: class
 Version: 7.3-22
 Depends: R (>= 3.0.0), stats, utils, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/class/releases/download/7.3-22/class_7.3-22_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:20:55 UTC; unix
 Filesize: 96241
-Sha256:
-        36f7b1d64d0959ada142bd3b0c96a024de9ae881cf2881969553f78a73d2132b
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: class_7.3-22_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/class/releases/download/7.3-22/class_7.3-22_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        36f7b1d64d0959ada142bd3b0c96a024de9ae881cf2881969553f78a73d2132b
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.491351101173977
@@ -964,7 +1074,6 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
 Imports: MASS
-Arch: amd64
 Os: linux
 Dependencies: 0.622459331201855
 
@@ -978,7 +1087,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: classInt_0.4-10_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spData (>= 0.2.6.2), units, knitr, rmarkdown, tinytest
-Imports: grDevices, stats, graphics, e1071, class, KernSmooth
 Arch: amd64
 License: GPL (>= 2)
 DownloadURL:
@@ -990,6 +1098,7 @@ downloads_1yr: 0.944402478611634
 reverse_dependencies: 0.89305527457936
 OS: linux
 dependencies: 0.268941421369995
+Imports: grDevices, stats, graphics, e1071, class, KernSmooth
 has_news: 1
 news_current: 0
 has_vignettes: 1
@@ -1013,7 +1122,6 @@ Suggests: callr, covr, crayon, digest, glue (>= 1.6.0), grDevices,
         htmltools, htmlwidgets, knitr, methods, mockery, processx, ps
         (>= 1.3.4.9000), rlang (>= 1.0.2.9003), rmarkdown, rprojroot,
         rstudioapi, testthat, tibble, whoami, withr
-Imports: utils
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -1025,21 +1133,24 @@ downloads_1yr: 0.992100801357904
 reverse_dependencies: 0.999999213723797
 OS: linux
 dependencies: 0.817574476193644
+Imports: utils
 
 Package: clipr
 Version: 0.8.0
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/clipr/releases/download/0.8.0/clipr_0.8.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:10:15 UTC; unix
 Filesize: 50828
-Sha256:
-        10e436f7798ba47267ab5840357ec902952df02ed7fb9bfa7e57874f6d6367cf
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: clipr_0.8.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+        2.0.0)
+DownloadUrl:
+        https://github.com/cran/clipr/releases/download/0.8.0/clipr_0.8.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        10e436f7798ba47267ab5840357ec902952df02ed7fb9bfa7e57874f6d6367cf
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.113272756261744
@@ -1052,8 +1163,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
-        2.0.0)
 Imports: utils
 Dependencies: 0.817574476193644
 SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel
@@ -1065,17 +1174,20 @@ SystemRequirements: xclip (https://github.com/astrand/xclip) or xsel
 Package: clock
 Version: 0.7.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/clock/releases/download/0.7.0/clock_0.7.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:45:38 UTC; unix
 Filesize: 7596191
-Sha256:
-        fb98b1fc4215ec870158f525f25dea9307b4486e0ccb27263e93b44766fe8b7c
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: clock_0.7.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0),
+        testthat (>= 3.0.0), withr
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/clock/releases/download/0.7.0/clock_0.7.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        fb98b1fc4215ec870158f525f25dea9307b4486e0ccb27263e93b44766fe8b7c
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.217681595737884
@@ -1088,11 +1200,8 @@ RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, knitr, magrittr, pillar, rmarkdown, slider (>= 0.3.0),
-        testthat (>= 3.0.0), withr
 Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), rlang (>= 1.1.0), tzdb
         (>= 0.4.0), vctrs (>= 0.6.1)
-Arch: amd64
 Os: linux
 Dependencies: 0.182425523806356
 LinkingTo: cpp11 (>= 0.4.3), tzdb (>= 0.4.0)
@@ -1100,17 +1209,22 @@ LinkingTo: cpp11 (>= 0.4.3), tzdb (>= 0.4.0)
 Package: colorspace
 Version: 2.1-0
 Depends: R (>= 3.0.0), methods, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/colorspace/releases/download/2.1-0/colorspace_2.1-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-20 13:55:11 UTC; unix
 Filesize: 2628351
-Sha256:
-        ed03e7707b5fa9148e9842c9ff1e065b4cca74408c6721160e3c59a897a0eab6
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: colorspace_2.1-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+        tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+        knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+        wesanderson
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/colorspace/releases/download/2.1-0/colorspace_2.1-0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        ed03e7707b5fa9148e9842c9ff1e065b4cca74408c6721160e3c59a897a0eab6
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.234450528885528
@@ -1123,12 +1237,7 @@ RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
-        tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
-        knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
-        wesanderson
 Imports: graphics, grDevices, stats
-Arch: amd64
 Os: linux
 Dependencies: 0.5
 
@@ -1144,8 +1253,6 @@ File:
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr (>= 1.7), rmarkdown, rstudioapi (>= 0.5),
         shinydisconnect
-Imports: ggplot2, htmltools, htmlwidgets (>= 0.7), jsonlite, miniUI (>=
-        0.1.1), shiny (>= 0.11.1), shinyjs (>= 2.0.0), utils
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/colourpicker/releases/download/1.3.0/colourpicker_1.3.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -1154,6 +1261,8 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.697075567528924
 reverse_dependencies: 0.956687722842465
+Imports: ggplot2, htmltools, htmlwidgets (>= 0.7), jsonlite, miniUI (>=
+        0.1.1), shiny (>= 0.11.1), shinyjs (>= 2.0.0), utils
 has_news: 1
 news_current: 1
 has_vignettes: 0
@@ -1163,20 +1272,44 @@ has_source_control: 1
 has_bug_reports_url: 1
 remote_checks: 1
 
+Package: commonmark
+Version: 1.9.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 09:35:17 UTC; unix
+Filesize: 518996
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: commonmark_1.9.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: curl, testthat, xml2
+Arch: amd64
+License: BSD_2_clause + file LICENSE
+DownloadURL:
+        https://github.com/cran/commonmark/releases/download/1.9.1/commonmark_1.9.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        8b766da4401f2af44751748bf3e1acf43a023485b0acbdc69d0ecee874f6e895
+GraphicsAPIVersion: 16
+downloads_1yr: 0.972790566816028
+reverse_dependencies: 0.782429650884127
+OS: linux
+dependencies: 0.880797077977882
+
 Package: conflicted
 Version: 1.2.0
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/conflicted/releases/download/1.2.0/conflicted_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:37:57 UTC; unix
 Filesize: 55263
-Sha256:
-        745915d2c6390c5fc4b0b7c1aa5cff4f5d25be3f3133ed1e44e1ab05a527c9bd
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: conflicted_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, dplyr, Matrix, methods, pkgload, testthat (>=
+        3.0.0), withr
+DownloadUrl:
+        https://github.com/cran/conflicted/releases/download/1.2.0/conflicted_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        745915d2c6390c5fc4b0b7c1aa5cff4f5d25be3f3133ed1e44e1ab05a527c9bd
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.240530585858336
@@ -1189,8 +1322,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: callr, covr, dplyr, Matrix, methods, pkgload, testthat (>=
-        3.0.0), withr
 Imports: cli (>= 3.4.0), memoise, rlang (>= 1.0.0)
 Dependencies: 0.622459331201855
 
@@ -1206,8 +1337,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: R6, curl, knitr, rmarkdown, htmltools, DT (>= 0.2), testthat,
         rlang, rstudioapi (>= 0.2), xml2 (>= 1.0.0), parallel, memoise,
         mockery, covr
-Imports: digest, stats, utils, jsonlite, rex, httr, crayon, withr (>=
-        1.0.2), yaml
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -1219,6 +1348,8 @@ downloads_1yr: 0.916949959582314
 reverse_dependencies: 0.999999999915781
 OS: linux
 dependencies: 0.0474258731775666
+Imports: digest, stats, utils, jsonlite, rex, httr, crayon, withr (>=
+        1.0.2), yaml
 
 Package: cpp11
 Version: 0.4.7
@@ -1245,17 +1376,18 @@ dependencies: 0.880797077977882
 Package: crayon
 Version: 1.5.2
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/crayon/releases/download/1.5.2/crayon_1.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-19 13:20:30 UTC; unix
 Filesize: 160566
-Sha256:
-        9a5b57fe2a7ff5dec4de74463c10c7af9e7b951548e9ee7aa4ac489db0870395
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: crayon_1.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: mockery, rstudioapi, testthat, withr
+DownloadUrl:
+        https://github.com/cran/crayon/releases/download/1.5.2/crayon_1.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        9a5b57fe2a7ff5dec4de74463c10c7af9e7b951548e9ee7aa4ac489db0870395
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.272742142461794
@@ -1268,7 +1400,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: mockery, rstudioapi, testthat, withr
 Imports: grDevices, methods, utils
 
 Package: credentials
@@ -1281,7 +1412,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: credentials_2.0.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, knitr, rmarkdown
-Imports: openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/credentials/releases/download/2.0.1/credentials_2.0.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -1291,6 +1421,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.925105301945465
 reverse_dependencies: 0.43732917979627
 dependencies: 0.377540668798145
+Imports: openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass
 has_news: 0
 news_current: 0
 has_vignettes: 1
@@ -1314,7 +1445,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: crosstalk_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: shiny, ggplot2, testthat (>= 2.1.0), sass, bslib
-Imports: htmltools (>= 0.3.6), jsonlite, lazyeval, R6
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/crosstalk/releases/download/1.2.1/crosstalk_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -1323,6 +1453,7 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.965912298251937
 reverse_dependencies: 0.814578958097085
+Imports: htmltools (>= 0.3.6), jsonlite, lazyeval, R6
 
 Package: desc
 Version: 1.4.3
@@ -1334,7 +1465,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: desc_1.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: callr, covr, gh, spelling, testthat, whoami, withr
-Imports: cli, R6, utils
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/desc/releases/download/1.4.3/desc_1.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -1344,21 +1474,28 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.972271696704121
 reverse_dependencies: 0.952802721254618
 dependencies: 0.622459331201855
+Imports: cli, R6, utils
 
 Package: devtools
 Version: 2.4.5
 Depends: R (>= 3.0.2), usethis (>= 2.1.6), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/devtools/releases/download/2.4.5/devtools_2.4.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:13:37 UTC; unix
 Filesize: 431259
-Sha256:
-        df7468fa7de9e5448ec38a7fafe9c81e41cebe59171f55c07faa7d911923ec96
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: devtools_2.4.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1),
+        curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>=
+        1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3),
+        knitr (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3),
+        pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14),
+        rstudioapi (>= 0.13), spelling (>= 2.2)
+DownloadUrl:
+        https://github.com/cran/devtools/releases/download/2.4.5/devtools_2.4.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        df7468fa7de9e5448ec38a7fafe9c81e41cebe59171f55c07faa7d911923ec96
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.181817681672608
@@ -1371,12 +1508,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: BiocManager (>= 1.30.18), callr (>= 3.7.1), covr (>= 3.5.1),
-        curl (>= 4.3.2), digest (>= 0.6.29), DT (>= 0.23), foghorn (>=
-        1.4.2), gh (>= 1.3.0), gmailr (>= 1.0.1), httr (>= 1.4.3),
-        knitr (>= 1.39), lintr (>= 3.0.0), MASS, mockery (>= 0.4.3),
-        pingr (>= 2.0.1), rhub (>= 1.1.1), rmarkdown (>= 2.14),
-        rstudioapi (>= 0.13), spelling (>= 2.2)
 Imports: cli (>= 3.3.0), desc (>= 1.4.1), ellipsis (>= 0.3.2), fs (>=
         1.5.2), lifecycle (>= 1.0.1), memoise (>= 2.0.1), miniUI (>=
         0.1.1.1), pkgbuild (>= 1.3.1), pkgdown (>= 2.0.6), pkgload (>=
@@ -1389,17 +1520,17 @@ Dependencies: 4.53978687023904e-05
 Package: diagram
 Version: 1.6.5
 Depends: R (>= 2.01), shape, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/diagram/releases/download/1.6.5/diagram_1.6.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:46:25 UTC; unix
 Filesize: 676811
-Sha256:
-        14228fe39a9a73d7221ee3f51e2aeb7d018d72bc837fba3b7be435e1eb01beef
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: diagram_1.6.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/diagram/releases/download/1.6.5/diagram_1.6.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        14228fe39a9a73d7221ee3f51e2aeb7d018d72bc837fba3b7be435e1eb01beef
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.650816227987845
@@ -1417,17 +1548,19 @@ Imports: stats, graphics
 Package: diffobj
 Version: 0.3.5
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/diffobj/releases/download/0.3.5/diffobj_0.3.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:10:59 UTC; unix
 Filesize: 1022194
-Sha256:
-        e1c03081f6f81373dc02c7f0e6d310a2a0b8bcbaad2c7783ce56bec6ba2c88c4
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: diffobj_0.3.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/diffobj/releases/download/0.3.5/diffobj_0.3.5_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        e1c03081f6f81373dc02c7f0e6d310a2a0b8bcbaad2c7783ce56bec6ba2c88c4
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.176606544095823
@@ -1440,9 +1573,7 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: knitr, rmarkdown
 Imports: crayon (>= 1.3.2), tools, methods, utils, stats
-Arch: amd64
 Os: linux
 Dependencies: 0.377540668798145
 
@@ -1450,17 +1581,18 @@ Package: doParallel
 Version: 1.0.17
 Depends: R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0),
         parallel, utils, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/doParallel/releases/download/1.0.17/doParallel_1.0.17_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 16:46:23 UTC; unix
 Filesize: 188283
-Sha256:
-        6be5e2f6371aacefed4ad4d17e446a1bbb3258ac5ab3fb245a17d2eb56ba0c3b
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: doParallel_1.0.17_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: caret, mlbench, rpart, RUnit
+DownloadUrl:
+        https://github.com/cran/doParallel/releases/download/1.0.17/doParallel_1.0.17_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        6be5e2f6371aacefed4ad4d17e446a1bbb3258ac5ab3fb245a17d2eb56ba0c3b
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.188811406059514
@@ -1473,7 +1605,6 @@ RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: caret, mlbench, rpart, RUnit
 Enhances: compiler
 
 Package: downlit
@@ -1487,8 +1618,6 @@ File: downlit_0.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, htmltools, jsonlite, MASS, MassSpecWavelet, pkgload,
         rmarkdown, testthat (>= 3.0.0), xml2
-Imports: brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs,
-        withr, yaml
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/downlit/releases/download/0.4.3/downlit_0.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -1498,6 +1627,8 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.919864089495785
 reverse_dependencies: 0.613750471854878
 dependencies: 0.0474258731775666
+Imports: brio, desc, digest, evaluate, fansi, memoise, rlang, vctrs,
+        withr, yaml
 
 Package: dplyr
 Version: 1.1.4
@@ -1512,10 +1643,6 @@ Suggests: bench, broom, callr, covr, DBI, dbplyr (>= 2.2.1), ggplot2,
         knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
         rmarkdown, RMySQL, RPostgreSQL, RSQLite, stringi (>= 1.7.6),
         testthat (>= 3.1.5), tidyr (>= 1.3.0), withr
-Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
-        1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,
-        rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),
-        utils, vctrs (>= 0.6.4)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -1527,21 +1654,27 @@ downloads_1yr: 0.99175745645217
 reverse_dependencies: 1
 OS: linux
 dependencies: 0.0109869426305932
+Imports: cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>=
+        1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6,
+        rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0),
+        utils, vctrs (>= 0.6.4)
 
 Package: dtplyr
 Version: 1.3.1
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/dtplyr/releases/download/1.3.1/dtplyr_1.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:38:11 UTC; unix
 Filesize: 352794
-Sha256:
-        2720cd958f6399754c1898035d6b900b68b5b0b9d567fdc3cc02ba603fb3de21
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: dtplyr_1.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>=
+        1.1.0), waldo (>= 0.3.1)
+DownloadUrl:
+        https://github.com/cran/dtplyr/releases/download/1.3.1/dtplyr_1.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        2720cd958f6399754c1898035d6b900b68b5b0b9d567fdc3cc02ba603fb3de21
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.206844115694181
@@ -1554,8 +1687,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: bench, covr, knitr, rmarkdown, testthat (>= 3.1.2), tidyr (>=
-        1.1.0), waldo (>= 0.3.1)
 Imports: cli (>= 3.4.0), data.table (>= 1.13.0), dplyr (>= 1.1.0),
         glue, lifecycle, rlang (>= 1.0.4), tibble, tidyselect (>=
         1.2.0), vctrs (>= 0.4.1)
@@ -1564,17 +1695,18 @@ Dependencies: 0.0758581800212434
 Package: dygraphs
 Version: 1.1.1.6
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/dygraphs/releases/download/1.1.1.6/dygraphs_1.1.1.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-23 21:12:42 UTC; unix
 Filesize: 425091
-Sha256:
-        1143f617edb21b0ce73276c4ac38dc87c7c16d70b595b1d9a7d82bec8e485bfd
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: dygraphs_1.1.1.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat
+DownloadUrl:
+        https://github.com/cran/dygraphs/releases/download/1.1.1.6/dygraphs_1.1.1.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        1143f617edb21b0ce73276c4ac38dc87c7c16d70b595b1d9a7d82bec8e485bfd
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.250420231618501
@@ -1587,7 +1719,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: testthat
 Imports: magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>=
         1.7-10), xts (>= 0.9-7)
 Dependencies: 0.377540668798145
@@ -1604,7 +1735,6 @@ File: e1071_1.7-14_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
         Matrix, MASS, slam
-Imports: graphics, grDevices, class, stats, methods, utils, proxy
 Arch: amd64
 License: GPL-2 | GPL-3
 DownloadURL:
@@ -1615,21 +1745,24 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.968545005177492
 reverse_dependencies: 0.999866248869685
 OS: linux
+Imports: graphics, grDevices, class, stats, methods, utils, proxy
 
 Package: ellipsis
 Version: 0.3.2
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/ellipsis/releases/download/0.3.2/ellipsis_0.3.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:25:47 UTC; unix
 Filesize: 38909
-Sha256:
-        2cb8095e6e7bd94f8f25d83b9e4d6d7f1243245f47960c3345e0960881ed0ed8
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: ellipsis_0.3.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/ellipsis/releases/download/0.3.2/ellipsis_0.3.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        2cb8095e6e7bd94f8f25d83b9e4d6d7f1243245f47960c3345e0960881ed0ed8
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.210417158218911
@@ -1642,9 +1775,7 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, testthat
 Imports: rlang (>= 0.3.0)
-Arch: amd64
 Os: linux
 Dependencies: 0.817574476193644
 
@@ -1658,7 +1789,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: evaluate_0.23_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2, lattice, rlang, testthat (>= 3.0.0), withr
-Imports: methods
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/evaluate/releases/download/0.23/evaluate_0.23_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -1668,6 +1798,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.985112572769744
 reverse_dependencies: 0.763732662304303
 dependencies: 0.880797077977882
+Imports: methods
 
 Package: fansi
 Version: 1.0.6
@@ -1679,7 +1810,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: fansi_1.0.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: unitizer, knitr, rmarkdown
-Imports: grDevices, utils
 Arch: amd64
 License: GPL-2 | GPL-3
 DownloadURL:
@@ -1691,21 +1821,24 @@ downloads_1yr: 0.988124755617367
 reverse_dependencies: 0.857837261043041
 OS: linux
 dependencies: 0.731058578630005
+Imports: grDevices, utils
 
 Package: farver
 Version: 2.1.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/farver/releases/download/2.1.1/farver_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-20 13:55:26 UTC; unix
 Filesize: 2297441
-Sha256:
-        77f71972679c0fd376e9c8a5438786684dda125e14afcda265e5839bebd00abd
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: farver_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 3.0.0)
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/farver/releases/download/2.1.1/farver_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        77f71972679c0fd376e9c8a5438786684dda125e14afcda265e5839bebd00abd
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.236752832102145
@@ -1718,8 +1851,6 @@ RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, testthat (>= 3.0.0)
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 SystemRequirements: C++11
@@ -1727,17 +1858,19 @@ SystemRequirements: C++11
 Package: fastmap
 Version: 1.1.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/fastmap/releases/download/1.1.1/fastmap_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:21:04 UTC; unix
 Filesize: 258163
-Sha256:
-        8301cc5fe7c070eedd7eabec52608ca18891006a0007ad427f705ce690ebe857
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: fastmap_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat (>= 2.1.1)
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/fastmap/releases/download/1.1.1/fastmap_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        8301cc5fe7c070eedd7eabec52608ca18891006a0007ad427f705ce690ebe857
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.217045336151424
@@ -1750,8 +1883,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: testthat (>= 2.1.1)
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 
@@ -1788,7 +1919,6 @@ File: fontawesome_0.5.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 1.0.8), knitr (>= 1.31), testthat (>= 3.0.0),
         rsvg
-Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/fontawesome/releases/download/0.5.2/fontawesome_0.5.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -1798,6 +1928,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.983469112532694
 reverse_dependencies: 0.852487714556052
 dependencies: 0.731058578630005
+Imports: rlang (>= 1.0.6), htmltools (>= 0.5.1.1)
 has_news: 1
 news_current: 1
 has_vignettes: 0
@@ -1814,17 +1945,19 @@ size_codebase: 0.517241379310345
 Package: forcats
 Version: 1.0.0
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/forcats/releases/download/1.0.0/forcats_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:37:22 UTC; unix
 Filesize: 422413
-Sha256:
-        0a6cc2b2564a33864ca429340ce639e6ebd0abc0c4774520da4b29895a6bc5ec
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: forcats_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>=
+        3.0.0), withr
+DownloadUrl:
+        https://github.com/cran/forcats/releases/download/1.0.0/forcats_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        0a6cc2b2564a33864ca429340ce639e6ebd0abc0c4774520da4b29895a6bc5ec
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.157439658374799
@@ -1837,8 +1970,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat (>=
-        3.0.0), withr
 Imports: cli (>= 3.4.0), glue, lifecycle, magrittr, rlang (>= 1.0.0),
         tibble
 Dependencies: 0.268941421369995
@@ -1846,17 +1977,18 @@ Dependencies: 0.268941421369995
 Package: foreach
 Version: 1.5.2
 Depends: R (>= 2.5.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/foreach/releases/download/1.5.2/foreach_1.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:45:59 UTC; unix
 Filesize: 138437
-Sha256:
-        ac50c25baf414f5cc7f52704c2c5a09accf884a5f3ab475fcfd9d9dc1c430740
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: foreach_1.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: randomForest, doMC, doParallel, testthat, knitr, rmarkdown
+DownloadUrl:
+        https://github.com/cran/foreach/releases/download/1.5.2/foreach_1.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        ac50c25baf414f5cc7f52704c2c5a09accf884a5f3ab475fcfd9d9dc1c430740
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.130475766696837
@@ -1869,7 +2001,6 @@ RemoteChecks: 0.942307692307692
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: randomForest, doMC, doParallel, testthat, knitr, rmarkdown
 Imports: codetools, utils, iterators
 Dependencies: 0.622459331201855
 
@@ -1884,7 +2015,6 @@ File: fs_1.6.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, crayon, knitr, pillar (>= 1.0.0), rmarkdown, spelling,
         testthat (>= 3.0.0), tibble (>= 1.1.0), vctrs (>= 0.3.0), withr
-Imports: methods
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -1896,22 +2026,25 @@ downloads_1yr: 0.985627899810748
 reverse_dependencies: 0.999485108641386
 OS: linux
 dependencies: 0.817574476193644
+Imports: methods
 SystemRequirements: GNU make
 
 Package: furrr
 Version: 0.3.1
 Depends: future (>= 1.25.0), R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/furrr/releases/download/0.3.1/furrr_0.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:46:15 UTC; unix
 Filesize: 1018584
-Sha256:
-        bf74ddfe26a7a3d2c3a7c33080eb7c3c858dfe3dbf5c1eb765e5145ebab48446
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: furrr_0.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0),
+        magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr
+DownloadUrl:
+        https://github.com/cran/furrr/releases/download/0.3.1/furrr_0.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        bf74ddfe26a7a3d2c3a7c33080eb7c3c858dfe3dbf5c1eb765e5145ebab48446
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.250304672737281
@@ -1924,11 +2057,52 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0),
-        magrittr, rmarkdown, testthat (>= 3.0.0), tidyselect, withr
 Imports: globals (>= 0.14.0), lifecycle (>= 1.0.1), purrr (>= 0.3.4),
         rlang (>= 1.0.2), vctrs (>= 0.4.1)
 Dependencies: 0.268941421369995
+
+Package: future
+Version: 1.33.1
+Depends: R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-12-22 16:35:57 UTC; unix
+Filesize: 655590
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: future_1.33.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: methods, RhpcBLASctl, R.rsp, markdown
+License: LGPL (>= 2.1)
+DownloadURL:
+        https://github.com/cran/future/releases/download/1.33.1/future_1.33.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        2351661514d6e16c8f222f8a19edb278ba1aa26de11927b12c1c8e2c84f9dc55
+GraphicsAPIVersion: 16
+downloads_1yr: 0.9499776233235
+reverse_dependencies: 0.999738669423012
+Imports: digest, globals (>= 0.16.1), listenv (>= 0.8.0), parallel,
+        parallelly (>= 1.34.0), utils
+
+Package: future.apply
+Version: 1.11.1
+Depends: R (>= 3.2.0), future (>= 1.28.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-12-22 16:36:01 UTC; unix
+Filesize: 157370
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File:
+        future.apply_1.11.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/future.apply/releases/download/1.11.1/future.apply_1.11.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        2674de72230e92929d5f7bc38f9e7f1b9e616f284b7eba589358e89bb20e9fc9
+GraphicsAPIVersion: 16
+downloads_1yr: 0.938179994304317
+reverse_dependencies: 0.995422280089745
+dependencies: 0.5
+Imports: globals (>= 0.16.1), parallel, utils
 
 Package: gargle
 Version: 1.5.2
@@ -1941,9 +2115,6 @@ File: gargle_1.5.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: aws.ec2metadata, aws.signature, covr, httpuv, knitr,
         rmarkdown, sodium, spelling, testthat (>= 3.1.7)
-Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>=
-        1.4.5), jsonlite, lifecycle, openssl, rappdirs, rlang (>=
-        1.1.0), stats, utils, withr
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/gargle/releases/download/1.5.2/gargle_1.5.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -1953,6 +2124,9 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.976037167312012
 reverse_dependencies: 0.707229461206214
 dependencies: 0.0179862099620915
+Imports: cli (>= 3.0.1), fs (>= 1.3.1), glue (>= 1.3.0), httr (>=
+        1.4.5), jsonlite, lifecycle, openssl, rappdirs, rlang (>=
+        1.1.0), stats, utils, withr
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -1969,17 +2143,18 @@ size_codebase: 0.170648464163823
 Package: generics
 Version: 0.1.3
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/generics/releases/download/0.1.3/generics_0.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-20 13:55:29 UTC; unix
 Filesize: 77617
-Sha256:
-        b4e36c6c1ee7c0bf6dfcbc1ae1f512373cec01249fcd82e441b462f13fda6dbc
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: generics_0.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, pkgload, testthat (>= 3.0.0), tibble, withr
+DownloadUrl:
+        https://github.com/cran/generics/releases/download/0.1.3/generics_0.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        b4e36c6c1ee7c0bf6dfcbc1ae1f512373cec01249fcd82e441b462f13fda6dbc
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.199384789994761
@@ -1992,7 +2167,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, pkgload, testthat (>= 3.0.0), tibble, withr
 Imports: methods
 Dependencies: 0.817574476193644
 
@@ -2006,8 +2180,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gert_2.0.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, knitr, rmarkdown, testthat
-Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3),
-        rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -2018,23 +2190,54 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.937956202869981
 reverse_dependencies: 0.821672085702747
 OS: linux
+Imports: askpass, credentials (>= 1.2.1), openssl (>= 2.0.3),
+        rstudioapi (>= 0.11), sys, zip (>= 2.1.0)
 SystemRequirements: libgit2 (>= 1.0): libgit2-devel (rpm) or
         libgit2-dev (deb)
+
+Package: ggrepel
+Version: 0.9.5
+Depends: R (>= 3.0.0), ggplot2 (>= 2.2.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-11 16:38:33 UTC; unix
+Filesize: 845727
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: ggrepel_0.9.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, testthat, svglite, vdiffr, gridExtra, ggpp,
+        patchwork, devtools, prettydoc, ggbeeswarm, dplyr, magrittr,
+        readr, stringr
+Arch: amd64
+License: GPL-3 | file LICENSE
+DownloadURL:
+        https://github.com/cran/ggrepel/releases/download/0.9.5/ggrepel_0.9.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        096254b3c956f0dbab26d2ae4c8d28c09b497fc4c2d4d17a6d252af4d34f86c6
+GraphicsAPIVersion: 16
+downloads_1yr: 0.956493781656212
+reverse_dependencies: 0.999958749115748
+OS: linux
+dependencies: 0.182425523806356
+Imports: grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0), withr (>=
+        2.5.0)
+LinkingTo: Rcpp
 
 Package: gh
 Version: 1.4.0
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/gh/releases/download/1.4.0/gh_1.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:11:16 UTC; unix
 Filesize: 102611
-Sha256:
-        5845265ad72f90a105c03794b855e1e6fc554f6ec27505745f6051df08172756
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gh_1.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling,
+        testthat (>= 3.0.0), withr
+DownloadUrl:
+        https://github.com/cran/gh/releases/download/1.4.0/gh_1.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        5845265ad72f90a105c03794b855e1e6fc554f6ec27505745f6051df08172756
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.178847810575064
@@ -2047,8 +2250,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, knitr, mockery, rmarkdown, rprojroot, spelling,
-        testthat (>= 3.0.0), withr
 Imports: cli (>= 3.0.1), gitcreds, httr2, ini, jsonlite, rlang (>=
         1.0.0)
 Dependencies: 0.268941421369995
@@ -2056,17 +2257,19 @@ Dependencies: 0.268941421369995
 Package: gitcreds
 Version: 0.1.2
 Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/gitcreds/releases/download/0.1.2/gitcreds_0.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:10:15 UTC; unix
 Filesize: 96134
-Sha256:
-        37b09a65a9feae93dbe88ad454fbb731fea0ae14801dc4c9be3436df2b9fc633
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gitcreds_0.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: codetools, covr, knitr, mockery, oskeyring, rmarkdown,
+        testthat (>= 3.0.0), withr
+DownloadUrl:
+        https://github.com/cran/gitcreds/releases/download/0.1.2/gitcreds_0.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        37b09a65a9feae93dbe88ad454fbb731fea0ae14801dc4c9be3436df2b9fc633
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.142560983941758
@@ -2079,8 +2282,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: codetools, covr, knitr, mockery, oskeyring, rmarkdown,
-        testthat (>= 3.0.0), withr
 Dependencies: 0.880797077977882
 SystemRequirements: git
 
@@ -2094,7 +2295,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: glmnet_4.1-8_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, lars, testthat, xfun, rmarkdown
-Imports: methods, utils, foreach, shape, survival, Rcpp
 Arch: amd64
 License: GPL-2
 DownloadURL:
@@ -2105,6 +2305,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.89983827219684
 reverse_dependencies: 0.999982881824292
 OS: linux
+Imports: methods, utils, foreach, shape, survival, Rcpp
 LinkingTo: RcppEigen, Rcpp
 has_news: 1
 news_current: 0
@@ -2116,20 +2317,47 @@ has_bug_reports_url: 0
 remote_checks: 0.826923076923077
 SystemRequirements: C++17
 
+Package: glue
+Version: 1.7.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-10 16:37:22 UTC; unix
+Filesize: 165120
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: glue_1.7.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: crayon, DBI (>= 1.2.0), dplyr, knitr, magrittr, rlang,
+        rmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0),
+        waldo (>= 0.3.0), withr
+Arch: amd64
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/glue/releases/download/1.7.0/glue_1.7.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        87d7b36c6e1480d0c1c761e70efcacea58611f128d5de85803ca70a7dccc5ab9
+GraphicsAPIVersion: 16
+downloads_1yr: 0.99016645568251
+reverse_dependencies: 0.999998912043622
+OS: linux
+dependencies: 0.817574476193644
+Imports: methods
+
 Package: googledrive
 Version: 2.1.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/googledrive/releases/download/2.1.1/googledrive_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:38:33 UTC; unix
 Filesize: 1889734
-Sha256:
-        af86bc4fc26bec65889274a31b35eee07bb0459f976a91e4bfa0904419b266d2
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: googledrive_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: curl, dplyr (>= 1.0.0), knitr, mockr, rmarkdown, spelling,
+        testthat (>= 3.1.3)
+DownloadUrl:
+        https://github.com/cran/googledrive/releases/download/2.1.1/googledrive_2.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        af86bc4fc26bec65889274a31b35eee07bb0459f976a91e4bfa0904419b266d2
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.2069199970102
@@ -2142,8 +2370,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: curl, dplyr (>= 1.0.0), knitr, mockr, rmarkdown, spelling,
-        testthat (>= 3.1.3)
 Imports: cli (>= 3.0.0), gargle (>= 1.5.0), glue (>= 1.4.2), httr,
         jsonlite, lifecycle, magrittr, pillar (>= 1.9.0), purrr (>=
         1.0.1), rlang (>= 1.0.2), tibble (>= 2.0.0), utils, uuid, vctrs
@@ -2153,18 +2379,19 @@ Dependencies: 0.00407013771589604
 Package: googlesheets4
 Version: 1.1.1
 Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/googlesheets4/releases/download/1.1.1/googlesheets4_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:38:43 UTC; unix
 Filesize: 506390
-Sha256:
-        0fef846e4506d898f66675c5bd92ccd517acb036e4906a031180a843ec619cb4
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File:
         googlesheets4_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
+DownloadUrl:
+        https://github.com/cran/googlesheets4/releases/download/1.1.1/googlesheets4_1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        0fef846e4506d898f66675c5bd92ccd517acb036e4906a031180a843ec619cb4
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.309506295107408
@@ -2177,7 +2404,6 @@ RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: readr, rmarkdown, spelling, testthat (>= 3.1.7)
 Imports: cellranger, cli (>= 3.0.0), curl, gargle (>= 1.5.0), glue (>=
         1.3.0), googledrive (>= 2.1.0), httr, ids, lifecycle, magrittr,
         methods, purrr, rematch2, rlang (>= 1.0.2), tibble (>= 2.1.1),
@@ -2187,17 +2413,19 @@ Dependencies: 0.000911051194400603
 Package: gower
 Version: 1.0.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/gower/releases/download/1.0.1/gower_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:44:59 UTC; unix
 Filesize: 225665
-Sha256:
-        8c15d8358a33760279df0374957d494f6dcccae5c0f93d51bfe73c846525b756
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gower_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: tinytest (>= 0.9.3),
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/gower/releases/download/1.0.1/gower_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        8c15d8358a33760279df0374957d494f6dcccae5c0f93d51bfe73c846525b756
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.128361223710537
@@ -2210,25 +2438,24 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: tinytest (>= 0.9.3),
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 
 Package: gridExtra
 Version: 2.3
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/gridExtra/releases/download/2.3/gridExtra_2.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:52:41 UTC; unix
 Filesize: 1107127
-Sha256:
-        316ba6c45144e9365c4f4b8cf10dfc7f0e00635630c7c0d7e71fb9cc321431a9
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gridExtra_2.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: ggplot2, egg, lattice, knitr, testthat
+DownloadUrl:
+        https://github.com/cran/gridExtra/releases/download/2.3/gridExtra_2.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        316ba6c45144e9365c4f4b8cf10dfc7f0e00635630c7c0d7e71fb9cc321431a9
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.454545639838733
@@ -2241,7 +2468,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: ggplot2, egg, lattice, knitr, testthat
 Imports: gtable, grid, grDevices, graphics, utils
 
 Package: gtable
@@ -2254,7 +2480,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: gtable_0.3.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2, knitr, profvis, rmarkdown, testthat (>= 3.0.0)
-Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0)
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/gtable/releases/download/0.3.4/gtable_0.3.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2264,6 +2489,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.985663141360566
 reverse_dependencies: 0.986788346013393
 dependencies: 0.268941421369995
+Imports: cli, glue, grid, lifecycle, rlang (>= 1.1.0)
 
 Package: gtools
 Version: 3.9.5
@@ -2289,17 +2515,18 @@ OS: linux
 Package: highr
 Version: 0.10
 Depends: R (>= 3.3.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/highr/releases/download/0.10/highr_0.10_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-19 13:27:31 UTC; unix
 Filesize: 39335
-Sha256:
-        bc5f7e7da0f564ca23b05c2762371aad430135312aa66e9da4bcb36615aaca8f
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: highr_0.10_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, markdown, testit
+DownloadUrl:
+        https://github.com/cran/highr/releases/download/0.10/highr_0.10_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        bc5f7e7da0f564ca23b05c2762371aad430135312aa66e9da4bcb36615aaca8f
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.233515913813771
@@ -2312,24 +2539,24 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: knitr, markdown, testit
 Imports: xfun (>= 0.18)
 Dependencies: 0.817574476193644
 
 Package: hms
 Version: 1.1.3
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/hms/releases/download/1.1.3/hms_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:37:17 UTC; unix
 Filesize: 99168
-Sha256:
-        927919205561790c0bb2b6fd871e62cc0fda8bfd6e08188bbdc0a14c7a56c604
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: hms_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
+DownloadUrl:
+        https://github.com/cran/hms/releases/download/1.1.3/hms_1.1.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        927919205561790c0bb2b6fd871e62cc0fda8bfd6e08188bbdc0a14c7a56c604
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.277274687115239
@@ -2342,7 +2569,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)
 Imports: lifecycle, methods, pkgconfig, rlang (>= 1.0.2), vctrs (>=
         0.3.8)
 
@@ -2358,8 +2584,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat, XML, xml2, Hmisc, rmarkdown, chron, lubridate,
         tibble, purrr, tidyselect, glue, rlang, tidyr (>= 0.7.2), dplyr
         (>= 0.7.4)
-Imports: stringr, knitr (>= 1.6), magrittr (>= 1.5), methods,
-        checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)
 License: GPL (>= 3)
 DownloadURL:
         https://github.com/cran/htmlTable/releases/download/2.4.2/htmlTable_2.4.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2369,6 +2593,8 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.918219897971145
 reverse_dependencies: 0.742960953010137
 dependencies: 0.119202922022118
+Imports: stringr, knitr (>= 1.6), magrittr (>= 1.5), methods,
+        checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)
 
 Package: htmlwidgets
 Version: 1.6.4
@@ -2380,8 +2606,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: htmlwidgets_1.6.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
-Imports: grDevices, htmltools (>= 0.5.7), jsonlite (>= 0.9.16), knitr
-        (>= 1.8), rmarkdown, yaml
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/htmlwidgets/releases/download/1.6.4/htmlwidgets_1.6.4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2390,6 +2614,8 @@ SHA256:
 GraphicsAPIVersion: 16
 downloads_1yr: 0.977179998542563
 reverse_dependencies: 0.999742130118113
+Imports: grDevices, htmltools (>= 0.5.7), jsonlite (>= 0.9.16), knitr
+        (>= 1.8), rmarkdown, yaml
 Enhances: shiny (>= 1.1)
 
 Package: httr
@@ -2403,7 +2629,6 @@ File: httr_1.4.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
         (>= 0.8.0), xml2
-Imports: curl (>= 5.0.2), jsonlite, mime, openssl (>= 0.8), R6
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/httr/releases/download/1.4.7/httr_1.4.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2413,6 +2638,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.983884885655743
 reverse_dependencies: 0.999999924820072
 dependencies: 0.377540668798145
+Imports: curl (>= 5.0.2), jsonlite, mime, openssl (>= 0.8), R6
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -2437,9 +2663,6 @@ File: httr2_1.0.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: askpass, bench, clipr, covr, docopt, httpuv, jose, jsonlite,
         knitr, rmarkdown, testthat (>= 3.1.8), tibble, webfakes, xml2
-Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr,
-        openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3),
-        withr
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/httr2/releases/download/1.0.0/httr2_1.0.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2449,6 +2672,9 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.957071215133599
 reverse_dependencies: 0.996209690505109
 dependencies: 0.0293122307513564
+Imports: cli (>= 3.0.0), curl (>= 5.1.0), glue, lifecycle, magrittr,
+        openssl, R6, rappdirs, rlang (>= 1.1.0), vctrs (>= 0.6.3),
+        withr
 
 Package: hunspell
 Version: 3.0.3
@@ -2461,7 +2687,6 @@ File: hunspell_3.0.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
         stopwords, rmarkdown
-Imports: Rcpp, digest
 Arch: amd64
 License: GPL-2 | LGPL-2.1 | MPL-1.1
 DownloadURL:
@@ -2473,22 +2698,24 @@ downloads_1yr: 0.873848234379888
 reverse_dependencies: 0.664796161341598
 OS: linux
 dependencies: 0.622459331201855
+Imports: Rcpp, digest
 LinkingTo: Rcpp (>= 0.12.12)
 
 Package: ids
 Version: 1.0.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/ids/releases/download/1.0.1/ids_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:38:39 UTC; unix
 Filesize: 120612
-Sha256:
-        ddad4c08fabb352de99f44c19261133e2c4facb92bac5dcb131e5be6dd825098
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: ids_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rcorpora, rmarkdown, testthat
+DownloadUrl:
+        https://github.com/cran/ids/releases/download/1.0.1/ids_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        ddad4c08fabb352de99f44c19261133e2c4facb92bac5dcb131e5be6dd825098
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.313542536485202
@@ -2501,23 +2728,23 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: knitr, rcorpora, rmarkdown, testthat
 Imports: openssl, uuid
 
 Package: ini
 Version: 0.3.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/ini/releases/download/0.3.1/ini_0.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:10:19 UTC; unix
 Filesize: 13541
-Sha256:
-        a74c8bab589b5699d62866e5d18bc889323fda3560a69b542db3b2d8edfa89a2
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: ini_0.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat
+DownloadUrl:
+        https://github.com/cran/ini/releases/download/0.3.1/ini_0.3.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        a74c8bab589b5699d62866e5d18bc889323fda3560a69b542db3b2d8edfa89a2
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.233470074850849
@@ -2530,23 +2757,23 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: testthat
 Dependencies: 0.880797077977882
 
 Package: inline
 Version: 0.3.19
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/inline/releases/download/0.3.19/inline_0.3.19_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-23 20:38:31 UTC; unix
 Filesize: 128105
-Sha256:
-        e989632301df9ae3ccaf33ef8c5b68b1baa2a9f34d39c1d2623d32508af6a246
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: inline_0.3.19_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Rcpp (>= 0.11.0), tinytest
+DownloadUrl:
+        https://github.com/cran/inline/releases/download/0.3.19/inline_0.3.19_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        e989632301df9ae3ccaf33ef8c5b68b1baa2a9f34d39c1d2623d32508af6a246
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.215258778700843
@@ -2559,24 +2786,25 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: Rcpp (>= 0.11.0), tinytest
 Imports: methods
 Dependencies: 0.817574476193644
 
 Package: ipred
 Version: 0.9-14
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/ipred/releases/download/0.9-14/ipred_0.9-14_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:47:07 UTC; unix
 Filesize: 385018
-Sha256:
-        010a066fb17e2edd600c1e7fd5da6c82e1b7fb0ff8dd1f10813504fe1ba8423e
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: ipred_0.9-14_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: mvtnorm, mlbench, TH.data, randomForest, party
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/ipred/releases/download/0.9-14/ipred_0.9-14_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        010a066fb17e2edd600c1e7fd5da6c82e1b7fb0ff8dd1f10813504fe1ba8423e
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.449875357067807
@@ -2589,26 +2817,27 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: mvtnorm, mlbench, TH.data, randomForest, party
 Imports: rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim
-Arch: amd64
 Os: linux
 Dependencies: 0.268941421369995
 
 Package: isoband
 Version: 0.2.7
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/isoband/releases/download/0.2.7/isoband_0.2.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-20 13:55:29 UTC; unix
 Filesize: 1923957
-Sha256:
-        c9965803ee2ea25e639bc367cca17c64395997469ef3b06586b5dbec6d4864e2
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: isoband_0.2.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+        testthat, xml2
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/isoband/releases/download/0.2.7/isoband_0.2.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        c9965803ee2ea25e639bc367cca17c64395997469ef3b06586b5dbec6d4864e2
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.327087318092216
@@ -2621,27 +2850,25 @@ RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
-        testthat, xml2
 Imports: grid, utils
-Arch: amd64
 Os: linux
 SystemRequirements: C++11
 
 Package: iterators
 Version: 1.0.14
 Depends: R (>= 2.5.0), utils, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/iterators/releases/download/1.0.14/iterators_1.0.14_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:44:59 UTC; unix
 Filesize: 346611
-Sha256:
-        c1363922c40a89b5760cc67aa00063a14714e3941e50480677ababafddbe74c5
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: iterators_1.0.14_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: RUnit, foreach
+DownloadUrl:
+        https://github.com/cran/iterators/releases/download/1.0.14/iterators_1.0.14_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        c1363922c40a89b5760cc67aa00063a14714e3941e50480677ababafddbe74c5
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.273502699022466
@@ -2654,22 +2881,21 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: RUnit, foreach
 
 Package: jds.rmd
 Version: 0.3.3
 Depends: R (>= 3.2.3), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/jds.rmd/releases/download/0.3.3/jds.rmd_0.3.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 08:09:27 UTC; unix
 Filesize: 48397
-Sha256:
-        e577f3b76bdffb17c0698b5395678f7d2b7378389f207a33bfbef21d3175c4bb
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: jds.rmd_0.3.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/jds.rmd/releases/download/0.3.3/jds.rmd_0.3.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        e577f3b76bdffb17c0698b5395678f7d2b7378389f207a33bfbef21d3175c4bb
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.274778661895214
@@ -2688,17 +2914,18 @@ Dependencies: 0.731058578630005
 Package: jquerylib
 Version: 0.1.4
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/jquerylib/releases/download/0.1.4/jquerylib_0.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-19 13:26:14 UTC; unix
 Filesize: 526937
-Sha256:
-        77a81bff5a230b3ebe9e4ab32868405c8a422d963aa3dc0cdbad840a2307b786
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: jquerylib_0.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat
+DownloadUrl:
+        https://github.com/cran/jquerylib/releases/download/0.1.4/jquerylib_0.1.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        77a81bff5a230b3ebe9e4ab32868405c8a422d963aa3dc0cdbad840a2307b786
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.514161189978004
@@ -2711,7 +2938,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: testthat
 Imports: htmltools
 Dependencies: 0.817574476193644
 
@@ -2753,8 +2979,6 @@ Suggests: bslib, codetools, DBI (>= 0.4-1), digest, formatR, gifski,
         styler (>= 1.2.0), targets (>= 0.6.0), testit, tibble,
         tikzDevice (>= 0.10), tinytex (>= 0.46), webshot, rstudioapi,
         svglite, xml2 (>= 1.2.0)
-Imports: evaluate (>= 0.15), highr, methods, tools, xfun (>= 0.39),
-        yaml (>= 2.1.19)
 License: GPL
 DownloadURL:
         https://github.com/cran/knitr/releases/download/1.45/knitr_1.45_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2764,6 +2988,8 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.986954907550734
 reverse_dependencies: 1
 dependencies: 0.268941421369995
+Imports: evaluate (>= 0.15), highr, methods, tools, xfun (>= 0.39),
+        yaml (>= 2.1.19)
 SystemRequirements: Package vignettes based on R Markdown v2 or
         reStructuredText require Pandoc (http://pandoc.org). The
         function rst2pdf() requires rst2pdf
@@ -2778,7 +3004,6 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: labeling_0.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: stats, graphics
 License: MIT + file LICENSE | Unlimited
 DownloadURL:
         https://github.com/cran/labeling/releases/download/0.4.3/labeling_0.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2788,6 +3013,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.98464941882188
 reverse_dependencies: 0.773323556388944
 dependencies: 0.731058578630005
+Imports: stats, graphics
 has_news: 0
 news_current: 0
 has_vignettes: 0
@@ -2810,7 +3036,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: later_1.3.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
-Imports: Rcpp (>= 0.12.9), rlang
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -2822,22 +3047,25 @@ downloads_1yr: 0.975295738827868
 reverse_dependencies: 0.807131153382682
 OS: linux
 dependencies: 0.622459331201855
+Imports: Rcpp (>= 0.12.9), rlang
 LinkingTo: Rcpp
 
 Package: lazyeval
 Version: 0.2.2
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/lazyeval/releases/download/0.2.2/lazyeval_0.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:21:21 UTC; unix
 Filesize: 166502
-Sha256:
-        e4cf8304f27c8aaae14eedfe06dbbb3dd03c7003d54bfcfd9771e7e4b5759816
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: lazyeval_0.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown (>= 0.2.65), testthat, covr
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/lazyeval/releases/download/0.2.2/lazyeval_0.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        e4cf8304f27c8aaae14eedfe06dbbb3dd03c7003d54bfcfd9771e7e4b5759816
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.399816875903249
@@ -2850,25 +3078,25 @@ RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: knitr, rmarkdown (>= 0.2.65), testthat, covr
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 
 Package: lhs
 Version: 1.1.6
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/lhs/releases/download/1.1.6/lhs_1.1.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:45:33 UTC; unix
 Filesize: 3074715
-Sha256:
-        547177d3d84934f0fef6b4481de3589cf645b061513fcbc3e129eccb03976057
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: lhs_1.1.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat, assertthat, DoE.base, knitr, rmarkdown
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/lhs/releases/download/1.1.6/lhs_1.1.6_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        547177d3d84934f0fef6b4481de3589cf645b061513fcbc3e129eccb03976057
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.228718162473453
@@ -2881,9 +3109,7 @@ RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: testthat, assertthat, DoE.base, knitr, rmarkdown
 Imports: Rcpp
-Arch: amd64
 Os: linux
 Dependencies: 0.731058578630005
 LinkingTo: Rcpp
@@ -2899,7 +3125,6 @@ File: lifecycle_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, crayon, knitr, lintr, rmarkdown, testthat (>= 3.0.1),
         tibble, tidyverse, tools, vctrs, withr
-Imports: cli (>= 3.4.0), glue, rlang (>= 1.1.0)
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/lifecycle/releases/download/1.0.4/lifecycle_1.0.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -2909,6 +3134,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.991870129767363
 reverse_dependencies: 0.999975545224903
 dependencies: 0.622459331201855
+Imports: cli (>= 3.4.0), glue, rlang (>= 1.1.0)
 
 Package: lme4
 Version: 1.1-35.1
@@ -2924,8 +3150,6 @@ Suggests: knitr, rmarkdown, MEMSS, testthat (>= 0.8.1), ggplot2,
         mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
         numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble,
         merDeriv
-Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot,
-        nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
 Arch: amd64
 License: GPL (>= 2)
 DownloadURL:
@@ -2937,6 +3161,8 @@ downloads_1yr: 0.973068378847474
 reverse_dependencies: 0.999954885590317
 OS: linux
 dependencies: 0.00150118225673701
+Imports: graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+        nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)
 LinkingTo: Rcpp (>= 0.10.5), RcppEigen (>= 0.3.3.9.4), Matrix
 
 Package: lubridate
@@ -2949,7 +3175,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: lubridate_1.9.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown, testthat (>= 2.1.0), vctrs (>= 0.5.0)
-Imports: generics, timechange (>= 0.1.1)
 Arch: amd64
 License: GPL (>= 2)
 DownloadURL:
@@ -2960,6 +3185,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.982714929196317
 reverse_dependencies: 0.999999040588827
 OS: linux
+Imports: generics, timechange (>= 0.1.1)
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -2977,17 +3203,19 @@ SystemRequirements: C++11, A system with zoneinfo data (e.g.
 Package: magrittr
 Version: 2.0.3
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/magrittr/releases/download/2.0.3/magrittr_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:21:29 UTC; unix
 Filesize: 233977
-Sha256:
-        3b42cfc70ffbf228042d6cd4ae587bca5c3fec8f5e5d54ffb83885d6a5a8281d
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: magrittr_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, rlang, rmarkdown, testthat
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/magrittr/releases/download/2.0.3/magrittr_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        3b42cfc70ffbf228042d6cd4ae587bca5c3fec8f5e5d54ffb83885d6a5a8281d
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.101745720189267
@@ -3000,8 +3228,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, knitr, rlang, rmarkdown, testthat
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 
@@ -3015,7 +3241,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: markdown_1.12_b6_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: knitr, rmarkdown (>= 2.18), yaml, RCurl
-Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/markdown/releases/download/1.12/markdown_1.12_b6_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3025,21 +3250,47 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.955491608536235
 reverse_dependencies: 0.999990276497219
 dependencies: 0.622459331201855
+Imports: utils, commonmark (>= 1.9.0), xfun (>= 0.38)
+
+Package: matrixStats
+Version: 1.2.0
+Depends: R (>= 2.12.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-12 16:38:19 UTC; unix
+Filesize: 746764
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: matrixStats_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: base64enc, ggplot2, knitr, markdown, microbenchmark,
+        R.devices, R.rsp
+Arch: amd64
+License: Artistic-2.0
+DownloadURL:
+        https://github.com/cran/matrixStats/releases/download/1.2.0/matrixStats_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        c9bc122b078934faf61fe51cb3ee4255f60b01ab85f4722e4e93481346be1302
+GraphicsAPIVersion: 16
+downloads_1yr: 0.944693997418316
+reverse_dependencies: 0.999955389412914
+OS: linux
+dependencies: 0.880797077977882
 
 Package: memoise
 Version: 2.0.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/memoise/releases/download/2.0.1/memoise_2.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-19 13:25:56 UTC; unix
 Filesize: 48009
-Sha256:
-        9233614c9d03b97a1f9e60e2797bf39709c3ad64110029fc519cedee7aae6219
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: memoise_2.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
+        testthat
+DownloadUrl:
+        https://github.com/cran/memoise/releases/download/2.0.1/memoise_2.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        9233614c9d03b97a1f9e60e2797bf39709c3ad64110029fc519cedee7aae6219
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.273800584584531
@@ -3052,24 +3303,23 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
-        testthat
 Imports: rlang (>= 0.4.10), cachem
 
 Package: mime
 Version: 0.12
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/mime/releases/download/0.12/mime_0.12_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:21:34 UTC; unix
 Filesize: 36144
-Sha256:
-        b07ede3f09ee4bf20e42d351792d11a36c707043686671c3361583c7e85e8ef8
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: mime_0.12_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/mime/releases/download/0.12/mime_0.12_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        b07ede3f09ee4bf20e42d351792d11a36c707043686671c3361583c7e85e8ef8
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.29937578747601
@@ -3083,24 +3333,23 @@ HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
 Imports: tools
-Arch: amd64
 Os: linux
 Dependencies: 0.817574476193644
 
 Package: miniUI
 Version: 0.1.1.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/miniUI/releases/download/0.1.1.1/miniUI_0.1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:11:04 UTC; unix
 Filesize: 34581
-Sha256:
-        06434a7eb13f175455b6c74642901ded9746c151ee421661680563a1d91094a4
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: miniUI_0.1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/miniUI/releases/download/0.1.1.1/miniUI_0.1.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        06434a7eb13f175455b6c74642901ded9746c151ee421661680563a1d91094a4
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.751478958918146
@@ -3124,7 +3373,6 @@ RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: minqa_1.2.6_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: Rcpp (>= 0.9.10)
 Arch: amd64
 License: GPL-2
 DownloadURL:
@@ -3136,23 +3384,25 @@ downloads_1yr: 0.96561298747029
 reverse_dependencies: 0.900122893005357
 OS: linux
 dependencies: 0.731058578630005
+Imports: Rcpp (>= 0.9.10)
 LinkingTo: Rcpp
 SystemRequirements: GNU make
 
 Package: modelenv
 Version: 0.1.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/modelenv/releases/download/0.1.1/modelenv_0.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:45:21 UTC; unix
 Filesize: 74517
-Sha256:
-        bbf6776c5120cc4eafc22a43efba27b6610894cff80baedd469b00b8119a247e
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: modelenv_0.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 3.0.0)
+DownloadUrl:
+        https://github.com/cran/modelenv/releases/download/0.1.1/modelenv_0.1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        bbf6776c5120cc4eafc22a43efba27b6610894cff80baedd469b00b8119a247e
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.327391834997799
@@ -3165,23 +3415,23 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, testthat (>= 3.0.0)
 Imports: glue, rlang, tibble, vctrs
 
 Package: modelr
 Version: 0.1.11
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/modelr/releases/download/0.1.11/modelr_0.1.11_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:38:17 UTC; unix
 Filesize: 200730
-Sha256:
-        cb1c2317a2efd4dca24f21f35f01b4b59f19042d6a74a581beeb163aacba46c2
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: modelr_0.1.11_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: compiler, covr, ggplot2, testthat (>= 3.0.0)
+DownloadUrl:
+        https://github.com/cran/modelr/releases/download/0.1.11/modelr_0.1.11_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        cb1c2317a2efd4dca24f21f35f01b4b59f19042d6a74a581beeb163aacba46c2
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.287006081290774
@@ -3194,7 +3444,6 @@ RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: compiler, covr, ggplot2, testthat (>= 3.0.0)
 Imports: broom, magrittr, purrr (>= 0.2.2), rlang (>= 1.0.6), tibble,
         tidyr (>= 0.8.0), tidyselect, vctrs
 Dependencies: 0.119202922022118
@@ -3202,17 +3451,18 @@ Dependencies: 0.119202922022118
 Package: munsell
 Version: 0.5.0
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/munsell/releases/download/0.5.0/munsell_0.5.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-20 13:56:28 UTC; unix
 Filesize: 243958
-Sha256:
-        4b968044f2dd2e4d2b4074df4d36c92a2b38f280a905d7e3e679bb8ab0752cd2
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: munsell_0.5.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: ggplot2, testthat
+DownloadUrl:
+        https://github.com/cran/munsell/releases/download/0.5.0/munsell_0.5.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        4b968044f2dd2e4d2b4074df4d36c92a2b38f280a905d7e3e679bb8ab0752cd2
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.414788256382157
@@ -3225,7 +3475,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: ggplot2, testthat
 Imports: colorspace, methods
 
 Package: mvtnorm
@@ -3238,7 +3487,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: mvtnorm_1.2-4_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: qrng, numDeriv
-Imports: stats
 Arch: amd64
 License: GPL-2
 DownloadURL:
@@ -3250,21 +3498,24 @@ downloads_1yr: 0.960890558485432
 reverse_dependencies: 0.9999997677758
 OS: linux
 dependencies: 0.731058578630005
+Imports: stats
 
 Package: nloptr
 Version: 2.0.3
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/nloptr/releases/download/2.0.3/nloptr_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:44:42 UTC; unix
 Filesize: 3445717
-Sha256:
-        b2d84354d054902bb7fc9bd3f0dc163bf50624a830f5c75ac3e8587800d23d07
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: nloptr_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/nloptr/releases/download/2.0.3/nloptr_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        b2d84354d054902bb7fc9bd3f0dc163bf50624a830f5c75ac3e8587800d23d07
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.129298620418187
@@ -3277,8 +3528,6 @@ RemoteChecks: 0.769230769230769
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr
-Arch: amd64
 Os: linux
 Dependencies: 0.817574476193644
 LinkingTo: testthat
@@ -3289,17 +3538,19 @@ SystemRequirements: cmake (>= 3.2.0) which is used only on Linux or
 Package: nnet
 Version: 7.3-19
 Depends: R (>= 3.0.0), stats, utils, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/nnet/releases/download/7.3-19/nnet_7.3-19_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:45:03 UTC; unix
 Filesize: 125361
-Sha256:
-        a50b3e75f6b42c3d71954eb3e1cfc87a9e3b9847b46388c7ff35af34e9a044a4
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: nnet_7.3-19_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: MASS
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/nnet/releases/download/7.3-19/nnet_7.3-19_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        a50b3e75f6b42c3d71954eb3e1cfc87a9e3b9847b46388c7ff35af34e9a044a4
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.54553687292668
@@ -3312,25 +3563,23 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: MASS
-Arch: amd64
 Os: linux
 
 Package: numDeriv
 Version: 2016.8-1.1
 Depends: R (>= 2.11.1), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/numDeriv/releases/download/2016.8-1.1/numDeriv_2016.8-1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:45:06 UTC; unix
 Filesize: 113396
-Sha256:
-        240b7feac190a1c785ef23878640ba3b32782ab16b532576efbc955b3c4a90a1
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File:
         numDeriv_2016.8-1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/numDeriv/releases/download/2016.8-1.1/numDeriv_2016.8-1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        240b7feac190a1c785ef23878640ba3b32782ab16b532576efbc955b3c4a90a1
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.374490786701904
@@ -3356,7 +3605,6 @@ File: openssl_2.1.1_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
         jsonlite, jose, sodium
-Imports: askpass
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -3368,6 +3616,7 @@ downloads_1yr: 0.983676910783544
 reverse_dependencies: 0.981674846664329
 OS: linux
 dependencies: 0.817574476193644
+Imports: askpass
 SystemRequirements: OpenSSL >= 1.0.2
 
 Package: pROC
@@ -3381,7 +3630,6 @@ File: pROC_1.18.5_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: microbenchmark, tcltk, MASS, logcondens, doParallel,
         testthat, vdiffr, ggplot2, rlang
-Imports: methods, plyr, Rcpp (>= 0.11.1)
 Arch: amd64
 License: GPL (>= 3)
 DownloadURL:
@@ -3393,22 +3641,46 @@ downloads_1yr: 0.921700579885505
 reverse_dependencies: 0.994958965861303
 OS: linux
 dependencies: 0.5
+Imports: methods, plyr, Rcpp (>= 0.11.1)
 LinkingTo: Rcpp
+
+Package: patchwork
+Version: 1.2.0
+Depends: R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2024-01-08 16:38:30 UTC; unix
+Filesize: 3298712
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: patchwork_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
+        2.1.0), vdiffr, covr, png
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/patchwork/releases/download/1.2.0/patchwork_1.2.0_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        39073ac0aa50ed7ac9dfc05cea9e7cf34e113acf8c78f5da0813a6825fc1e81a
+GraphicsAPIVersion: 16
+downloads_1yr: 0.942914684854809
+reverse_dependencies: 0.999874298016077
+Imports: ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils,
+        graphics, rlang, cli
 
 Package: pbkrtest
 Version: 0.5.2
 Depends: R (>= 4.1.0), lme4 (>= 1.1.31), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/pbkrtest/releases/download/0.5.2/pbkrtest_0.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 16:50:54 UTC; unix
 Filesize: 187955
-Sha256:
-        87434ce8d8111f6868a5273428b1ad07d7315e1bef854d54cdeba5b8981a40e5
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: pbkrtest_0.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr
+DownloadUrl:
+        https://github.com/cran/pbkrtest/releases/download/0.5.2/pbkrtest_0.5.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        87434ce8d8111f6868a5273428b1ad07d7315e1bef854d54cdeba5b8981a40e5
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.369011362934103
@@ -3421,7 +3693,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: knitr
 Imports: broom, dplyr, MASS, Matrix (>= 1.2.3), methods, numDeriv,
         parallel
 Dependencies: 0.119202922022118
@@ -3429,17 +3700,21 @@ Dependencies: 0.119202922022118
 Package: pillar
 Version: 1.9.0
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/pillar/releases/download/1.9.0/pillar_1.9.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-19 13:27:14 UTC; unix
 Filesize: 647905
-Sha256:
-        60cf8d797f52de4756d71a95baf4ef11cb34256867f2593743cfe76807fed3c2
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: pillar_1.9.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+        knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+        rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+        tibble, units (>= 0.7.2), vdiffr, withr
+DownloadUrl:
+        https://github.com/cran/pillar/releases/download/1.9.0/pillar_1.9.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        60cf8d797f52de4756d71a95baf4ef11cb34256867f2593743cfe76807fed3c2
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.18313441040753
@@ -3452,27 +3727,24 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: bit64, DBI, debugme, DiagrammeR, dplyr, formattable, ggplot2,
-        knitr, lubridate, nanotime, nycflights13, palmerpenguins,
-        rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
-        tibble, units (>= 0.7.2), vdiffr, withr
 Imports: cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
         (>= 1.1.0), utils, vctrs (>= 0.5.0)
 
 Package: pkgconfig
 Version: 2.0.3
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/pkgconfig/releases/download/2.0.3/pkgconfig_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-19 13:21:45 UTC; unix
 Filesize: 18015
-Sha256:
-        80a4f1dbdc0b8506a2cb569f0e5b9fe46a601c92c0c6ac341bedda465113f127
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: pkgconfig_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat, disposables (>= 1.0.3)
+DownloadUrl:
+        https://github.com/cran/pkgconfig/releases/download/2.0.3/pkgconfig_2.0.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        80a4f1dbdc0b8506a2cb569f0e5b9fe46a601c92c0c6ac341bedda465113f127
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.439825302773912
@@ -3485,24 +3757,26 @@ RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 1
-Suggests: covr, testthat, disposables (>= 1.0.3)
 Imports: utils
 Dependencies: 0.817574476193644
 
 Package: pkgdown
 Version: 2.0.7
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/pkgdown/releases/download/2.0.7/pkgdown_2.0.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:13:30 UTC; unix
 Filesize: 734788
-Sha256:
-        1080478472fdb6ff884f82a24eeaf2017d2409562206a79c29d2eedc5a63e53c
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: pkgdown_2.0.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr,
+        lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect,
+        rstudioapi, rticles, sass, testthat (>= 3.1.3), tools
+DownloadUrl:
+        https://github.com/cran/pkgdown/releases/download/2.0.7/pkgdown_2.0.7_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        1080478472fdb6ff884f82a24eeaf2017d2409562206a79c29d2eedc5a63e53c
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.184192418443854
@@ -3515,9 +3789,6 @@ RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, diffviewer, evaluate, htmltools, htmlwidgets, knitr,
-        lifecycle, methods, openssl, pkgload (>= 1.0.2), rsconnect,
-        rstudioapi, rticles, sass, testthat (>= 3.1.3), tools
 Imports: bslib (>= 0.3.1), callr (>= 3.7.3), cli, desc, digest, downlit
         (>= 0.4.0), fs (>= 1.4.0), httr (>= 1.4.2), jsonlite, magrittr,
         memoise, purrr, ragg, rlang (>= 1.0.0), rmarkdown (>=
@@ -3529,17 +3800,18 @@ SystemRequirements: pandoc
 Package: plogr
 Version: 0.2.0
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/plogr/releases/download/0.2.0/plogr_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 14:09:47 UTC; unix
 Filesize: 13292
-Sha256:
-        5f10c095cec28851a1ca9885e12376a21c598bf801447193bb8add87b6291a1e
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: plogr_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: Rcpp
+DownloadUrl:
+        https://github.com/cran/plogr/releases/download/0.2.0/plogr_0.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        5f10c095cec28851a1ca9885e12376a21c598bf801447193bb8add87b6291a1e
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.263516109768376
@@ -3552,7 +3824,6 @@ RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: Rcpp
 Dependencies: 0.880797077977882
 
 Package: plyr
@@ -3566,7 +3837,6 @@ File: plyr_1.8.9_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: abind, covr, doParallel, foreach, iterators, itertools,
         tcltk, testthat
-Imports: Rcpp (>= 0.11.0)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -3578,6 +3848,7 @@ downloads_1yr: 0.97039646241673
 reverse_dependencies: 0.999999187354412
 OS: linux
 dependencies: 0.731058578630005
+Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp
 has_news: 1
 news_current: 1
@@ -3592,17 +3863,18 @@ bugs_status: 0.533333333333333
 Package: png
 Version: 0.1-8
 Depends: R (>= 2.9.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/png/releases/download/0.1-8/png_0.1-8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:40:03 UTC; unix
 Filesize: 60773
-Sha256:
-        3d5061c5d45e31731bab2237a74564597e591a6668777cbf71f651aee1a35d37
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: png_0.1-8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/png/releases/download/0.1-8/png_0.1-8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        3d5061c5d45e31731bab2237a74564597e591a6668777cbf71f651aee1a35d37
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.374551620031422
@@ -3615,7 +3887,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 SystemRequirements: libpng
@@ -3632,9 +3903,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat (>= 2.1.0), caret (>= 6.0.84), gbm (>= 2.1.8),
         randomForest (>= 4.6.14), e1071 (>= 1.7.3), dplyr, tidyr,
         knitr, ggplot2, ggdist, rmarkdown
-Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>=
-        3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional,
-        parallel, matrixStats
 License: BSD_3_clause + file LICENSE
 DownloadURL:
         https://github.com/cran/posterior/releases/download/1.5.0/posterior_1.5.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3644,6 +3912,9 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.77972824339148
 reverse_dependencies: 0.923262089125122
 dependencies: 0.0179862099620915
+Imports: methods, abind, checkmate, rlang (>= 1.0.6), stats, tibble (>=
+        3.1.0), vctrs (>= 0.5.0), tensorA, pillar, distributional,
+        parallel, matrixStats
 
 Package: pracma
 Version: 2.4.4
@@ -3655,7 +3926,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: pracma_2.4.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: NlcOptim, quadprog
-Imports: graphics, grDevices, stats, utils
 License: GPL (>= 3)
 DownloadURL:
         https://github.com/cran/pracma/releases/download/2.4.4/pracma_2.4.4_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3665,21 +3935,23 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.873799942621041
 reverse_dependencies: 0.999890196764899
 dependencies: 0.5
+Imports: graphics, grDevices, stats, utils
 
 Package: praise
 Version: 1.0.0
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/praise/releases/download/1.0.0/praise_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:10:20 UTC; unix
 Filesize: 16551
-Sha256:
-        b6c6e3be49663838815d3298fa2926b8432ad5c297fbf461a5f0840578f8a603
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: praise_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat
+DownloadUrl:
+        https://github.com/cran/praise/releases/download/1.0.0/praise_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        b6c6e3be49663838815d3298fa2926b8432ad5c297fbf461a5f0840578f8a603
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.270046646090718
@@ -3692,7 +3964,6 @@ RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: testthat
 Dependencies: 0.880797077977882
 
 Package: prettyunits
@@ -3737,8 +4008,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File:
         prodlim_2023.08.28_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
-Imports: Rcpp (>= 0.11.5), stats, data.table, grDevices, graphics,
-        diagram, survival, KernSmooth, lava
 Arch: amd64
 License: GPL (>= 2)
 DownloadURL:
@@ -3750,22 +4019,27 @@ downloads_1yr: 0.916808185187198
 reverse_dependencies: 0.876983858970433
 OS: linux
 dependencies: 0.0474258731775666
+Imports: Rcpp (>= 0.11.5), stats, data.table, grDevices, graphics,
+        diagram, survival, KernSmooth, lava
 LinkingTo: Rcpp
 
 Package: profvis
 Version: 0.3.8
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/profvis/releases/download/0.3.8/profvis_0.3.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:11:15 UTC; unix
 Filesize: 201100
-Sha256:
-        cdddaaa49677075e4f73947c50fbd7f6b26f74ea2d1387280d59993f18fe90bd
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: profvis_0.3.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, ggplot2, rmarkdown, testthat (>= 3.0.0), devtools,
+        shiny, htmltools
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/profvis/releases/download/0.3.8/profvis_0.3.8_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        cdddaaa49677075e4f73947c50fbd7f6b26f74ea2d1387280d59993f18fe90bd
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.453689286492005
@@ -3778,11 +4052,8 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: knitr, ggplot2, rmarkdown, testthat (>= 3.0.0), devtools,
-        shiny, htmltools
 Imports: htmlwidgets (>= 0.3.2), purrr, rlang (>= 0.4.9), stringr,
         vctrs
-Arch: amd64
 Os: linux
 Dependencies: 0.377540668798145
 
@@ -3796,7 +4067,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: progress_1.2.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: Rcpp, testthat (>= 3.0.0), withr
-Imports: crayon, hms, prettyunits, R6
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/progress/releases/download/1.2.3/progress_1.2.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3806,6 +4076,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.981787056449562
 reverse_dependencies: 0.999527467033592
 dependencies: 0.5
+Imports: crayon, hms, prettyunits, R6
 
 Package: progressr
 Version: 0.14.0
@@ -3819,7 +4090,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: graphics, tcltk, beepr, cli, crayon, pbmcapply, progress,
         purrr, foreach, plyr, doFuture, future, future.apply, furrr,
         RPushbullet, rstudioapi, shiny, commonmark, base64enc, tools
-Imports: digest, utils
 License: GPL (>= 3)
 DownloadURL:
         https://github.com/cran/progressr/releases/download/0.14.0/progressr_0.14.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -3829,6 +4099,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.928648148800005
 reverse_dependencies: 0.984109414415179
 dependencies: 0.731058578630005
+Imports: digest, utils
 has_news: 1
 news_current: 1
 has_vignettes: 1
@@ -3853,8 +4124,6 @@ File: promises_1.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: future (>= 1.21.0), knitr, purrr, rmarkdown, spelling,
         testthat, vembedr
-Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang,
-        stats
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -3866,22 +4135,26 @@ downloads_1yr: 0.975403340128024
 reverse_dependencies: 0.828431054367907
 OS: linux
 dependencies: 0.0758581800212434
+Imports: fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang,
+        stats
 LinkingTo: later, Rcpp
 
 Package: proxy
 Version: 0.4-27
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/proxy/releases/download/0.4-27/proxy_0.4-27_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:20:46 UTC; unix
 Filesize: 208402
-Sha256:
-        52ac1bab0db4127f07279f85a3e8ffdda42b660450e832836440e7aa55c5e2a3
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: proxy_0.4-27_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: cba
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/proxy/releases/download/0.4-27/proxy_0.4-27_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        52ac1bab0db4127f07279f85a3e8ffdda42b660450e832836440e7aa55c5e2a3
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.391604962690737
@@ -3894,9 +4167,7 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: cba
 Imports: stats, utils
-Arch: amd64
 Os: linux
 Dependencies: 0.731058578630005
 
@@ -3911,8 +4182,6 @@ File: purrr_1.0.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 0.7.8), httr, knitr, lubridate, rmarkdown,
         testthat (>= 3.0.0), tibble, tidyselect
-Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
-        rlang (>= 1.1.1), vctrs (>= 0.6.3)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -3924,6 +4193,8 @@ downloads_1yr: 0.986971466034047
 reverse_dependencies: 0.999999999591937
 OS: linux
 dependencies: 0.268941421369995
+Imports: cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),
+        rlang (>= 1.1.1), vctrs (>= 0.6.3)
 LinkingTo: cli
 has_news: 1
 news_current: 1
@@ -3948,7 +4219,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: quantreg_5.97_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: interp, rgl, logspline, nor1mix, Formula, zoo, R.rsp, conquer
-Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
 Arch: amd64
 License: GPL (>= 2)
 DownloadURL:
@@ -3960,22 +4230,25 @@ downloads_1yr: 0.972222391974271
 reverse_dependencies: 0.996480254506102
 OS: linux
 dependencies: 0.119202922022118
+Imports: methods, graphics, Matrix, MatrixModels, survival, MASS
 
 Package: randomForest
 Version: 4.7-1.1
 Depends: R (>= 4.1.0), stats, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/randomForest/releases/download/4.7-1.1/randomForest_4.7-1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:40:13 UTC; unix
 Filesize: 264681
-Sha256:
-        932ff21679b43433a0c6e270e76560fc43e26fb38abaa3a93405584dde8d9bc1
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File:
         randomForest_4.7-1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: RColorBrewer, MASS
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/randomForest/releases/download/4.7-1.1/randomForest_4.7-1.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        932ff21679b43433a0c6e270e76560fc43e26fb38abaa3a93405584dde8d9bc1
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.545484028704287
@@ -3988,24 +4261,24 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: RColorBrewer, MASS
-Arch: amd64
 Os: linux
 
 Package: rappdirs
 Version: 0.3.3
 Depends: R (>= 3.2), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/rappdirs/releases/download/0.3.3/rappdirs_0.3.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:22:06 UTC; unix
 Filesize: 46218
-Sha256:
-        6762e6c82ad234f56f7a4c0f1f34ccc53f30d38a055078828d6c5e9c06ff7818
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rappdirs_0.3.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/rappdirs/releases/download/0.3.3/rappdirs_0.3.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        6762e6c82ad234f56f7a4c0f1f34ccc53f30d38a055078828d6c5e9c06ff7818
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.193595245841394
@@ -4018,8 +4291,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: roxygen2, testthat (>= 3.0.0), covr, withr
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 
@@ -4034,7 +4305,6 @@ File: raster_3.6-26_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf,
         tinytest, gstat, fields, exactextractr
-Imports: Rcpp, methods, terra (>= 1.7-29)
 Arch: amd64
 License: GPL (>= 3)
 DownloadURL:
@@ -4046,6 +4316,7 @@ downloads_1yr: 0.901775891874902
 reverse_dependencies: 0.999692873089054
 OS: linux
 dependencies: 0.377540668798145
+Imports: Rcpp, methods, terra (>= 1.7-29)
 LinkingTo: Rcpp
 
 Package: rbibutils
@@ -4058,7 +4329,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rbibutils_2.2.16_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: testthat
-Imports: utils, tools
 Arch: amd64
 License: GPL-2
 DownloadURL:
@@ -4070,21 +4340,24 @@ downloads_1yr: 0.854416564677382
 reverse_dependencies: 0.5
 OS: linux
 dependencies: 0.731058578630005
+Imports: utils, tools
 
 Package: rcmdcheck
 Version: 1.4.0
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/rcmdcheck/releases/download/1.4.0/rcmdcheck_1.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:12:07 UTC; unix
 Filesize: 168737
-Sha256:
-        8742d07ccb6a2186f5713dbdf81551b2cfc4bc0e91d474636eea484a22238c1b
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rcmdcheck_1.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, knitr, mockery, processx, ps, rmarkdown, svglite,
+        testthat, webfakes
+DownloadUrl:
+        https://github.com/cran/rcmdcheck/releases/download/1.4.0/rcmdcheck_1.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        8742d07ccb6a2186f5713dbdf81551b2cfc4bc0e91d474636eea484a22238c1b
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.288324449602917
@@ -4097,11 +4370,35 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, knitr, mockery, processx, ps, rmarkdown, svglite,
-        testthat, webfakes
 Imports: callr (>= 3.1.1.9000), cli (>= 3.0.0), curl, desc (>= 1.2.0),
         digest, pkgbuild, prettyunits, R6, rprojroot, sessioninfo (>=
         1.1.1), utils, withr, xopen
+
+Package: readr
+Version: 2.1.5
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-11 16:38:24 UTC; unix
+Filesize: 3113145
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: readr_2.1.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, curl, datasets, knitr, rmarkdown, spelling, stringi,
+        testthat (>= 3.2.0), tzdb (>= 0.1.1), waldo, withr, xml2
+Arch: amd64
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/readr/releases/download/2.1.5/readr_2.1.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        3af13bfb129048dc2e84b6bb4023257df5790fc51b4d06f216baa2a38b38dbce
+GraphicsAPIVersion: 16
+downloads_1yr: 0.984332385721205
+reverse_dependencies: 0.999998999640912
+OS: linux
+dependencies: 0.0109869426305932
+Imports: cli (>= 3.2.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>=
+        0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.6.0)
+LinkingTo: cpp11, tzdb (>= 0.1.1)
 
 Package: readxl
 Version: 1.4.3
@@ -4113,7 +4410,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: readxl_1.4.3_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown, testthat (>= 3.1.6), withr
-Imports: cellranger, tibble (>= 2.0.1), utils
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -4125,6 +4421,7 @@ downloads_1yr: 0.985373947216721
 reverse_dependencies: 0.999888846821418
 OS: linux
 dependencies: 0.377540668798145
+Imports: cellranger, tibble (>= 2.0.1), utils
 LinkingTo: cpp11 (>= 0.4.0), progress
 has_news: 1
 news_current: 1
@@ -4171,17 +4468,18 @@ has_examples: 1
 Package: rematch2
 Version: 2.1.2
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/rematch2/releases/download/2.1.2/rematch2_2.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:10:46 UTC; unix
 Filesize: 45167
-Sha256:
-        9be1705b1eb3bbf2662493d0ac5e3e011500f31686ea50f50a8e2dcc454859e4
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rematch2_2.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat
+DownloadUrl:
+        https://github.com/cran/rematch2/releases/download/2.1.2/rematch2_2.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        9be1705b1eb3bbf2662493d0ac5e3e011500f31686ea50f50a8e2dcc454859e4
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.258007120955731
@@ -4194,24 +4492,50 @@ RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, testthat
 Imports: tibble
 Dependencies: 0.817574476193644
+
+Package: reprex
+Version: 2.1.0
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2024-01-11 16:38:30 UTC; unix
+Filesize: 497008
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: reprex_2.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, fortunes, miniUI, rprojroot, sessioninfo, shiny,
+        spelling, styler (>= 1.2.0), testthat (>= 3.0.2)
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/reprex/releases/download/2.1.0/reprex_2.1.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        fc026b68e90c046e6517d7bdb49d98fe71d76b3028685d5bededfd543720f7bc
+GraphicsAPIVersion: 16
+downloads_1yr: 0.973366827211432
+reverse_dependencies: 0.526652434048312
+dependencies: 0.0179862099620915
+Imports: callr (>= 3.6.0), cli (>= 3.2.0), clipr (>= 0.4.0), fs, glue,
+        knitr (>= 1.23), lifecycle, rlang (>= 1.0.0), rmarkdown,
+        rstudioapi, utils, withr (>= 2.3.0)
+SystemRequirements: pandoc (>= 2.0) - http://pandoc.org
 
 Package: reshape2
 Version: 1.4.4
 Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/reshape2/releases/download/1.4.4/reshape2_1.4.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:47:57 UTC; unix
 Filesize: 522904
-Sha256:
-        588df505765008409a2bd0f73a44a1708a3ebf72ae34d799778e7ed67d09b65a
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: reshape2_1.4.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, lattice, testthat (>= 0.8.0)
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/reshape2/releases/download/1.4.4/reshape2_1.4.4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        588df505765008409a2bd0f73a44a1708a3ebf72ae34d799778e7ed67d09b65a
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.244755274385912
@@ -4224,9 +4548,7 @@ RemoteChecks: 0.807692307692308
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, lattice, testthat (>= 0.8.0)
 Imports: plyr (>= 1.8.1), Rcpp, stringr
-Arch: amd64
 Os: linux
 Dependencies: 0.5
 LinkingTo: Rcpp
@@ -4234,17 +4556,19 @@ LinkingTo: Rcpp
 Package: rex
 Version: 1.2.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/rex/releases/download/1.2.1/rex_1.2.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-19 13:25:19 UTC; unix
 Filesize: 125283
-Sha256:
-        e930869f09dda1c887afed1754781be6b0e9be7ad0e3f5f7396a780d6cef14c9
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rex_1.2.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, dplyr, ggplot2, Hmisc, knitr, magrittr, rmarkdown,
+        roxygen2, rvest, stringr, testthat
+DownloadUrl:
+        https://github.com/cran/rex/releases/download/1.2.1/rex_1.2.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        e930869f09dda1c887afed1754781be6b0e9be7ad0e3f5f7396a780d6cef14c9
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.129891060393545
@@ -4257,10 +4581,34 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, dplyr, ggplot2, Hmisc, knitr, magrittr, rmarkdown,
-        roxygen2, rvest, stringr, testthat
 Imports: lazyeval
 Dependencies: 0.817574476193644
+
+Package: rlang
+Version: 1.1.3
+Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-01-10 16:37:31 UTC; unix
+Filesize: 2074215
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: rlang_1.1.3_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,
+        methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,
+        usethis, vctrs (>= 0.2.3), withr
+Arch: amd64
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/rlang/releases/download/1.1.3/rlang_1.1.3_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        8280514b70901cfaa7a948cb7adf0f5f9ab108848975c767fe6bcd43bc3ed3ad
+GraphicsAPIVersion: 16
+downloads_1yr: 0.993000666196591
+reverse_dependencies: 0.999999999995086
+OS: linux
+dependencies: 0.817574476193644
+Imports: utils
+Enhances: winch
 
 Package: rprojroot
 Version: 2.0.4
@@ -4286,17 +4634,18 @@ dependencies: 0.880797077977882
 Package: rversions
 Version: 2.1.2
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/rversions/releases/download/2.1.2/rversions_2.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:11:41 UTC; unix
 Filesize: 64851
-Sha256:
-        177d47015e2e99168f1a02ceb492b6308350f18b3de67c5dc3fe78b993367a1a
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: rversions_2.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, mockery, testthat
+DownloadUrl:
+        https://github.com/cran/rversions/releases/download/2.1.2/rversions_2.1.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        177d47015e2e99168f1a02ceb492b6308350f18b3de67c5dc3fe78b993367a1a
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.323879165473066
@@ -4309,8 +4658,32 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, mockery, testthat
 Imports: curl, utils, xml2 (>= 1.0.0)
+
+Package: s2
+Version: 1.1.6
+Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-20 16:36:23 UTC; unix
+Filesize: 20891650
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: s2_1.1.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bit64, testthat (>= 3.0.0), vctrs
+Arch: amd64
+License: Apache License (== 2.0)
+DownloadURL:
+        https://github.com/cran/s2/releases/download/1.1.6/s2_1.1.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        876476393436973e171b985f71898e52968429734bf412d4dbadcba4bcf6e89b
+GraphicsAPIVersion: 16
+downloads_1yr: 0.945609706129242
+reverse_dependencies: 0.731704224356449
+OS: linux
+dependencies: 0.5
+Imports: Rcpp, wk (>= 0.6.0)
+LinkingTo: Rcpp, wk
+SystemRequirements: OpenSSL >= 1.0.1
 
 Package: scales
 Version: 1.3.0
@@ -4323,8 +4696,6 @@ File: scales_1.3.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), stringi,
         testthat (>= 3.0.0)
-Imports: cli, farver (>= 2.0.3), glue, labeling, lifecycle, munsell (>=
-        0.5), R6, RColorBrewer, rlang (>= 1.0.0), viridisLite
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/scales/releases/download/1.3.0/scales_1.3.0_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -4334,21 +4705,24 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.988040006656135
 reverse_dependencies: 0.999999937044398
 dependencies: 0.0474258731775666
+Imports: cli, farver (>= 2.0.3), glue, labeling, lifecycle, munsell (>=
+        0.5), R6, RColorBrewer, rlang (>= 1.0.0), viridisLite
 
 Package: selectr
 Version: 0.4-2
 Depends: R (>= 3.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/selectr/releases/download/0.4-2/selectr_0.4-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:37:51 UTC; unix
 Filesize: 488666
-Sha256:
-        19973e8c3b7148b243eb930c7fa1096fff8575e5c90aae59231720aabe2a3a59
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: selectr_0.4-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat, XML, xml2
+DownloadUrl:
+        https://github.com/cran/selectr/releases/download/0.4-2/selectr_0.4-2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        19973e8c3b7148b243eb930c7fa1096fff8575e5c90aae59231720aabe2a3a59
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.347864415466851
@@ -4361,24 +4735,24 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: testthat, XML, xml2
 Imports: methods, stringr, R6
 Dependencies: 0.622459331201855
 
 Package: sessioninfo
 Version: 1.2.2
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/sessioninfo/releases/download/1.2.2/sessioninfo_1.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:10:36 UTC; unix
 Filesize: 184347
-Sha256:
-        dc360c33a5c7d5072005c5aef5af64168d7e923fd745833a6003af991767c71b
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: sessioninfo_1.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: callr, covr, mockery, reticulate, rmarkdown, testthat, withr
+DownloadUrl:
+        https://github.com/cran/sessioninfo/releases/download/1.2.2/sessioninfo_1.2.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        dc360c33a5c7d5072005c5aef5af64168d7e923fd745833a6003af991767c71b
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.22110830384804
@@ -4391,24 +4765,25 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: callr, covr, mockery, reticulate, rmarkdown, testthat, withr
 Imports: cli (>= 3.1.0), tools, utils
 Dependencies: 0.622459331201855
 
 Package: shinyjs
 Version: 2.1.0
 Depends: R (>= 3.1.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/shinyjs/releases/download/2.1.0/shinyjs_2.1.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-23 20:47:54 UTC; unix
 Filesize: 1085819
-Sha256:
-        633214d23aaca9c588ba1c4293188c575ce26914a7587f55cfcc9591ba0b2958
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: shinyjs_2.1.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce,
+        shinydisconnect, testthat (>= 0.9.1)
+DownloadUrl:
+        https://github.com/cran/shinyjs/releases/download/2.1.0/shinyjs_2.1.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        633214d23aaca9c588ba1c4293188c575ce26914a7587f55cfcc9591ba0b2958
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.216245747406172
@@ -4421,25 +4796,26 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce,
-        shinydisconnect, testthat (>= 0.9.1)
 Imports: digest (>= 0.6.8), jsonlite, shiny (>= 1.0.0)
 Dependencies: 0.622459331201855
 
 Package: shinystan
 Version: 2.6.0
 Depends: R (>= 3.1.0), shiny (>= 1.0.3), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/shinystan/releases/download/2.6.0/shinystan_2.6.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-23 21:12:46 UTC; unix
 Filesize: 1343446
-Sha256:
-        cf796dd245d705fb2bf58c3d5960a5b2cb551fd3712e87af8f33d8564b955f28
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: shinystan_2.6.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: cmdstanr (>= 0.4.0), coda, knitr (>= 1.9), posterior (>=
+        1.0.0), rmarkdown (>= 0.8.1), rsconnect (>= 0.4.2), rstanarm
+        (>= 2.17.4), testthat
+DownloadUrl:
+        https://github.com/cran/shinystan/releases/download/2.6.0/shinystan_2.6.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        cf796dd245d705fb2bf58c3d5960a5b2cb551fd3712e87af8f33d8564b955f28
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.332281820733614
@@ -4452,9 +4828,6 @@ RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: cmdstanr (>= 0.4.0), coda, knitr (>= 1.9), posterior (>=
-        1.0.0), rmarkdown (>= 0.8.1), rsconnect (>= 0.4.2), rstanarm
-        (>= 2.17.4), testthat
 Imports: bayesplot (>= 1.5.0), colourpicker, DT (>= 0.2), dygraphs (>=
         1.1.1.2), ggplot2 (>= 2.1.1), gridExtra, gtools, markdown (>=
         0.7.4), methods, reshape2, rstan (>= 2.17.1), stats, shinyjs
@@ -4465,17 +4838,17 @@ Dependencies: 0.000552778636923601
 Package: shinythemes
 Version: 1.2.0
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/shinythemes/releases/download/1.2.0/shinythemes_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-23 20:47:57 UTC; unix
 Filesize: 963881
-Sha256:
-        0f7e64944f826226f4421b5458ba907e13da8c090836522280cfa1510d4b8800
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: shinythemes_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/shinythemes/releases/download/1.2.0/shinythemes_1.2.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        0f7e64944f826226f4421b5458ba907e13da8c090836522280cfa1510d4b8800
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.382351299633142
@@ -4502,7 +4875,6 @@ File: slider_0.3.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat
         (>= 3.0.0)
-Imports: cli (>= 3.6.1), rlang (>= 1.1.1), vctrs (>= 0.6.3), warp
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -4514,23 +4886,26 @@ downloads_1yr: 0.859090627272164
 reverse_dependencies: 0.731704224356449
 OS: linux
 dependencies: 0.377540668798145
+Imports: cli (>= 3.6.1), rlang (>= 1.1.1), vctrs (>= 0.6.3), warp
 LinkingTo: vctrs (>= 0.6.3)
 
 Package: sourcetools
 Version: 0.1.7-1
 Depends: R (>= 3.0.2), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/sourcetools/releases/download/0.1.7-1/sourcetools_0.1.7-1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 08:20:39 UTC; unix
 Filesize: 197742
-Sha256:
-        21433df7fe97732f4e311814690b61f58a7d47cbdf1f39e6353bba38b20ef04f
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File:
         sourcetools_0.1.7-1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: testthat
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/sourcetools/releases/download/0.1.7-1/sourcetools_0.1.7-1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        21433df7fe97732f4e311814690b61f58a7d47cbdf1f39e6353bba38b20ef04f
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.422607018859285
@@ -4543,10 +4918,31 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: testthat
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
+
+Package: stringi
+Version: 1.8.3
+Depends: R (>= 3.4), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-12 16:38:26 UTC; unix
+Filesize: 3309818
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: stringi_1.8.3_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+License: file LICENSE
+DownloadURL:
+        https://github.com/cran/stringi/releases/download/1.8.3/stringi_1.8.3_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        971a516392528a2dbaf1956c38583a927868c1c3eb60b89f48b982d48867df0c
+GraphicsAPIVersion: 16
+downloads_1yr: 0.9867986914863
+reverse_dependencies: 0.999963484969065
+OS: linux
+dependencies: 0.622459331201855
+Imports: tools, utils, stats
+SystemRequirements: ICU4C (>= 61, optional)
 
 Package: stringr
 Version: 1.5.1
@@ -4559,8 +4955,6 @@ File: stringr_1.5.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown,
         testthat (>= 3.0.0), tibble
-Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang
-        (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/stringr/releases/download/1.5.1/stringr_1.5.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -4570,6 +4964,8 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.988248302095101
 reverse_dependencies: 0.999999999952806
 dependencies: 0.182425523806356
+Imports: cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang
+        (>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)
 
 Package: svglite
 Version: 2.1.3
@@ -4582,7 +4978,6 @@ File: svglite_2.1.3_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, fontquiver (>= 0.2.0), htmltools, knitr, rmarkdown,
         testthat (>= 3.0.0), xml2 (>= 1.0.0)
-Imports: systemfonts (>= 1.0.0)
 Arch: amd64
 License: GPL (>= 2)
 DownloadURL:
@@ -4594,23 +4989,26 @@ downloads_1yr: 0.896429010372289
 reverse_dependencies: 0.966238903466325
 OS: linux
 dependencies: 0.622459331201855
+Imports: systemfonts (>= 1.0.0)
 LinkingTo: cpp11, systemfonts
 SystemRequirements: libpng
 
 Package: sys
 Version: 3.4.2
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/sys/releases/download/3.4.2/sys_3.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:22:32 UTC; unix
 Filesize: 54957
-Sha256:
-        8d174b367c474527079188cdb844a881423751bb0e99a0136c59deac30276513
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: sys_3.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: unix (>= 1.4), spelling, testthat
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/sys/releases/download/3.4.2/sys_3.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        8d174b367c474527079188cdb844a881423751bb0e99a0136c59deac30276513
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.304405834122411
@@ -4623,10 +5021,28 @@ RemoteChecks: 0.942307692307692
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: unix (>= 1.4), spelling, testthat
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
+
+Package: tensorA
+Version: 0.36.2.1
+Depends: R (>= 2.2.0), stats, R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-12-14 16:33:24 UTC; unix
+Filesize: 227963
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: tensorA_0.36.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/tensorA/releases/download/0.36.2.1/tensorA_0.36.2.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        b66a660c250e21a53420a13f1a73f0a74c66adc0c03fe66ab354a2f7cbb782ef
+GraphicsAPIVersion: 16
+downloads_1yr: 0.78340820189821
+reverse_dependencies: 0.551032098662781
+OS: linux
 
 Package: testthat
 Version: 3.2.1
@@ -4639,12 +5055,6 @@ File: testthat_3.2.1_b4_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr,
         rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2
-Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>=
-        1.4.2), digest (>= 0.6.33), evaluate (>= 0.21), jsonlite (>=
-        1.8.7), lifecycle (>= 1.0.3), magrittr (>= 2.0.3), methods,
-        pkgload (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2),
-        ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo
-        (>= 0.5.1), withr (>= 2.5.0)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -4656,6 +5066,12 @@ downloads_1yr: 0.973364869328049
 reverse_dependencies: 1
 OS: linux
 dependencies: 0.000552778636923601
+Imports: brio (>= 1.1.3), callr (>= 3.7.3), cli (>= 3.6.1), desc (>=
+        1.4.2), digest (>= 0.6.33), evaluate (>= 0.21), jsonlite (>=
+        1.8.7), lifecycle (>= 1.0.3), magrittr (>= 2.0.3), methods,
+        pkgload (>= 1.3.2.1), praise (>= 1.0.0), processx (>= 3.8.2),
+        ps (>= 1.7.5), R6 (>= 2.5.1), rlang (>= 1.1.1), utils, waldo
+        (>= 0.5.1), withr (>= 2.5.0)
 
 Package: textshaping
 Version: 0.3.7
@@ -4667,7 +5083,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: textshaping_0.3.7_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, knitr, rmarkdown
-Imports: systemfonts (>= 1.0.0)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -4679,23 +5094,25 @@ downloads_1yr: 0.992450980821415
 reverse_dependencies: 0.470525714569983
 OS: linux
 dependencies: 0.5
+Imports: systemfonts (>= 1.0.0)
 LinkingTo: cpp11 (>= 0.2.1), systemfonts (>= 1.0.0)
 SystemRequirements: freetype2, harfbuzz, fribidi
 
 Package: threejs
 Version: 0.3.3
 Depends: R (>= 3.0.0), igraph (>= 1.0.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/threejs/releases/download/0.3.3/threejs_0.3.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-23 20:48:25 UTC; unix
 Filesize: 944029
-Sha256:
-        e12c6559a682beab79a6d5f2adee3b234ce060b0af9faf2b7e8aa25447edc3aa
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: threejs_0.3.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: maps
+DownloadUrl:
+        https://github.com/cran/threejs/releases/download/0.3.3/threejs_0.3.3_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        e12c6559a682beab79a6d5f2adee3b234ce060b0af9faf2b7e8aa25447edc3aa
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.561820589087929
@@ -4708,7 +5125,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
-Suggests: maps
 Imports: htmlwidgets (>= 0.3.2), base64enc, crosstalk, methods, stats
 Dependencies: 0.268941421369995
 Enhances: knitr, shiny
@@ -4716,17 +5132,23 @@ Enhances: knitr, shiny
 Package: tibble
 Version: 3.2.1
 Depends: R (>= 3.4.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/tibble/releases/download/3.2.1/tibble_3.2.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-19 13:27:22 UTC; unix
 Filesize: 684607
-Sha256:
-        9c66bea2ff4b9cc47ca751a977531712289965b93f6cb60cb175d41fabf1e595
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: tibble_3.2.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>=
+        1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2,
+        here, hms, htmltools, knitr, lubridate, mockr, nycflights13,
+        pkgbuild, pkgload, purrr, rmarkdown, stringi, testthat (>=
+        3.0.2), tidyr, withr
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/tibble/releases/download/3.2.1/tibble_3.2.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        9c66bea2ff4b9cc47ca751a977531712289965b93f6cb60cb175d41fabf1e595
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.181914990672694
@@ -4739,32 +5161,57 @@ RemoteChecks: 0.923076923076923
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>=
-        1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2,
-        here, hms, htmltools, knitr, lubridate, mockr, nycflights13,
-        pkgbuild, pkgload, purrr, rmarkdown, stringi, testthat (>=
-        3.0.2), tidyr, withr
 Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
         pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs
         (>= 0.4.2)
-Arch: amd64
 Os: linux
 Dependencies: 0.0758581800212434
+
+Package: tidyr
+Version: 1.3.1
+Depends: R (>= 3.6), R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; x86_64-pc-linux-gnu; 2024-02-11 09:37:31 UTC; unix
+Filesize: 1403961
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: tidyr_1.3.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, data.table, knitr, readr, repurrrsive (>= 1.1.0),
+        rmarkdown, testthat (>= 3.0.0)
+Arch: amd64
+License: MIT + file LICENSE
+DownloadURL:
+        https://github.com/cran/tidyr/releases/download/1.3.1/tidyr_1.3.1_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        0dd649372573df3818c89de7c525e583e28c1780dab22a025dd87e0a542bdbeb
+GraphicsAPIVersion: 16
+downloads_1yr: 0.987011626326221
+reverse_dependencies: 0.999999999980486
+OS: linux
+dependencies: 0.0109869426305932
+Imports: cli (>= 3.4.1), dplyr (>= 1.0.10), glue, lifecycle (>= 1.0.3),
+        magrittr, purrr (>= 1.0.1), rlang (>= 1.1.1), stringr (>=
+        1.5.0), tibble (>= 2.1.1), tidyselect (>= 1.2.0), utils, vctrs
+        (>= 0.5.2)
+LinkingTo: cpp11 (>= 0.4.0)
 
 Package: tidyverse
 Version: 2.0.0
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/tidyverse/releases/download/2.0.0/tidyverse_2.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:41:40 UTC; unix
 Filesize: 425688
-Sha256:
-        4dc22174bfa66556bec0af7ed87d8cf6a3a48f0b93727323f5f94367df5498c0
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: tidyverse_2.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr (>= 3.6.1), feather (>= 0.3.5), glue (>= 1.6.2), mockr
+        (>= 0.2.0), knitr (>= 1.41), rmarkdown (>= 2.20), testthat (>=
+        3.1.6)
+DownloadUrl:
+        https://github.com/cran/tidyverse/releases/download/2.0.0/tidyverse_2.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        4dc22174bfa66556bec0af7ed87d8cf6a3a48f0b93727323f5f94367df5498c0
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.183764131987462
@@ -4777,9 +5224,6 @@ RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr (>= 3.6.1), feather (>= 0.3.5), glue (>= 1.6.2), mockr
-        (>= 0.2.0), knitr (>= 1.41), rmarkdown (>= 2.20), testthat (>=
-        3.1.6)
 Imports: broom (>= 1.0.3), conflicted (>= 1.2.0), cli (>= 3.6.0),
         dbplyr (>= 2.3.0), dplyr (>= 1.1.0), dtplyr (>= 1.2.2), forcats
         (>= 1.0.0), ggplot2 (>= 3.4.1), googledrive (>= 2.0.0),
@@ -4792,20 +5236,41 @@ Imports: broom (>= 1.0.3), conflicted (>= 1.2.0), cli (>= 3.6.0),
         tidyr (>= 1.3.0), xml2 (>= 1.3.3)
 Dependencies: 2.26032429795353e-06
 
+Package: timeDate
+Version: 4032.109
+Depends: R (>= 3.6.0), methods, R (>= 4.4), R (< 4.4.99)
+Built: R 4.4.0; ; 2023-12-14 16:33:24 UTC; unix
+Filesize: 1405549
+RVersion: 4.4
+Platform: x86_64-pc-linux-gnu-ubuntu-22.04
+File: timeDate_4032.109_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: RUnit
+License: GPL (>= 2)
+DownloadURL:
+        https://github.com/cran/timeDate/releases/download/4032.109/timeDate_4032.109_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+SHA256:
+        28f241ba2f876fe27f51aa9fd559aa7edeb6af69869f7fa2844f0b41ece88ebd
+GraphicsAPIVersion: 16
+downloads_1yr: 0.948683105862647
+reverse_dependencies: 0.909684875554524
+dependencies: 0.5
+Imports: graphics, utils, stats
+
 Package: tinytest
 Version: 1.4.1
 Depends: R (>= 3.0.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/tinytest/releases/download/1.4.1/tinytest_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 16:40:34 UTC; unix
 Filesize: 693821
-Sha256:
-        aa9270e58cc9952c7e346a4127b4dbc6835386681d873a3a6aba647872212f6a
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: tinytest_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+DownloadUrl:
+        https://github.com/cran/tinytest/releases/download/1.4.1/tinytest_1.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        aa9270e58cc9952c7e346a4127b4dbc6835386681d873a3a6aba647872212f6a
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.115430083694949
@@ -4824,17 +5289,18 @@ Dependencies: 0.731058578630005
 Package: tripack
 Version: 1.3-9.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/tripack/releases/download/1.3-9.1/tripack_1.3-9.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-30 16:39:50 UTC; unix
 Filesize: 249207
-Sha256:
-        f18e8601e18fb391eb47f15b4302dae73d3dc0353a4e12e7cff8e7ba249015b8
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: tripack_1.3-9.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/tripack/releases/download/1.3-9.1/tripack_1.3-9.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        f18e8601e18fb391eb47f15b4302dae73d3dc0353a4e12e7cff8e7ba249015b8
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.703613079657152
@@ -4847,24 +5313,25 @@ RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 0
 HasSourceControl: 0
-Arch: amd64
 Os: linux
 Dependencies: 0.880797077977882
 
 Package: tzdb
 Version: 0.4.0
 Depends: R (>= 3.5.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/tzdb/releases/download/0.4.0/tzdb_0.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 09:37:27 UTC; unix
 Filesize: 1554406
-Sha256:
-        1a5783c43dee6b4330feaaf1f2066caa94063f3a4ce41492df9ba38cd6e12942
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: tzdb_0.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr, testthat (>= 3.0.0)
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/tzdb/releases/download/0.4.0/tzdb_0.4.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        1a5783c43dee6b4330feaaf1f2066caa94063f3a4ce41492df9ba38cd6e12942
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.24560511754883
@@ -4877,8 +5344,6 @@ RemoteChecks: 0.980769230769231
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr, testthat (>= 3.0.0)
-Arch: amd64
 Os: linux
 Dependencies: 0.817574476193644
 LinkingTo: cpp11 (>= 0.4.2)
@@ -4895,7 +5360,6 @@ InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0),
         dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat
         (>= 3.0.0), vdiffr, knitr, rmarkdown
-Imports: Rcpp
 Arch: amd64
 License: GPL-2
 DownloadURL:
@@ -4907,23 +5371,25 @@ downloads_1yr: 0.950839835857489
 reverse_dependencies: 0.988193569570161
 OS: linux
 dependencies: 0.731058578630005
+Imports: Rcpp
 LinkingTo: Rcpp (>= 0.12.10)
 SystemRequirements: udunits-2
 
 Package: urlchecker
 Version: 1.0.1
 Depends: R (>= 3.3), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/urlchecker/releases/download/1.0.1/urlchecker_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:11:46 UTC; unix
 Filesize: 34156
-Sha256:
-        8e3c9d47240a819c8f0ed3efdba0ebfab719c8612a35054b28543a00b2044eff
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: urlchecker_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: covr
+DownloadUrl:
+        https://github.com/cran/urlchecker/releases/download/1.0.1/urlchecker_1.0.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        8e3c9d47240a819c8f0ed3efdba0ebfab719c8612a35054b28543a00b2044eff
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.291587598704762
@@ -4936,7 +5402,6 @@ RemoteChecks: 0.942307692307692
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: covr
 Imports: cli, curl, tools, xml2
 Dependencies: 0.5
 
@@ -4988,7 +5453,6 @@ Suggests: bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
         pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
         3.0.0), tibble (>= 3.1.3), waldo (>= 0.2.0), withr, xml2,
         zeallot
-Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -5000,6 +5464,7 @@ downloads_1yr: 0.991567859784526
 reverse_dependencies: 0.999724303449255
 OS: linux
 dependencies: 0.5
+Imports: cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)
 
 Package: vdiffr
 Version: 1.0.7
@@ -5011,8 +5476,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: vdiffr_1.0.7_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, ggplot2 (>= 3.2.0), roxygen2, withr
-Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang,
-        testthat (>= 3.0.3), xml2 (>= 1.0.0)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -5024,23 +5487,26 @@ downloads_1yr: 0.701132707040317
 reverse_dependencies: 0.999705102275079
 OS: linux
 dependencies: 0.0758581800212434
+Imports: diffobj, glue, grDevices, htmltools, lifecycle, rlang,
+        testthat (>= 3.0.3), xml2 (>= 1.0.0)
 LinkingTo: cpp11
 SystemRequirements: C++11, libpng
 
 Package: viridisLite
 Version: 0.4.2
 Depends: R (>= 2.10), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/viridisLite/releases/download/0.4.2/viridisLite_0.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-20 13:56:00 UTC; unix
 Filesize: 1297162
-Sha256:
-        05f3cc571576b2798043a36deaaa07edc604ed39ffa33201b85fc00b720c0254
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: viridisLite_0.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr
+DownloadUrl:
+        https://github.com/cran/viridisLite/releases/download/0.4.2/viridisLite_0.4.2_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        05f3cc571576b2798043a36deaaa07edc604ed39ffa33201b85fc00b720c0254
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.194490634762813
@@ -5053,7 +5519,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr
 Dependencies: 0.880797077977882
 
 Package: vroom
@@ -5069,9 +5534,6 @@ Suggests: archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs,
         ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown,
         rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr,
         utils, waldo, xml2
-Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>=
-        1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0),
-        tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -5083,6 +5545,9 @@ downloads_1yr: 0.981801187436122
 reverse_dependencies: 0.925671224375721
 OS: linux
 dependencies: 0.00150118225673701
+Imports: bit64, cli (>= 3.2.0), crayon, glue, hms, lifecycle (>=
+        1.0.3), methods, rlang (>= 0.4.2), stats, tibble (>= 2.0.0),
+        tidyselect, tzdb (>= 0.1.1), vctrs (>= 0.2.0), withr
 LinkingTo: cpp11 (>= 0.2.0), progress (>= 1.2.1), tzdb (>= 0.1.1)
 
 Package: waldo
@@ -5095,8 +5560,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: waldo_0.5.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, R6, testthat (>= 3.0.0), withr, xml2
-Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang
-        (>= 1.0.0), tibble
 License: MIT + file LICENSE
 DownloadURL:
         https://github.com/cran/waldo/releases/download/0.5.2/waldo_0.5.2_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -5106,6 +5569,8 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.970744916344113
 reverse_dependencies: 0.857837261043041
 dependencies: 0.377540668798145
+Imports: cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang
+        (>= 1.0.0), tibble
 
 Package: warp
 Version: 0.2.1
@@ -5139,7 +5604,6 @@ Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: webshot_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: httpuv, knitr, rmarkdown, shiny, testthat (>= 3.0.0)
-Imports: magrittr, jsonlite, callr
 License: GPL-2
 DownloadURL:
         https://github.com/cran/webshot/releases/download/0.5.5/webshot_0.5.5_b2_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
@@ -5149,6 +5613,7 @@ GraphicsAPIVersion: 16
 downloads_1yr: 0.753650084580138
 reverse_dependencies: 0.940192263104589
 dependencies: 0.622459331201855
+Imports: magrittr, jsonlite, callr
 has_news: 1
 news_current: 1
 has_vignettes: 0
@@ -5166,17 +5631,18 @@ size_codebase: 0.423728813559322
 Package: whisker
 Version: 0.4.1
 Depends: R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/whisker/releases/download/0.4.1/whisker_0.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:10:30 UTC; unix
 Filesize: 66435
-Sha256:
-        c9d213c816b02d42f15a5faa2a35213b0f75733a4355a39ce69c34a7c9e56b36
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: whisker_0.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: markdown
+DownloadUrl:
+        https://github.com/cran/whisker/releases/download/0.4.1/whisker_0.4.1_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        c9d213c816b02d42f15a5faa2a35213b0f75733a4355a39ce69c34a7c9e56b36
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.380816679001008
@@ -5189,7 +5655,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: markdown
 Dependencies: 0.880797077977882
 
 Package: wk
@@ -5225,7 +5690,6 @@ File: xml2_1.3.6_b3_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
 Suggests: covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
         testthat (>= 3.0.0)
-Imports: cli, methods, rlang (>= 1.1.0)
 Arch: amd64
 License: MIT + file LICENSE
 DownloadURL:
@@ -5237,22 +5701,24 @@ downloads_1yr: 0.982829568124719
 reverse_dependencies: 0.999986744106374
 OS: linux
 dependencies: 0.622459331201855
+Imports: cli, methods, rlang (>= 1.1.0)
 SystemRequirements: libxml2: libxml2-dev (deb), libxml2-devel (rpm)
 
 Package: xopen
 Version: 1.0.0
 Depends: R (>= 3.1), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/xopen/releases/download/1.0.0/xopen_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 09:11:57 UTC; unix
 Filesize: 22840
-Sha256:
-        23407948cab7a4a5d72af034499fbaafe9c647bff366871bba0638ba81b5d885
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: xopen_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: ps, testthat
+DownloadUrl:
+        https://github.com/cran/xopen/releases/download/1.0.0/xopen_1.0.0_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        23407948cab7a4a5d72af034499fbaafe9c647bff366871bba0638ba81b5d885
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.280199709260585
@@ -5265,24 +5731,24 @@ RemoteChecks: 0.75
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 1
-Suggests: ps, testthat
 Imports: processx
 Dependencies: 0.817574476193644
 
 Package: xtable
 Version: 1.8-4
 Depends: R (>= 2.10.0), R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/xtable/releases/download/1.8-4/xtable_1.8-4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; ; 2023-06-21 08:20:39 UTC; unix
 Filesize: 701486
-Sha256:
-        7f3e85c1aeea413b45e822fcdf3cbb70430648b15d93b5bb596da0b6ecd0a27d
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: xtable_1.8-4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: knitr, plm, zoo, survival
+DownloadUrl:
+        https://github.com/cran/xtable/releases/download/1.8-4/xtable_1.8-4_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        7f3e85c1aeea413b45e822fcdf3cbb70430648b15d93b5bb596da0b6ecd0a27d
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.307733578955253
@@ -5295,7 +5761,6 @@ RemoteChecks: 0.884615384615385
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: knitr, plm, zoo, survival
 Imports: stats, utils
 Dependencies: 0.731058578630005
 
@@ -5324,17 +5789,20 @@ dependencies: 0.880797077977882
 Package: zoo
 Version: 1.8-12
 Depends: R (>= 3.1.0), stats, R (>= 4.4), R (< 4.4.99)
-DownloadUrl:
-        https://github.com/cran/zoo/releases/download/1.8-12/zoo_1.8-12_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
 Built: R 4.4.0; x86_64-pc-linux-gnu; 2023-06-21 16:39:14 UTC; unix
 Filesize: 1030679
-Sha256:
-        5965ae8f7666b06b5475e8246fe81dd879f8a919a07613cfe4fc5b2d0b1bea89
 RVersion: 4.4
 Platform: x86_64-pc-linux-gnu-ubuntu-22.04
 File: zoo_1.8-12_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
-GraphicsApiVersion: 16
 InternalsId: 2fdf6c18-697a-4ba7-b8ef-11c0d92f1327
+Suggests: AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
+        stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts
+Arch: amd64
+DownloadUrl:
+        https://github.com/cran/zoo/releases/download/1.8-12/zoo_1.8-12_b1_R4.4_x86_64-pc-linux-gnu-ubuntu-22.04.tar.gz
+Sha256:
+        5965ae8f7666b06b5475e8246fe81dd879f8a919a07613cfe4fc5b2d0b1bea89
+GraphicsApiVersion: 16
 RiskmetricRunDate: 2023-06-21
 RiskmetricVersion: 0.2.1
 PkgScore: 0.329318071523324
@@ -5347,9 +5815,6 @@ RemoteChecks: 1
 HasMaintainer: 1
 HasNews: 1
 HasSourceControl: 0
-Suggests: AER, coda, chron, ggplot2 (>= 3.0.0), mondate, scales,
-        stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts
 Imports: utils, graphics, grDevices, lattice (>= 0.20-27)
-Arch: amd64
 Os: linux
 Dependencies: 0.377540668798145
