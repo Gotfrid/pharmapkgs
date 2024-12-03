@@ -7,6 +7,10 @@ PACKAGES_FILE <- "src/contrib/PACKAGES"
 platform <- Sys.getenv("PLATFORM", "ubuntu-22.04")
 r_version <- Sys.getenv("R_VERSION", "4.4")
 
+if (startsWith(platform, "macos")) {
+  PACKAGES_FILE <- sprintf("bin/macosx/big-sur-arm64/contrib/%s/PACKAGES", r_version)
+}
+
 # Utility functions
 read_packages <- function(path) {
   read.dcf(path) |>
@@ -113,4 +117,4 @@ main <- function(limit = NULL) {
   )
 }
 
-main(limit = as.numeric(Sys.getenv("LIMIT", 50)))
+main(limit = as.numeric(Sys.getenv("LIMIT", 5)))
