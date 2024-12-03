@@ -113,4 +113,4 @@ main <- function(limit = NULL) {
   )
 }
 
-main(2)
+main(limit = as.numeric(Sys.getenv("LIMIT", 50)))
