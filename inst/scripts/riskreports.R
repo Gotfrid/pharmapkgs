@@ -1,3 +1,9 @@
+repo_path <- function() {
+  platform <- Sys.getenv("PLATFORM", "ubuntu-22.04")
+  r_version <- Sys.getenv("R_VERSION", "4.4")
+  file.path("inst", "repos", platform, r_version, "src", "contrib")
+}
+
 main <- function() {
   pak::pak("Gotfrid/riskreports@report")
 
@@ -18,17 +24,17 @@ main <- function() {
   purrr::walk2(assessment_packages, assessment_paths, function(package, path) {
     cli::cli_alert_info(paste("Processing:", package))
 
-    tar_path <- file.path("inst/repos/ubuntu-22.04/4.4/src/contrib", paste0(package, ".tar.gz"))
-    untar(tar_path, exdir = "inst/repos/ubuntu-22.04/4.4/src/contrib")
+    tar_path <- file.path(repo_path(), paste0(package, ".tar.gz"))
+    untar(tar_path, exdir = repo_path())
 
-    output_path <- file.path("inst", "validation")
+    output_path <- file.path("inst", "report")
 
     tryCatch({
       generated_path <- riskreports::package_report(
-        x = file.path("inst/repos/ubuntu-22.04/4.4/src/contrib", package),
+        x = file.path(repo_path(), package),
         template_path = NULL,
         params = list(
-          repo = normalizePath("inst/repos/ubuntu-22.04/4.4/src/contrib"),
+          repo = normalizePath(repo_path()),
           package = package,
           image = "rhub/ref-image",
           assessment_path = path
