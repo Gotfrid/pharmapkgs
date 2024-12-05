@@ -26,8 +26,13 @@ main <- function() {
     package_name <- package_meta[1]
     package_version <- package_meta[2]
 
+    output_path <- file.path(
+      "inst", "validation",
+      paste0(package_name, "_", package_version, ".html")
+    )
+
     tryCatch({
-      riskreports::package_report_gh_action(
+      generated_path <- riskreports::package_report_gh_action(
         package_name = package_name,
         package_version = package_version,
         template_path = "inst/templates/template.qmd",
@@ -36,6 +41,8 @@ main <- function() {
         assessment_path = path,
         quiet = TRUE
       )
+      file.copy(generated_path, output_path, overwrite = TRUE)
+      file.remove(generated_path)
     })
   })
 }
