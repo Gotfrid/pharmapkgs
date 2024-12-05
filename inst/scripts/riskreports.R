@@ -6,7 +6,7 @@ main <- function() {
     full.names = FALSE,
     pattern = "\\.rds$",
     ignore.case = TRUE
-  )
+  ) |> tools::file_path_sans_ext()
 
   assessment_paths <- normalizePath(list.files(
     "inst/assessments",
@@ -18,28 +18,21 @@ main <- function() {
   purrr::walk2(assessment_packages, assessment_paths, function(package, path) {
     cli::cli_alert_info(paste("Processing:", package))
 
-    package_meta <- package |>
-      tools::file_path_sans_ext() |>
-      strsplit("___") |>
-      unlist()
+    tar_path <- file.path("inst/repos/ubuntu-22.04/4.4/src/contrib", paste0(package, ".tar.gz"))
+    untar(tar_path, exdir = "inst/repos/ubuntu-22.04/4.4/src/contrib")
 
-    package_name <- package_meta[1]
-    package_version <- package_meta[2]
-
-    output_path <- file.path(
-      "inst", "validation",
-      paste0(package_name, "_", package_version, ".html")
-    )
+    output_path <- file.path("inst", "validation")
 
     tryCatch({
-      generated_path <- riskreports::package_report_gh_action(
-        package_name = package_name,
-        package_version = package_version,
-        template_path = "inst/templates/template.qmd",
-        repository = "inst/repos",
-        docker_image = NULL,
-        assessment_path = path,
-        quiet = TRUE
+      generated_path <- riskreports::package_report(
+        x = file.path("inst/repos/ubuntu-22.04/4.4/src/contrib", package),
+        template_path = NULL,
+        params = list(
+          repo = normalizePath("inst/repos/ubuntu-22.04/4.4/src/contrib"),
+          package = package,
+          image = "rhub/ref-image",
+          assessment_path = path
+        )
       )
       file.copy(generated_path, output_path, overwrite = TRUE)
       file.remove(generated_path)
