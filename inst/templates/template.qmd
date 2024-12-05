@@ -1,0 +1,134 @@
+---
+title: "Validation Report - `r params$package`"
+date: "`r Sys.time()`"
+date-format: "ddd MMM DD hh:mm:ss A YYYY"
+params:
+  repo: "../source"
+  package: riskmetric
+  image: "rhub/ref-image"
+  assessment_path: "../assessment.rds"
+format:
+  html:
+    embed-resources: true
+---
+
+```{r setup, include = FALSE}
+options(width = 80L, covr.record_tests = TRUE)
+knitr::opts_chunk$set(
+    echo = FALSE,
+    eval = TRUE,
+    error = TRUE,
+    cache = FALSE
+)
+library("tools")
+```
+
+# Context
+
+
+```{r image}
+image <- Sys.getenv("DOCKER_IMAGE", unset = NA)
+if (!is.na(image) && nzchar(params$image)) {
+  image <- params$image
+}
+```
+
+This report is fully automated and builds on `r image` image.
+Documents the installation of this package on an open source R environment, focusing on:
+
+- Installation environment description
+- Testing coverage
+
+It is limited to assess whether unit tests and documentation are present and can execute without error. 
+An assessment would be required that the tests and documentation are meaningful. 
+
+# Installation environment
+
+```{r loading}
+library("riskmetric")
+```
+
+
+## System Info
+
+```{r execution_info}
+tt_sys_info_df <- data.frame(
+  Field = c("OS", "Platform", "System", "Execution Time"),
+  Value = c(
+    sessionInfo()$running,
+    R.version$platform,
+    R.version$system,
+    format(Sys.time(), tz = "UTC", usetz = TRUE)
+  ))
+
+tt_sys_info_df
+```
+
+## R Session Info
+
+Information about the R environment and capabilities:
+
+```{r session_info}
+sessionInfo()
+unlist(.Platform)
+
+capabilities()
+extSoftVersion()
+grSoftVersion()
+unlist(.Machine)
+RNGkind()
+```
+
+## Information about the environment
+
+Environmental and options variables affect how package checks and software in it might behave.
+Here is the environ variables when running this report
+
+```{r computing}
+riskreports::environ_report()
+```
+
+```{r options}
+riskreports::options_report()
+```
+
+# Installation documentation
+
+## Repository status
+
+# Package `r params$package`
+
+## Metric based risk assessment
+
+The following metrics are derived from the `riskmetric` R package.
+<!-- Metrics overlapping with `covr` and `R CMD Check` are removed. -->
+
+```{r riskmetric, warning=FALSE}
+# Assesment produces a data.frame with one row
+d_riskmetric <- readRDS(params$assessment_path)
+r_riskmetric <- riskreports::assessment(d_riskmetric)
+r_riskmetric # Use this to have some summary text and report it.
+```
+
+## Package stats
+
+```{r coverage-section,results='asis', eval=any(names(d_riskmetric) == "covr_coverage")}
+paste("## Testing Coverage
+
+Overall the package has a coverage of `r d_riskmetric$covr_coverage$totalcoverage` %.")
+```
+
+```{r coverage, eval=any(names(d_riskmetric) == "covr_coverage")}
+cov <- d_riskmetric$covr_coverage$filecoverage
+df <- data.frame(file = names(cov), percentage =cov) 
+rownames(df) <- NULL
+df
+```
+
+## Dependencies
+
+Overall the package has these dependencies:
+
+```{r dependencies, eval=any(names(d_riskmetric) == "dependencies")}
+d_riskmetric$dependencies
+```
