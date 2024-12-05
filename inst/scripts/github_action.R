@@ -50,6 +50,8 @@ get_package_scores <- function(packages, limit) {
   cli::cli_alert_info("Scoring new packages")
   if (is.null(limit) || !is.finite(limit)) {
     limit <- length(packages)
+  } else {
+    limit <- min(limit, length(packages))
   }
   packages <- packages[seq_len(limit)]
   progress_bar_id <- cli::cli_progress_bar(
