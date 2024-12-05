@@ -72,13 +72,14 @@ get_package_scores <- function(packages, limit) {
   }) |>
     purrr::map_dfr(function(ref) {
       cli::cli_progress_update(1, status = ref$name, id = progress_bar_id)
-      score <- suppressMessages(riskmetric::pkg_assess(ref)) |>
-        riskmetric::pkg_score()
+      assessment <- suppressMessages(riskmetric::pkg_assess(ref))
       saveRDS(
-        score,
-        file.path("inst", "scores", paste0(ref$name, "_", ref$version, ".rds"))
+        assessment,
+        file.path("inst", "assessments", paste0(ref$name, "___", ref$version, ".rds"))
       )
-      tibble::as_tibble(score) |>
+      assessment |>
+        riskmetric::pkg_score() |>
+        tibble::as_tibble() |>
         dplyr::mutate(Package = ref$name, Version = ref$version) |>
         dplyr::mutate(dplyr::across(dplyr::everything(), as.character))
     })
