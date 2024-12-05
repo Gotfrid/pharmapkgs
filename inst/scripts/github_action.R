@@ -46,7 +46,7 @@ get_new_packages <- function(rhub_packages, pharma_packages) {
     dplyr::select(Package, Version.x, Version.y)
 }
 
-get_package_scores <- function(packages, limit) {
+get_package_scores <- function(packages, rhub_packages, limit) {
   cli::cli_alert_info("Scoring new packages")
   if (is.null(limit) || !is.finite(limit)) {
     limit <- length(packages)
@@ -64,6 +64,11 @@ get_package_scores <- function(packages, limit) {
   # NOTE: there is a bug in riskmetric::pkg_ref
   # it doesn't respect repos argument when x is a vector
   purrr::map(packages, function(pkg) {
+    download_url <- rhub_packages[rhub_packages$Package == pkg, "DownloadURL", drop = TRUE]
+    curl::curl_download(
+      url = download_url,
+      destfile = file.path(PHARMA_BASE_URL, platform, r_version, "src/contrib", paste0(pkg, ".tar.gz"))
+    )
     riskmetric::pkg_ref(
       x = pkg,
       source = "pkg_cran_remote",
@@ -75,7 +80,7 @@ get_package_scores <- function(packages, limit) {
       assessment <- suppressMessages(riskmetric::pkg_assess(ref))
       saveRDS(
         assessment,
-        file.path("inst", "assessments", paste0(ref$name, "___", ref$version, ".rds"))
+        file.path("inst", "assessments", paste0(ref$name, ".rds"))
       )
       assessment |>
         riskmetric::pkg_score() |>
@@ -112,6 +117,7 @@ main <- function(limit = NULL) {
 
   new_rhub_packages_scored <- get_package_scores(
     new_rhub_packages$Package,
+    rhub_packages,
     limit
   )
   new_pharma_packages <- add_new_packages(
