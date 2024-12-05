@@ -5,7 +5,7 @@ repo_path <- function() {
 }
 
 main <- function() {
-  pak::pak("Gotfrid/riskreports@report")
+  pak::pak("pharmaR/riskreports")
 
   assessment_packages <- list.files(
     "inst/assessments",
