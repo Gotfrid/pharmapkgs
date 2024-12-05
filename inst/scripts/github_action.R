@@ -101,6 +101,12 @@ main <- function(limit = NULL) {
   rhub_packages <- load_rhub_packages()
   pharma_packages <- load_pharma_packages()
   new_rhub_packages <- get_new_packages(rhub_packages, pharma_packages)
+
+  if (NROW(new_rhub_packages) == 0) {
+    cli::cli_alert_info("No new packages found")
+    return()
+  }
+
   new_rhub_packages_scored <- get_package_scores(
     new_rhub_packages$Package,
     limit
